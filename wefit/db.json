@@ -1,3 +1,457 @@
 {
-  
+    "adminSignup": [],
+    "userSignup": [],
+    "excercises" : [
+        {
+            "id": 1,
+            "name": "Barbell Curl Against an Incline",
+            "main_group": "Biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "type": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "Barbell",
+            "difficulty": "Beginner",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/388.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/389.jpg"
+            ]
+          },
+        
+        {
+          "id": 2,
+          "name": "Decline Crunch",
+          "main_group": "Abs",
+          "detailed_group": "Lower Abs",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Machine - Strength",
+          "difficulty": "Intermediate",
+          "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/312.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/313.jpg"
+          ]
+        },
+      
+        {
+          "id": 3,
+          "name": "Cable V Bar Pulldown",
+          "main_group": "Back",
+          "detailed_group": "Traps",
+          "other_group": "Biceps",
+          "type": "Strength",
+          "Mechanics": "Compound",
+          "equipment": "Machine - Strength",
+          "difficulty": "Beginner",
+          "muscle_image": "https://www.jefit.com/images/exercises/b1.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/748.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/749.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Barbell Alternating Press",
+          "main_group": "Shoulders",
+          "detailed_group": "Triceps",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Compound",
+          "equipment": "Barbell",
+          "difficulty": "Intermediate",
+          "muscle_image": "https://www.jefit.com/images/exercises/b6.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/4556.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/4557.jpg"
+          ]
+        },
+       
+        {
+          "id": 5,
+          "name": "Cable Standing Reverse Curl",
+          "main_group": "Forearm",
+          "detailed_group": "Biceps",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Machine - Strength",
+          "difficulty": "Beginner",
+          "muscle_image": "https://www.jefit.com/images/exercises/b4.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/416.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/417.jpg"
+          ]
+        },
+        {
+            "id": 6,
+            "name": "Barbell Lateral Lunge",
+            "main_group": "Glutes",
+            "detailed_group": "Upper Legs",
+            "other_group": "Strength",
+            "type": "Strength",
+            "Mechanics": "Compound",
+            "equipment": "Barbell",
+            "difficulty": "Intermediate",
+            "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/2996.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/2997.jpg"
+            ]
+          },
+        {
+          "id": 7,
+          "name": "Band Calf Raise",
+          "main_group": "Lower Legs",
+          "detailed_group": "Calves",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Bands",
+          "difficulty": "Beginner",
+          "muscle_image": "https://www.jefit.com/images/exercises/b9.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/1148.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/1149.jpg"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Kettlebell One-Arm Overhead Squat",
+          "main_group": "Upper Legs",
+          "detailed_group": "Hamstrings",
+          "other_group": "Shoulders , Glutes",
+          "type": "Strength",
+          "Mechanics": "Compound",
+          "equipment": "Kettlebell",
+          "difficulty": "Expert",
+          "muscle_image": "https://www.jefit.com/images/exercises/b8.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/1964.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/1965.jpg"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Exercise Band Sit-Up",
+          "main_group": "Abs",
+          "detailed_group": "Lower Abs",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Bench",
+          "difficulty": "Intermediate",
+          "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/1388.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/1389.jpg"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Dumbbell Incline Hammer Press on Stability Ball",
+          "main_group": "Chest",
+          "detailed_group": "Strength",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Dumbbell",
+          "difficulty": "Intermediate",
+          "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/2888.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/2889.jpg"
+          ]
+        },
+        {
+            "id": 11,
+            "name": "Dumbbell One-Arm Shoulder Press",
+            "main_group": "Shoulders",
+            "detailed_group": "Traps",
+            "other_group": "Triceps",
+            "type": "Strength",
+            "Mechanics": "Compound",
+            "equipment": "Dumbbell",
+            "difficulty": "Intermediate",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/140.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/141.jpg"
+            ]
+          },
+          {
+            "id": 12,
+            "name": "Cable One-Arm Reverse Grip Tricep Extension",
+            "main_group": "Triceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "type": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "Machine - Strength",
+            "difficulty": "Beginner",
+            "muscle_image": "https://www.jefit.com/images/exercises/b7.jpg",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/4740.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/4741.jpg"
+            ]
+          },
+        {
+          "id": 13,
+          "name": "Dumbbell One-Arm Lateral Raise",
+          "main_group": "Shoulders",
+          "detailed_group": "Strength",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Bench",
+          "difficulty": "Beginner",
+          "muscle_image": "https://www.jefit.com/images/exercises/b6.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/4544.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/4545.jpg"
+          ]
+        },
+        
+        {
+          "id": 14,
+          "name": "Dumbbell Alternating Arnold Press",
+          "main_group": "Shoulders",
+          "detailed_group": "Triceps",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Compound",
+          "equipment": "Dumbbell",
+          "difficulty": "Intermediate",
+          "muscle_image": "https://www.jefit.com/images/exercises/b6.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/4504.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/4505.jpg"
+          ]
+        },
+       
+        {
+          "id": 15,
+          "name": "Barbell Curl",
+          "main_group": "Biceps",
+          "detailed_group": "Strength",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Barbell",
+          "difficulty": "Beginner",
+          "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/448.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/449.jpg"
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Cable One-Arm Reverse Curl",
+          "main_group": "Forearm",
+          "detailed_group": "Strength",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Isolation",
+          "equipment": "Machine - Strength",
+          "difficulty": "Beginner",
+          "muscle_image": "https://www.jefit.com/images/exercises/b4.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/4360.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/4361.jpg"
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Plank with Side Kick",
+          "main_group": "Abs",
+          "detailed_group": "Back , Glutes",
+          "other_group": "Strength",
+          "type": "Strength",
+          "Mechanics": "Compound",
+          "equipment": "Body Only",
+          "difficulty": "Intermediate",
+          "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
+          "image_urls": [
+            "https://www.jefit.com/images/exercises/1080_664/2512.jpg",
+            "https://www.jefit.com/images/exercises/1080_664/2513.jpg"
+          ]
+        },
+        {
+            "id": 18,
+            "name": "Dumbbell Reverse Bench Press",
+            "main_group": "Chest",
+            "detailed_group": "Shoulders , Triceps",
+            "other_group": "Strength",
+            "type": "Strength",
+            "Mechanics": "Compound",
+            "equipment": "Bench",
+            "difficulty": "Beginner",
+            "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/4264.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/4265.jpg"
+            ]
+          }
+      ],
+    "biceps": [
+        {
+            "id": "636dffb4bb239184d81c30e6",
+            "name": "Incline Hammer Curls",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "dumbbell",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/3216.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/3217.jpg"
+            ],
+            "difficulty": "Beginner",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should pressed firmly against he back with your feet together. Allow the dumbbells to hang straight down at your side, holding them with a neutral grip. This will be your starting position. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary. Continue to the top of the movement and pause, then slowly return to the start position."
+          },
+          {
+            "id": "636dffb4bb239184d81c30e7",
+            "name": "Wide-grip barbell curl",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/448.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/449.jpg"
+            ],
+            "equipment": "barbell",
+            "difficulty": "Beginner",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Stand up with your torso upright while holding a barbell at the wide outer handle. The palm of your hands should be facing forward. The elbows should be close to the torso. This will be your starting position. While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out. Tip: Only the forearms should move. Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second and squeeze the biceps hard. Slowly begin to bring the bar back to starting position as your breathe in. Repeat for the recommended amount of repetitions.  Variations:  You can also perform this movement using an E-Z bar or E-Z attachment hooked to a low pulley. This variation seems to really provide a good contraction at the top of the movement. You may also use the closer grip for variety purposes."
+          },
+          {
+            "id": "636dffb4bb239184d81c30e8",
+            "name": "EZ-bar spider curl",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "barbell",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/420.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/421.jpg"
+            ],
+            "difficulty": "intermediate",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Start out by setting the bar on the part of the preacher bench that you would normally sit on. Make sure to align the barbell properly so that it is balanced and will not fall off. Move to the front side of the preacher bench (the part where the arms usually lay) and position yourself to lay at a 45 degree slant with your torso and stomach pressed against the front side of the preacher bench. Make sure that your feet (especially the toes) are well positioned on the floor and place your upper arms on top of the pad located on the inside part of the preacher bench. Use your arms to grab the barbell with a supinated grip (palms facing up) at about shoulder width apart or slightly closer from each other. Slowly begin to lift the barbell upwards and exhale. Hold the contracted position for a second as you squeeze the biceps. Slowly begin to bring the barbell back to the starting position as your breathe in. . Repeat for the recommended amount of repetitions.  Variation: You can also use dumbbells when performing this exercise. Just make sure you place the dumbbells on the part of the preacher bench where you would normally sit properly."
+          },
+          {
+            "id": "636dffb4bb239184d81c30e9",
+            "name": "EZ-Bar Curl",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "e-z_curl_bar",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/380.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/381.jpg"
+            ],
+            "difficulty": "intermediate",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position. Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps. Focus on only moving your forearms. Continue to raise the weight until your biceps are fully contracted and the bar is at shoulder level. Hold the top contracted position for a moment and squeeze the biceps. Then inhale and slowly lower the bar back to the starting position. Repeat for the recommended amount of repetitions.  Variations: You can also perform this movement using an E-Z attachment hooked to a low pulley. This variation seems to really provide a good contraction at the top of the movement. You may also use the closer grip for variety purposes."
+          },
+          {
+            "id": "636dffb4bb239184d81c30ea",
+            "name": "Zottman Curl",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "None",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/1108.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/1109.jpg"
+            ],
+            "difficulty": "Expert",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Stand up with your torso upright and a dumbbell in each hand being held at arms length. The elbows should be close to the torso. Make sure the palms of the hands are facing each other. This will be your starting position. While holding the upper arm stationary, curl the weights while contracting the biceps as you breathe out. Only the forearms should move. Your wrist should rotate so that you have a supinated (palms up) grip. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a second as you squeeze the biceps. Now during the contracted position, rotate your wrist until you now have a pronated (palms facing down) grip with the thumb at a higher position than the pinky. Slowly begin to bring the dumbbells back down using the pronated grip. As the dumbbells close your thighs, start rotating the wrist so that you go back to a neutral (palms facing your body) grip. Repeat for the recommended amount of repetitions."
+          },
+          {
+            "id": "636dffb4bb239184d81c30eb",
+            "name": "Barbell Drag Curl",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "Expert",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/1456.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/1457.jpg"
+            ],
+            "difficulty": "intermediate",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Stand up with your torso upright while holding a barbell at a shoulder-width grip. The palm of your hands should be facing forward and the elbows should be close to the torso. This will be your starting position. While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out. Tip: Only the forearms should move. Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second and squeeze the biceps hard. Slowly begin to bring the bar back to starting position as your breathe in. Repeat for the recommended amount of repetitions.  Variations:  You can also perform this movement using a straight bar attachment hooked to a low pulley. This variation seems to really provide a good contraction at the top of the movement. You may also use the closer grip for variety purposes."
+          },
+          {
+            "id": "636dffb4bb239184d81c30ec",
+            "name": "Concentration curl",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "dumbbell",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/1460.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/1461.jpg"
+            ],
+            "difficulty": "intermediate",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Sit down on a flat bench with one dumbbell in front of you between your legs. Your legs should be spread with your knees bent and feet on the floor. Use your right arm to pick the dumbbell up. Place the back of your right upper arm on the top of your inner right thigh. Rotate the palm of your hand until it is facing forward away from your thigh. Tip: Your arm should be extended and the dumbbell should be above the floor. This will be your starting position. While holding the upper arm stationary, curl the weights forward while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Tip: At the top of the movement make sure that the little finger of your arm is higher than your thumb. This guarantees a good contraction. Hold the contracted position for a second as you squeeze the biceps. Slowly begin to bring the dumbbells back to starting position as your breathe in. Caution: Avoid swinging motions at any time. Repeat for the recommended amount of repetitions. Then repeat the movement with the left arm.  Variations: This exercise can be performed standing with the torso bent forward and the arm in front of you. In this case, no leg support is used for the back of your arm so you will need to make extra effort to ensure no movement of the upper arm. This is a more challenging version of the exercise and is not recommended for people with lower back issues."
+          },
+          {
+            "id": "636dffb4bb239184d81c30ed",
+            "name": "Flexor Incline Dumbbell Curls",
+            "type": "strength",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "dumbbell",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/1056.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/1057.jpg"
+            ],
+            "difficulty": "Beginner",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Hold the dumbbell towards the side farther from you so that you have more weight on the side closest to you. (This can be done for a good effect on all bicep dumbbell exercises). Now do a normal incline dumbbell curl, but keep your wrists as far back as possible so as to neutralize any stress that is placed on them. Sit on an incline bench that is angled at 45-degrees while holding a dumbbell on each hand. Let your arms hang down on your sides, with the elbows in, and turn the palms of your hands forward with the thumbs pointing away from the body. Tip: You will keep this hand position throughout the movement as there should not be any twisting of the hands as they come up. This will be your starting position. Curl up the two dumbbells at the same time until your biceps are fully contracted and exhale. Tip: Do not swing the arms or use momentum. Keep a controlled motion at all times. Hold the contracted position for a second at the top. As you inhale, slowly go back to the starting position. Repeat for the recommended amount of repetitions.  Caution: Do not extend your arms totally as you could injure your elbows if you hyperextend them. Also, make sure that on the way down you move slowly to avoid injury. Variations: You can use cables for this movement as well."
+          },
+          {
+            "id": "636dffb4bb239184d81c30ee",
+            "name": "Standing Biceps Stretch",
+            "type": "stretching",
+            "main_group": "biceps",
+            "detailed_group": "Strength",
+            "other_group": "Strength",
+            "Mechanics": "Isolation",
+            "equipment": "other",
+            "image_urls": [
+              "https://www.jefit.com/images/exercises/1080_664/3224.jpg",
+              "https://www.jefit.com/images/exercises/1080_664/3225.jpg"
+            ],
+            "difficulty": "Beginner",
+            "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+            "instructions": "Clasp your hands behind your back with your palms together, straighten arms and then rotate them so your palms face downward. Raise your arms up and hold until you feel a stretch in your biceps."
+          }
+    ],
+    "chest" : [
+        
+    ]
 }
