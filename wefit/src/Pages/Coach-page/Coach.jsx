@@ -1,6 +1,6 @@
 import { Button, Icon } from '@chakra-ui/react'
 import React, { useEffect, useRef } from 'react'
-import style from '../Elite-page/Elite.module.css'
+import style from './Coach.module.css'
 import { FaRegNewspaper } from "@react-icons/all-files/fa/FaRegNewspaper";
 import { CalendarIcon, SettingsIcon } from '@chakra-ui/icons'
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 
 
-const Elite = () => {
+const Coach = () => {
 
   const videoEl = useRef(null);
 
@@ -24,7 +24,7 @@ const Elite = () => {
     attemptPlay();
   }, []);
 
-  // <Link to={`/dummy/${el.id}`}>
+  
 
   return (
     <>
@@ -255,4 +255,4 @@ const Elite = () => {
   )
 }
 
-export default Elite
+export default Coach
