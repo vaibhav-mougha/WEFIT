@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Heading } from "../../Components/Routines";
+import { Carousel, Filters, Heading } from "../../Components/Routines";
 const Routines = () => {
   return (
     <>
@@ -14,6 +14,7 @@ const Routines = () => {
         title="Wefit Workout plans"
         text={"Filter results down to your specific needs and find a new plan"}
       />
+      <Filters />
     </>
   );
 };

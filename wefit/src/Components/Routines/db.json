@@ -1,4 +1,67 @@
 {
+  "bodyParts": [
+    "back",
+    "cardio",
+    "chest",
+    "lower arms",
+    "lower legs",
+    "neck",
+    "shoulders",
+    "upper arms",
+    "upper legs",
+    "waist"
+  ],
+  "targetMuscles": [
+    "abductors",
+    "abs",
+    "adductors",
+    "biceps",
+    "calves",
+    "cardiovascular system",
+    "delts",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "levator scapulae",
+    "pectorals",
+    "quads",
+    "serratus anterior",
+    "spine",
+    "traps",
+    "triceps",
+    "upper back"
+  ],
+  "equipments": [
+    "assisted",
+    "band",
+    "barbell",
+    "body weight",
+    "bosu ball",
+    "cable",
+    "dumbbell",
+    "elliptical machine",
+    "ez barbell",
+    "hammer",
+    "kettlebell",
+    "leverage machine",
+    "medicine ball",
+    "olympic barbell",
+    "resistance band",
+    "roller",
+    "rope",
+    "skierg machine",
+    "sled machine",
+    "smith machine",
+    "stability ball",
+    "stationary bike",
+    "stepmill machine",
+    "tire",
+    "trap bar",
+    "upper body ergometer",
+    "weighted",
+    "wheel roller"
+  ],
   "routinesSlide": [
     {
       "bodyPart": "waist",
@@ -6,7 +69,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0001.gif",
       "id": "0001",
       "name": "3/4 sit-up",
-      "target": "abs"
+      "target": "abs",
+      "proUser": false
     },
     {
       "bodyPart": "waist",
@@ -14,7 +78,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0002.gif",
       "id": "0002",
       "name": "45° side bend",
-      "target": "abs"
+      "target": "abs",
+      "proUser": true
     },
     {
       "bodyPart": "waist",
@@ -22,7 +87,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0003.gif",
       "id": "0003",
       "name": "air bike",
-      "target": "abs"
+      "target": "abs",
+      "proUser": false
     },
     {
       "bodyPart": "upper legs",
@@ -30,7 +96,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1512.gif",
       "id": "1512",
       "name": "all fours squad stretch",
-      "target": "quads"
+      "target": "quads",
+      "proUser": true
     },
     {
       "bodyPart": "waist",
@@ -38,7 +105,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0006.gif",
       "id": "0006",
       "name": "alternate heel touchers",
-      "target": "abs"
+      "target": "abs",
+      "proUser": false
     },
     {
       "bodyPart": "upper legs",
@@ -46,7 +114,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1512.gif",
       "id": "1512",
       "name": "all fours squad stretch",
-      "target": "quads"
+      "target": "quads",
+      "proUser": false
     },
     {
       "bodyPart": "back",
@@ -54,7 +123,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0007.gif",
       "id": "0007",
       "name": "alternate lateral pulldown",
-      "target": "lats"
+      "target": "lats",
+      "proUser": false
     },
     {
       "bodyPart": "lower legs",
@@ -62,7 +132,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1368.gif",
       "id": "1368",
       "name": "ankle circles",
-      "target": "calves"
+      "target": "calves",
+      "proUser": false
     },
     {
       "bodyPart": "back",
@@ -70,7 +141,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3293.gif",
       "id": "3293",
       "name": "archer pull up",
-      "target": "lats"
+      "target": "lats",
+      "proUser": false
     },
     {
       "bodyPart": "chest",
@@ -78,7 +150,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3294.gif",
       "id": "3294",
       "name": "archer push up",
-      "target": "pectorals"
+      "target": "pectorals",
+      "proUser": false
     },
     {
       "bodyPart": "waist",
@@ -86,7 +159,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2355.gif",
       "id": "2355",
       "name": "arm slingers hanging bent knee legs",
-      "target": "abs"
+      "target": "abs",
+      "proUser": false
     },
     {
       "bodyPart": "waist",
@@ -94,7 +168,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2333.gif",
       "id": "2333",
       "name": "arm slingers hanging straight legs",
-      "target": "abs"
+      "target": "abs",
+      "proUser": true
     },
     {
       "bodyPart": "upper legs",
@@ -102,7 +177,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3214.gif",
       "id": "3214",
       "name": "arms apart circular toe touch (male)",
-      "target": "glutes"
+      "target": "glutes",
+      "proUser": false
     },
     {
       "bodyPart": "waist",
@@ -110,7 +186,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3204.gif",
       "id": "3204",
       "name": "arms overhead full sit-up (male)",
-      "target": "abs"
+      "target": "abs",
+      "proUser": false
     },
     {
       "bodyPart": "chest",
@@ -118,7 +195,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
       "id": "0009",
       "name": "assisted chest dip (kneeling)",
-      "target": "pectorals"
+      "target": "pectorals",
+      "proUser": true
     },
     {
       "bodyPart": "waist",
@@ -126,7 +204,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0011.gif",
       "id": "0011",
       "name": "assisted hanging knee raise",
-      "target": "abs"
+      "target": "abs",
+      "proUser": true
     },
     {
       "bodyPart": "lower legs",
@@ -134,7 +213,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1708.gif",
       "id": "1708",
       "name": "assisted lying calves stretch",
-      "target": "calves"
+      "target": "calves",
+      "proUser": true
     },
     {
       "bodyPart": "upper legs",
@@ -142,7 +222,8 @@
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1709.gif",
       "id": "1709",
       "name": "assisted lying glutes stretch",
-      "target": "glutes"
+      "target": "glutes",
+      "proUser": false
     }
   ],
 
