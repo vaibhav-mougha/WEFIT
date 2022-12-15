@@ -9,6 +9,7 @@ const Excercises = () => {
   useEffect(() => {
     getData();
   }, []);
+
   const getData = async () => {
     let data = axios.get("http://localhost:8080/excercises");
     let res = await data;
