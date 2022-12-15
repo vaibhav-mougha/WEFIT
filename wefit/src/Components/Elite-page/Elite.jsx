@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import style from '../Elite-page/Elite.module.css'
 import { FaRegNewspaper } from "@react-icons/all-files/fa/FaRegNewspaper";
 import { CalendarIcon, SettingsIcon } from '@chakra-ui/icons'
-
+import { Link } from "react-router-dom";
 
 
 
@@ -24,7 +24,7 @@ const Elite = () => {
     attemptPlay();
   }, []);
 
-
+  // <Link to={`/dummy/${el.id}`}>
 
   return (
     <>
@@ -39,7 +39,9 @@ const Elite = () => {
 
             <p className={style.Personal_Coach_Mode_Section_Inside_p_Tag}>Expand your personal training business with Personal Coach Mode. Reduce your average time spent per client by connecting with fitness savvy clients remotely to provide personal workout plans, track their workout progress, and provide feedback.</p>
             <button className={style.Personal_Coach_Mode_Section_Inside_Button}>
-              START 14-DAY FREE TRIAL
+              <Link to="/login">
+                START 14-DAY FREE TRIAL
+              </Link>
             </button>
 
             <p className={style.Personal_Coach_Mode_Section_Button_P_Tag}>Interested? Request a demo or give us some feedback at Marketing@jefit.com</p>
@@ -58,7 +60,7 @@ const Elite = () => {
               <h4 className={style.LowerTimeSpent_H4_tag}>Build Your Brand</h4>
               <p className={style.LowerTimeSpent_P_Tag}>Build a profile that highlights your experience, client results, or certifications and attracts future clients.</p>
 
-              <button className={style.LowerTimeSpent_Button_Start_here}>START HERE</button>
+              <button className={style.LowerTimeSpent_Button_Start_here}>  <Link to="/login">START HERE</Link></button>
 
             </div>
 
@@ -98,7 +100,7 @@ const Elite = () => {
               <p className={style.Client_Management_section_P_Tag_Des}>· JEFIT's feature-rich in-app messenger makes form reviews or workout plan updates quick and simple.</p>
               <p className={style.Client_Management_section_P_Tag_Des}>· Avoid conflicting with geographic based non-compete clauses by expanding your business online.</p>
 
-              <button className={style.Client_Management_section_Button_Start_explore}>START EXPLORING</button>
+              <button className={style.Client_Management_section_Button_Start_explore}>  <Link to="/login"> START EXPLORING</Link></button>
 
 
             </div>
@@ -152,7 +154,7 @@ const Elite = () => {
               <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaRegNewspaper} boxSize={4} />  . Sell your services as a coach or just sell your premium workout plan - diversify your types of clients.</p>
 
 
-              <button className={style.Client_Management_section_Button_Start_explore}>START EXPLORING</button>
+              <button className={style.Client_Management_section_Button_Start_explore}>  <Link to="/login">START EXPLORING</Link> </button>
 
 
             </div>
@@ -176,7 +178,7 @@ const Elite = () => {
               <p className={style.Client_Management_section_P_Tag_Des}>· Display your client successes and your certifications on your profile.</p>
 
 
-              <button className={style.Client_Management_section_Button_Start_explore}>START EXPLORING</button>
+              <button className={style.Client_Management_section_Button_Start_explore}>  <Link to="/login">START EXPLORING</Link></button>
 
 
             </div>
@@ -220,7 +222,7 @@ const Elite = () => {
 
               <p className={style.start_YouFree_Trial_section_p_tag}>For gym or studio, please contact us for bulk pricing at product@jefit.com ​</p>
 
-              <button className={style.Client_Management_section_Button_Start_explore}>START EXPLORING</button>
+              <button className={style.Client_Management_section_Button_Start_explore}> <Link to="/login">START EXPLORING</Link></button>
 
 
             </div>
@@ -237,7 +239,7 @@ const Elite = () => {
 
 
 
-            <button className={style.Client_Management_section_Button_Start_explore} style={{marginTop:"40px"}}>START 14-DAY FREE TRIAL</button>
+            <button className={style.Client_Management_section_Button_Start_explore} style={{ marginTop: "40px" }}>  <Link to="/login">START 14-DAY FREE TRIAL</Link></button>
 
             {/* START 14-DAY FREE TRIAL */}
           </div>
