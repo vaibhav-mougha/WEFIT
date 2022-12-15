@@ -26,7 +26,7 @@ const Coach = () => {
 
   
 
-  
+
 
   return (
     <>
@@ -244,6 +244,7 @@ const Coach = () => {
             <button className={style.Client_Management_section_Button_Start_explore} style={{ marginTop: "40px" }}>  <Link to="/login">START 14-DAY FREE TRIAL</Link></button>
 
             {/* START 14-DAY FREE TRIAL */}
+            
           </div>
 
 
@@ -256,5 +257,8 @@ const Coach = () => {
     </>
   )
 }
+
+
+
 
 export default Coach
