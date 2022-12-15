@@ -1,14 +1,15 @@
 import { Button, Icon } from '@chakra-ui/react'
 import React, { useEffect, useRef } from 'react'
-import style from '../Elite-page/Elite.module.css'
-import { FaRegNewspaper } from "@react-icons/all-files/fa/FaRegNewspaper";
+import style from '../Coach/Coach.module.css'
+// import { FaRegNewspaper } from "@react-icons/all-files/fa/FaRegNewspaper";
+import { FaCalendar } from 'react-icons/fa'
 import { CalendarIcon, SettingsIcon } from '@chakra-ui/icons'
 import { Link } from "react-router-dom";
 
 
 
 
-const Elite = () => {
+const Coach = () => {
 
   const videoEl = useRef(null);
 
@@ -146,12 +147,12 @@ const Elite = () => {
 
               <h2 className={style.Premium_Workout_Plans_section_H2_tag_Head}>Easily personalize your workout plans</h2>
 
-              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaRegNewspaper} boxSize={4} />  . JEFIT's extensive exercise library makes updating or personalizing workout plans a breeze.
+              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaCalendar} boxSize={4} />  . JEFIT's extensive exercise library makes updating or personalizing workout plans a breeze.
                 JEFIT teaches your clients how to perform each</p>
 
-              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaRegNewspaper} boxSize={4} />  . exercise with detailed instructions and an HD video mid-workout.</p>
+              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaCalendar} boxSize={4} />  . exercise with detailed instructions and an HD video mid-workout.</p>
 
-              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaRegNewspaper} boxSize={4} />  . Sell your services as a coach or just sell your premium workout plan - diversify your types of clients.</p>
+              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaCalendar} boxSize={4} />  . Sell your services as a coach or just sell your premium workout plan - diversify your types of clients.</p>
 
 
               <button className={style.Client_Management_section_Button_Start_explore}>  <Link to="/login">START EXPLORING</Link> </button>
@@ -255,4 +256,4 @@ const Elite = () => {
   )
 }
 
-export default Elite
+export default Coach

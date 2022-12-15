@@ -451,5 +451,36 @@
     ],
     "chest" : [
         
-    ]
+    ],
+  
+
+    "PlansElitePage" : [
+      {
+      "id": 1,
+      "Title": "Basic",
+      "discount": "Freeads supported",
+      "description": "Flexible workout planner Top-notch log tracker  1400+ exercises library  Body stats tracking tools  Support interval training ",
+      "buttonTitle": "Free Download",
+      "duration": "",
+      "buttonBackGroundColor": "gray"
+      },
+      {
+      "id": 2,
+      "Title": "Elite Monthly",
+      "discount": "$12.99per month",
+      "description": "All BASIC plan features No ads     Comprehensive training reports   Advanced tracking features    Compare records with friends    Exercise tips from JEFIT experts    Premium workout plans        More... ",
+      "buttonTitle": "Get Elite Now",
+      "duration": " $ 12.99 billed / month" ,
+      "buttonBackGroundColor": "gray"
+      },
+      {
+      "id": 3,
+      "Title": "Elite Yearly",
+      "discount": "$5.83 $5.25 per month",
+      "description": "All BASIC plan features No ads Comprehensive training reports   Advanced tracking features   Compare records with friends Exercise tips from JEFIT experts  Premium workout plans  More...",
+      "buttonTitle": "GET ELITE NOW ",
+      "duration": "$ 62.99 billed / year ",
+      "buttonBackGroundColor": "red"
+      }
+  ]
 }
