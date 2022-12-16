@@ -1,13 +1,10 @@
 import React from "react";
-import {
-  Carousel,
-  Exercises,
-  Filters,
-  Heading,
-} from "../../Components/Routines";
+import Navbar from "../../Components/Navbar";
+import { Carousel, Filters, Heading } from "../../Components/Routines";
 const Routines = () => {
   return (
     <>
+      <Navbar />
       <Heading
         heading={"WEFIT Workout Routine Database"}
         title="Featured Workout plans"
