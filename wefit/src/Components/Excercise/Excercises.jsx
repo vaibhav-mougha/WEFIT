@@ -42,7 +42,7 @@ const Excercises = () => {
       >
         {data.map((el) => (
           <Box key={el.id} w="100%">
-            <Link to={`/dummy/${el.id}`}>
+            <Link to={`/exercise/filter/excercises-${el.id}`}>
               <Image src={el.image_urls[0]} w="100%" />
               <Text
                 fontSize="14px"
