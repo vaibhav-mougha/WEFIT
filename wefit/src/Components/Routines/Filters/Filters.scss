@@ -1,0 +1,27 @@
+.app__filters-container{
+    width: 80%;
+    margin: 30px auto;
+}
+.app__search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    .app__checkbox{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        .app__check-input{
+      
+        }
+    }
+    .app__search{
+        display: flex;
+        align-items: center;
+
+       .app__search-input{
+        margin-right: 20px;
+       }
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,600&display=swap');
+
+$dm-sans: 'DM Sans', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$__dark-gray-color: #212529;
+$__light-gray-color:#848484;
+
+.app__headers-container{
+    font-family: $open-sans;
+    font-weight: 100;
+    color: $__dark-gray-color;
+    line-height: 35px;
+    font-weight: 500;
+    text-align: center;
+    .app__heading{
+        font-family: $open-sans;
+        font-weight: 500;
+        font-size: 28px;
+        margin: 38px 0;
+        @media screen and (max-width: 900px) {
+            font-size: 26px; 
+        }
+        @media screen and (max-width: 542px) {
+            font-size: 24px; 
+        }
+       
+    }
+    .app__heading-title{
+        font-size: 24px;
+        @media screen and (max-width: 900px) {
+            font-size: 22px; 
+        }
+        @media screen and (max-width: 542px) {
+            font-size: 20px; 
+        }
+        
+    }
+    .app__heading-content{
+        font-size: 1.3rem;
+        color: $__light-gray-color;
+        @media screen and (max-width: 900px) {
+            font-size: 1rem; 
+        }
+        @media screen and (max-width: 542px) {
+            font-size: 0.8rem; 
+        }
+      
+    }
+}
