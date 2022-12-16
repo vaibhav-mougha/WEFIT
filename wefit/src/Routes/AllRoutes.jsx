@@ -1,11 +1,14 @@
-import React from 'react'
-
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Routines from "../Pages/routines/Routines";
 const AllRoutes = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/routines" element={<Routines />} />
+      </Routes>
+    </>
+  );
+};
 
-export default AllRoutes
+export default AllRoutes;
