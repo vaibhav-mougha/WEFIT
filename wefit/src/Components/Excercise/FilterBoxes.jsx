@@ -78,7 +78,7 @@ const FilterBoxes = ({getData}) => {
             alignItems="center"
           >
             <Box ml={{base:"0px", md:"20px", lg:"50px"}} fontWeight={600}>Muscles</Box>
-            <Flex flexDirection="column" alignItems="flex-start">
+            <Flex className={styles.buttons} flexDirection="column" alignItems="flex-start">
               <NavLink onClick={() => getData("excercises")}>All</NavLink>
               <NavLink onClick={() => getData("abs")}>Abs</NavLink>
               <NavLink onClick={() => getData("back")}>Back</NavLink>
@@ -86,7 +86,7 @@ const FilterBoxes = ({getData}) => {
               <NavLink onClick={() => getData("chest")}>Chest</NavLink>
               <NavLink onClick={() => getData("forearm")}>Forearm</NavLink>
             </Flex>
-            <Flex flexDirection="column" alignItems="flex-start">
+            <Flex className={styles.buttons} flexDirection="column" alignItems="flex-start">
               <NavLink onClick={() => getData("glutes")}>Glutes</NavLink>
               <NavLink onClick={() => getData("shoulders")}>Shoulders</NavLink>
               <NavLink onClick={() => getData("triceps")}>Triceps</NavLink>
@@ -139,9 +139,9 @@ const FilterBoxes = ({getData}) => {
                 <input
                   type="checkbox"
                   name="Body Only"
-                  checked={equipment.includes("bodyonly")}
+                  checked={equipment.includes("body Only")}
                   className="all"
-                  value="bodyonly"
+                  value="body Only"
                   onChange={handleChangeEquipments}
                 />
                 <label htmlFor="Body Only">Body Only</label>
@@ -172,9 +172,9 @@ const FilterBoxes = ({getData}) => {
                 <input
                   type="checkbox"
                   name="Ez - Bar"
-                  checked={equipment.includes("ezbar")}
+                  checked={equipment.includes("ez Bar")}
                   className="all"
-                  value="ezbar"
+                  value="ez Bar"
                   onChange={handleChangeEquipments}
                 />
                 <label htmlFor="Ez - Bar">EZ - Bar</label>
@@ -218,9 +218,9 @@ const FilterBoxes = ({getData}) => {
                 <input
                   type="checkbox"
                   name="Machine - Strength"
-                  checked={equipment.includes("machinestrength")}
+                  checked={equipment.includes("machine strength")}
                   className="all"
-                  value="machinestrength"
+                  value="machine strength"
                   onChange={handleChangeEquipments}
                 />
                 <label htmlFor="Machine - Strength">Machine - Strength</label>

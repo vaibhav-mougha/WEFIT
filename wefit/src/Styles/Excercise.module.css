@@ -47,3 +47,7 @@
 .filtermenu {
     color:black;
 }
+.buttons>a:hover {
+  color: rgb(33, 110, 199);
+  font-weight: 600;
+}
