@@ -1,4 +1,4 @@
-import { Button, Checkbox, HStack, Input, Spacer } from "@chakra-ui/react";
+import { Button, Checkbox, Input } from "@chakra-ui/react";
 import React from "react";
 import "./Filters.scss";
 const Search = () => {
@@ -16,8 +16,14 @@ const Search = () => {
         </Checkbox>
       </div>
       <div className="app__search">
-        <Input placeholder="Search..." />
-        <Button>Search</Button>
+        <Input
+          className="app__search-input"
+          size={["sm", "sm", "md", "md"]}
+          placeholder="Search..."
+        />
+        <Button variant="outline" size={["sm", "sm", "md", "md"]}>
+          Search
+        </Button>
       </div>
     </div>
   );

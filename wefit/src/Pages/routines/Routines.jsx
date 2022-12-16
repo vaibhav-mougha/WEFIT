@@ -1,5 +1,10 @@
 import React from "react";
-import { Carousel, Filters, Heading } from "../../Components/Routines";
+import {
+  Carousel,
+  Exercises,
+  Filters,
+  Heading,
+} from "../../Components/Routines";
 const Routines = () => {
   return (
     <>
