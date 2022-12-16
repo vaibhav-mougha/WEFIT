@@ -13,12 +13,18 @@ import {
   InputRightElement,
   useToast
 } from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
+import { login } from "../../../Redux/Login/login.actions";
 
 const LoginMainFrom = () => {
   const [loginData, setLogindata] = useState({
     email: "",
     password: "",
   });
+  const dispatch = useDispatch();
+  const data = useSelector(store => store.login.user)
+  console.log('data: ', data);
+
   const [show, setShow] = React.useState(false);
 
   const handleClick = () => setShow(!show);
@@ -41,6 +47,8 @@ const LoginMainFrom = () => {
         isClosable: true,
         position: "top",
       });
+    } else {
+      dispatch(login(loginData));
     }
   };
 
@@ -121,7 +129,7 @@ const LoginMainFrom = () => {
             colorScheme="blue"
             onClick={handleLogin}
           >
-            CREATE ACCOUNT
+            LOGIN
           </Button>
         </Box>
       </Flex>
