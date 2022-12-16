@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../Components/Navbar";
+import Navbar from "../../Components/Home/Navbar";
 import { Carousel, Filters, Heading } from "../../Components/Routines";
 const Routines = () => {
   return (
