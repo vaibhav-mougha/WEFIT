@@ -15,7 +15,7 @@ const Pagination = ({ onSwitchPage, totalPages }) => {
         pageRangeDisplayed={3}
         onPageChange={handleClick}
         containerClassName="app__pagination"
-        pageClassName=""
+        pageClassName="app__prev"
         pageLinkClassName=""
         previousClassName=""
         previousLinkClassName=""
