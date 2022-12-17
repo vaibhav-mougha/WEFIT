@@ -7,23 +7,23 @@ const Pagination = ({ onSwitchPage, totalPages }) => {
   return (
     <div>
       <ReactPaginate
-        previousLabel={"previous"}
-        nextLabel="next"
+        previousLabel={"Previous"}
+        nextLabel="Next"
         breakLabel="..."
         pageCount={Math.floor(totalPages / 10)}
         marginPagesDisplayed={2}
         pageRangeDisplayed={3}
         onPageChange={handleClick}
         containerClassName="app__pagination"
-        pageClassName="app__prev"
-        pageLinkClassName=""
-        previousClassName=""
-        previousLinkClassName=""
-        nextClassName=""
-        nextLinkClassName=""
-        breakClassName=""
-        breakLinkClassName=""
-        activeClassName=""
+        pageClassName="app__page-item"
+        pageLinkClassName="page-link"
+        previousClassName="prev-next"
+        previousLinkClassName="prev-next-a"
+        nextClassName="prev-next"
+        nextLinkClassName="prev-next-a"
+        breakClassName="breaks-class"
+        breakLinkClassName="breaks-class-a"
+        activeClassName="active-link"
       />
     </div>
   );

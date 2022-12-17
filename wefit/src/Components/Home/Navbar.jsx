@@ -11,11 +11,25 @@ import {
   Hide,
   Show,
   IconButton,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+  Drawer,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+  useDisclosure,
 } from "@chakra-ui/react";
 import { ChevronDownIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const btnRef = React.useRef();
+
   return (
     <>
       <Hide below="sm">
@@ -37,7 +51,7 @@ const Navbar = () => {
               // border="1px solid white"
             >
               <Link to="/">
-                <Image src="./Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
+                <Image src="Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
               </Link>
             </Box>
             <Box w="65%">
@@ -152,8 +166,8 @@ const Navbar = () => {
               w="40%"
               // border="1px solid white"
             >
-              <Link to="/">
-                <Image src="./Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
+              <Link to="/"> 
+                <Image src="Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
               </Link>
             </Box>
 
@@ -168,83 +182,140 @@ const Navbar = () => {
                   bg="#257CFF"
                   _hover={{ bg: "#257CFF" }}
                   _expanded={{ bg: "#257CFF" }}
+                  onClick={onOpen}
                 />
-
-                <MenuList>
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    Get App <ChevronDownIcon />
-                    <MenuItem>Workout App (iOS)</MenuItem>
-                    <MenuItem>Workout App (Android)</MenuItem>
-                  </MenuList>
-
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    Workout Plans <ChevronDownIcon />
-                    <MenuItem>Pro-designed Plans</MenuItem>
-                    <MenuItem>Create My Plan</MenuItem>
-                  </MenuList>
-
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    <Link to="/"> Exercise</Link>
-                  </MenuList>
-
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    Community <ChevronDownIcon />
-                    <MenuItem>Wefit Community</MenuItem>
-                    <MenuItem>Blog</MenuItem>
-                  </MenuList>
-
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    <Link to="/">Coach</Link>
-                  </MenuList>
-
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    <Link to="/">Elite</Link>
-                  </MenuList>
-
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    <Link to="/">Login</Link>
-                  </MenuList>
-
-                  <MenuList
-                    color="#257CFF"
-                    _hover={{ bg: "white" }}
-                    _expanded={{ bg: "white" }}
-                  >
-                    SignUp
-                  </MenuList>
-                </MenuList>
               </Menu>
             </Box>
           </Flex>
         </Flex>
+
+        <Drawer
+          isOpen={isOpen}
+          placement="right"
+          onClose={onClose}
+          finalFocusRef={btnRef}
+        >
+          <DrawerOverlay />
+          <DrawerContent  bg="white"
+                color="black">
+            <DrawerCloseButton />
+            <DrawerHeader>
+              <Box
+                w="70%"
+                ml="2.5rem"
+                display="flex"
+                justify="center"
+                align="center"
+              >
+                <Link to="/">
+                  <Image src="Assets/WEFIT.png" alt="WeFitLogo" />
+                </Link>
+              </Box>
+            </DrawerHeader>
+            <Accordion allowToggle>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      Get App
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  <Link to="/">Workout App (iOS)</Link>
+                </AccordionPanel>
+                <AccordionPanel pb={4}>
+                  <Link to="/"> Workout App (Android)</Link>
+                </AccordionPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      Workout Plans
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  <Link to="/">Pro-designed Plans</Link>
+                </AccordionPanel>
+                <AccordionPanel pb={4}>
+                  <Link to="/"> Create My Plan</Link>
+                </AccordionPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      <Link to="/"> Exercise</Link>
+                    </Box>
+                  </AccordionButton>
+                </h2>
+              </AccordionItem>
+
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      Community
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  <Link to="/">Wefit Community</Link>
+                </AccordionPanel>
+                <AccordionPanel pb={4}>
+                  <Link to="/">Blog</Link>
+                </AccordionPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      <Link to="/"> Ellite</Link>
+                    </Box>
+                  </AccordionButton>
+                </h2>
+              </AccordionItem>
+
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      <Link to="/"> Login</Link>
+                    </Box>
+                  </AccordionButton>
+                </h2>
+              </AccordionItem>
+
+              <Button
+                fontSize="1.5rem"
+                mt="3rem"
+                ml="6rem"
+                w="8rem"
+                h="2.9rem"
+                borderRadius="2rem"
+                _hover={{
+                  background: "white",
+                  color: "#39B7FF",
+                  border: "2px solid #39B7FF",
+                }}
+                bg="#257CFF"
+                color="white"
+                py={{ base: "0rem", md: "0.1rem", lg: "1.5rem" }}
+                px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+              >
+                SignUp
+              </Button>
+            </Accordion>
+          </DrawerContent>
+        </Drawer>
       </Show>
     </>
   );
