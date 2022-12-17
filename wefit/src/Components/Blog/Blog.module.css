@@ -112,7 +112,7 @@
         height: auto;
         padding: 20px;
         background-color: #f3fdfe;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         /* border: 1px solid black; */
     }
 
@@ -240,7 +240,7 @@
         height: auto;
         padding: 5px;
         background-color: #f3fdfe;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         /* border: 1px solid black; */
     }
 

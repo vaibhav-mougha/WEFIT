@@ -1,7 +1,7 @@
 .main_div {
     background-color: #f3fdfe;
     height: auto;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .Year_End_of_discount_section {
@@ -9,7 +9,7 @@
     text-align: center;
     color: #e5fbff;
     background-color: #cb1a2f;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding-top: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 1.5rem;
@@ -258,7 +258,7 @@
 
     .Plans_that_suit_you_best_section_h1_tag_Plan_suit {
         /* border: 1px solid black; */
-        margin-top: 2px;
+        /* margin-top: 2px; */
         margin-bottom: 10px;
     }
 
@@ -454,7 +454,7 @@
         width: 270%;
         background-color: #f3fdfe;
         height: auto;
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
     }
 
 
@@ -462,7 +462,7 @@
 
     .Year_End_of_discount_section {
         /* border: 1px solid black; */
-        margin-top: 80px;
+        /* margin-top: 80px; */
         padding: 25px;
     }
 
