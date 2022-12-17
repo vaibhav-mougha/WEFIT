@@ -844,19 +844,6 @@
     "password": "Admin@123"
   },
   "userData": [
-    {
-      "username": "Subha",
-      "email": "subha@gmail.com",
-      "password": "Subha@123",
-      "password2": "Subha@123",
-      "id": 1
-    },
-    {
-      "username": "Sonu",
-      "email": "sonu@gmail.com",
-      "password": "Sonu@123",
-      "password2": "Sonu@123",
-      "id": 2
-    }
+      
   ]
 }
