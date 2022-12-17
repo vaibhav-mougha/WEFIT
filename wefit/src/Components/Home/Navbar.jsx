@@ -70,9 +70,9 @@ const Navbar = () => {
                     >
                       Get App <ChevronDownIcon />
                     </MenuButton>
-                    <MenuList color="#257CFF">
-                      <MenuItem>Workout App (iOS)</MenuItem>
-                      <MenuItem>Workout App (Android)</MenuItem>
+                    <MenuList color="#257CFF"  bg="white" >
+                      <a href="https://apps.apple.com/app/apple-store/id449810000" target="_blank"><MenuItem  bg="white"  _hover={{ bg: "#C2DAFF" }}>Workout App (iOS)</MenuItem></a>
+                      <a href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail" target="_blank"><MenuItem  bg="white" _hover={{ bg: "#C2DAFF" }}>Workout App (Android)</MenuItem></a>
                     </MenuList>
                   </Menu>
                 </Box>
@@ -86,14 +86,14 @@ const Navbar = () => {
                     >
                       Workout Plans <ChevronDownIcon />
                     </MenuButton>
-                    <MenuList color="#257CFF">
-                      <MenuItem>Pro-designed Plans</MenuItem>
-                      <MenuItem>Create My Plan</MenuItem>
+                    <MenuList color="#257CFF" bg="white">
+                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Pro-designed Plans</MenuItem>
+                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Create My Plan</MenuItem>
                     </MenuList>
                   </Menu>
                 </Box>
                 <Box>
-                  <Link to="/">Exercises</Link>
+                  <Link to="/exercise">Exercises</Link>
                 </Box>
 
                 <Box>
@@ -105,9 +105,9 @@ const Navbar = () => {
                     >
                       Community <ChevronDownIcon />
                     </MenuButton>
-                    <MenuList color="#257CFF">
-                      <MenuItem>Wefit Community</MenuItem>
-                      <MenuItem>Blog</MenuItem>
+                    <MenuList color="#257CFF" bg="white">
+                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Wefit Community</MenuItem>
+                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Blog</MenuItem>
                     </MenuList>
                   </Menu>
                 </Box>
@@ -119,7 +119,7 @@ const Navbar = () => {
                   <Link to="/">Elite</Link>
                 </Box>
                 <Box>
-                  <Link to="/">Login</Link>
+                  <Link to="/login">Login</Link>
                 </Box>
               </Flex>
             </Box>
@@ -128,7 +128,7 @@ const Navbar = () => {
               // border="1px solid white"
               pt="0.5rem"
             >
-              <Button
+              <Link to="/signup"><Button
                 fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
                 w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
                 h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
@@ -142,7 +142,7 @@ const Navbar = () => {
                 px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
               >
                 Sign Up
-              </Button>
+              </Button></Link>
             </Box>
           </Flex>
         </Flex>

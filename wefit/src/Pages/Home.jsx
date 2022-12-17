@@ -3,6 +3,7 @@ import Navbar from "../Components/Home/Navbar"
 import ManageTrack from "../Components/Home/ManageTrack"
 import ConnectMemebers from "../Components/Home/ConnectMember/ConnectMembers"
 import WorkoutNeeds from "../Components/Home/Workout Needs/WorkoutNeeds"
+import Footer from "../Components/Home/Footer"
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <ManageTrack />
       <ConnectMemebers />
       <WorkoutNeeds />
+      <Footer />
     </div>
   )
 }
