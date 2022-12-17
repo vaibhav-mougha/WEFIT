@@ -7,6 +7,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 import Navbar from "../Components/Home/Navbar";
 import styles from "../Styles/Excercise.module.css";
 import Pagination from "../Components/Excercise/Pagination";
+import Footer from "../Components/Home/Footer";
 
 const ExcerciseFilter = () => {
   const [data, setData] = useState([]);
@@ -95,8 +96,10 @@ const ExcerciseFilter = () => {
   };
   console.log("query", query);
   return (
+    <>
+    <Navbar />
     <div style={{ backgroundColor: "rgb(248, 251, 254)" }}>
-      <Navbar />
+      
       <FilterBoxes getData={getExerciseData} />
       {data.length === 0 ? (
         noResults()
@@ -139,6 +142,8 @@ const ExcerciseFilter = () => {
         </div>
       )}
     </div>
+    <Footer />
+    </>
   );
 };
 

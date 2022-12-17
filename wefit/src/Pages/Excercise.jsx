@@ -1,6 +1,7 @@
 import React from 'react'
 import Excercises from '../Components/Excercise/Excercises'
 import MuscleGroup from '../Components/Excercise/MuscleGroup'
+import Footer from '../Components/Home/Footer'
 import Navbar from '../Components/Home/Navbar'
 
 
@@ -10,6 +11,7 @@ const Excercise = () => {
         <Navbar/>
         <MuscleGroup/>
         <Excercises/>
+        <Footer />
     </div>
   )
 }

@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Hide below="sm">
+      <Hide below="sm" >
         <Flex
           w="100%"
           bg="#257CFF"
@@ -61,7 +61,7 @@ const Navbar = () => {
                 fontSize={{ base: "0.7rem", md: "0.9rem", lg: "1.2rem" }}
                 pt="0.5rem"
               >
-                <Box>
+                <Box zIndex="10">
                   <Menu>
                     <MenuButton
                       bg="#257CFF"
@@ -91,7 +91,7 @@ const Navbar = () => {
                   </Menu>
                 </Box>
 
-                <Box>
+                <Box  zIndex="10">
                   <Menu>
                     <MenuButton
                       bg="#257CFF"
@@ -114,7 +114,7 @@ const Navbar = () => {
                   <Link to="/exercise">Exercises</Link>
                 </Box>
 
-                <Box>
+                <Box  zIndex="10">
                   <Menu>
                     <MenuButton
                       bg="#257CFF"
