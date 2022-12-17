@@ -258,7 +258,7 @@
 
     .Plans_that_suit_you_best_section_h1_tag_Plan_suit {
         /* border: 1px solid black; */
-        margin-top: 2px;
+        /* margin-top: 2px; */
         margin-bottom: 10px;
     }
 
@@ -454,7 +454,7 @@
         width: 270%;
         background-color: #f3fdfe;
         height: auto;
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
     }
 
 
@@ -462,7 +462,7 @@
 
     .Year_End_of_discount_section {
         /* border: 1px solid black; */
-        margin-top: 80px;
+        /* margin-top: 80px; */
         padding: 25px;
     }
 
