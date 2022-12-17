@@ -70,9 +70,23 @@ const Navbar = () => {
                     >
                       Get App <ChevronDownIcon />
                     </MenuButton>
-                    <MenuList color="#257CFF"  bg="white" >
-                      <a href="https://apps.apple.com/app/apple-store/id449810000" target="_blank"><MenuItem  bg="white"  _hover={{ bg: "#C2DAFF" }}>Workout App (iOS)</MenuItem></a>
-                      <a href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail" target="_blank"><MenuItem  bg="white" _hover={{ bg: "#C2DAFF" }}>Workout App (Android)</MenuItem></a>
+                    <MenuList color="#257CFF" bg="white">
+                      <a
+                        href="https://apps.apple.com/app/apple-store/id449810000"
+                        target="_blank"
+                      >
+                        <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                          Workout App (iOS)
+                        </MenuItem>
+                      </a>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail"
+                        target="_blank"
+                      >
+                        <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                          Workout App (Android)
+                        </MenuItem>
+                      </a>
                     </MenuList>
                   </Menu>
                 </Box>
@@ -87,8 +101,12 @@ const Navbar = () => {
                       Workout Plans <ChevronDownIcon />
                     </MenuButton>
                     <MenuList color="#257CFF" bg="white">
-                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Pro-designed Plans</MenuItem>
-                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Create My Plan</MenuItem>
+                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                        Pro-designed Plans
+                      </MenuItem>
+                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                        Create My Plan
+                      </MenuItem>
                     </MenuList>
                   </Menu>
                 </Box>
@@ -106,17 +124,25 @@ const Navbar = () => {
                       Community <ChevronDownIcon />
                     </MenuButton>
                     <MenuList color="#257CFF" bg="white">
-                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Wefit Community</MenuItem>
-                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>Blog</MenuItem>
+                      <Link to="/community">
+                        <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                          Wefit Community
+                        </MenuItem>
+                      </Link>
+                      <Link to="/blog">
+                        <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                          Blog
+                        </MenuItem>
+                      </Link>
                     </MenuList>
                   </Menu>
                 </Box>
 
                 <Box>
-                  <Link to="/">Coach</Link>
+                  <Link to="/coach">Coach</Link>
                 </Box>
                 <Box>
-                  <Link to="/">Elite</Link>
+                  <Link to="/elite">Elite</Link>
                 </Box>
                 <Box>
                   <Link to="/login">Login</Link>
@@ -128,21 +154,23 @@ const Navbar = () => {
               // border="1px solid white"
               pt="0.5rem"
             >
-              <Link to="/signup"><Button
-                fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
-                w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
-                h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
-                _hover={{
-                  background: "#184FA3",
-                  color: "white",
-                }}
-                bg="white"
-                color="#257CFF"
-                py={{ base: "0rem", md: "0.1rem", lg: "0.5rem" }}
-                px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
-              >
-                Sign Up
-              </Button></Link>
+              <Link to="/signup">
+                <Button
+                  fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
+                  w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
+                  h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
+                  _hover={{
+                    background: "#184FA3",
+                    color: "white",
+                  }}
+                  bg="white"
+                  color="#257CFF"
+                  py={{ base: "0rem", md: "0.1rem", lg: "0.5rem" }}
+                  px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                >
+                  Sign Up
+                </Button>
+              </Link>
             </Box>
           </Flex>
         </Flex>
@@ -166,7 +194,7 @@ const Navbar = () => {
               w="40%"
               // border="1px solid white"
             >
-              <Link to="/"> 
+              <Link to="/">
                 <Image src="Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
               </Link>
             </Box>
@@ -196,8 +224,7 @@ const Navbar = () => {
           finalFocusRef={btnRef}
         >
           <DrawerOverlay />
-          <DrawerContent  bg="white"
-                color="black">
+          <DrawerContent bg="white" color="black">
             <DrawerCloseButton />
             <DrawerHeader>
               <Box
@@ -223,10 +250,10 @@ const Navbar = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  <Link to="/">Workout App (iOS)</Link>
+                  <a href="https://apps.apple.com/app/apple-store/id449810000" target="_blank">Workout App (iOS)</a>
                 </AccordionPanel>
                 <AccordionPanel pb={4}>
-                  <Link to="/"> Workout App (Android)</Link>
+                  <a href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail"  target="_blank"> Workout App (Android)</a>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -267,10 +294,10 @@ const Navbar = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  <Link to="/">Wefit Community</Link>
+                  <Link to="/community">Wefit Community</Link>
                 </AccordionPanel>
                 <AccordionPanel pb={4}>
-                  <Link to="/">Blog</Link>
+                  <Link to="/blog">Blog</Link>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -278,7 +305,17 @@ const Navbar = () => {
                 <h2>
                   <AccordionButton>
                     <Box as="span" flex="1" textAlign="left">
-                      <Link to="/"> Ellite</Link>
+                      <Link to="/coach"> Coach</Link>
+                    </Box>
+                  </AccordionButton>
+                </h2>
+              </AccordionItem>
+
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      <Link to="/elite"> Elite</Link>
                     </Box>
                   </AccordionButton>
                 </h2>

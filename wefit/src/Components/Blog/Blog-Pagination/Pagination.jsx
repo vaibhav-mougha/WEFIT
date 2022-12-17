@@ -4,6 +4,7 @@ import ReactPaginate from "react-paginate";
 
 
 
+
 const Pagination = ({ onSwitchPage, totalPages }) => {
   const handleClick = async (data) => {
     onSwitchPage(data.selected + 1);

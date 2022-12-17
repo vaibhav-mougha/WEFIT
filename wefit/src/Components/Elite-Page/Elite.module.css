@@ -1,7 +1,7 @@
 .main_div {
     background-color: #f3fdfe;
     height: auto;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .Year_End_of_discount_section {
@@ -9,7 +9,7 @@
     text-align: center;
     color: #e5fbff;
     background-color: #cb1a2f;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding-top: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 1.5rem;

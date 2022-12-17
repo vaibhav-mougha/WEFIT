@@ -5,8 +5,13 @@ import Excercise from "../Pages/Excercise";
 import ExcerciseFilter from "../Pages/ExcerciseFilter";
 import Home from "../Pages/Home";
 import Routines from "../Pages/routines/Routines";
-import Login from "../Pages/Login"
-import SignUp from "../Pages/Signup"
+import Login from "../Pages/Login";
+import SignUp from "../Pages/Signup";
+import Blog from "../Pages/Blog";
+import Coach from "../Pages/Coach";
+import Community from "../Pages/Community";
+import Elite from "../Pages/Elite";
+import SingleBlogPage from "../Pages/SingleBlogPage";
 
 const AllRoutes = () => {
   return (
@@ -23,7 +28,7 @@ const AllRoutes = () => {
         <Route path="/coach" element={<Coach />} />
         <Route path="/community" element={<Community />} />
         <Route path="/elite" element={<Elite />} />
-        <Route path="/blog/:user_id" element={<SingleBlogPage/>  }></Route>
+        <Route path="/blog/:user_id" element={<SingleBlogPage />}></Route>
       </Routes>
     </>
   );
