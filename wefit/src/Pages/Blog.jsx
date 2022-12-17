@@ -4,7 +4,7 @@ import style from '../Blog/Blog.module.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from "react-router-dom"
-import Pagination from '../Blog/Blog-Pagination/Pagination';
+import Pagination from '../Components/Blog/Blog-Pagination/Pagination';
 import { Text } from '@chakra-ui/react';
 
 

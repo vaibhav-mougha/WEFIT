@@ -19,6 +19,11 @@ const AllRoutes = () => {
         <Route path="/exercise" element={<Excercise />} />
         <Route path="/exercise/filter" element={<ExcerciseFilter />} />
         <Route path="/exercise/filter/:id" element={<ExcerciseDetails />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/coach" element={<Coach />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/elite" element={<Elite />} />
+        <Route path="/blog/:user_id" element={<SingleBlogPage/>  }></Route>
       </Routes>
     </>
   );
