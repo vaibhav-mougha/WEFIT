@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import ExcerciseDetails from "../Pages/ExerciseDetails";
+import ExerciseDetails from "../Pages/ExerciseDetails";
 import Excercise from "../Pages/Excercise";
 import ExcerciseFilter from "../Pages/ExcerciseFilter";
 import Home from "../Pages/Home";
@@ -18,7 +18,7 @@ const AllRoutes = () => {
         <Route path="/routines" element={<Routines />} />
         <Route path="/exercise" element={<Excercise />} />
         <Route path="/exercise/filter" element={<ExcerciseFilter />} />
-        <Route path="/exercise/filter/:id" element={<ExcerciseDetails />} />
+        <Route path="/exercise/filter/:id" element={<ExerciseDetails />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/coach" element={<Coach />} />
         <Route path="/community" element={<Community />} />
