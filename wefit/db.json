@@ -4,12 +4,12 @@
       "id": 1,
       "name": "Barbell Curl Against an Incline",
       "main_group": "Biceps",
-      "detailed_group": "strength",
+      "detailed_group": "Biceps",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "barbell",
-      "difficulty": "beginner",
+      "equipment": "Barbell",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/388.jpg",
@@ -22,10 +22,10 @@
       "main_group": "Abs",
       "detailed_group": "Lower Abs",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "machine strength",
-      "difficulty": "intermediate",
+      "equipment": "Machine strength",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/312.jpg",
@@ -38,10 +38,10 @@
       "main_group": "Chest",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
-      "equipment": "bench",
-      "difficulty": "beginner",
+      "equipment": "Bench",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/4264.jpg",
@@ -54,26 +54,27 @@
       "main_group": "Shoulders",
       "detailed_group": "Triceps",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
-      "equipment": "barbell",
-      "difficulty": "intermediate",
+      "equipment": "Barbell",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b6.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/4556.jpg",
         "https://www.jefit.com/images/exercises/1080_664/4557.jpg"
       ]
     },
+
     {
       "id": 5,
       "name": "Cable Standing Reverse Curl",
       "main_group": "Forearm",
       "detailed_group": "Biceps",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "machine strength",
-      "difficulty": "beginner",
+      "equipment": "Machine strength",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b4.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/416.jpg",
@@ -86,10 +87,10 @@
       "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
-      "equipment": "barbell",
-      "difficulty": "intermediate",
+      "equipment": "Barbell",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2996.jpg",
@@ -102,10 +103,10 @@
       "main_group": "Lower Legs",
       "detailed_group": "Calves",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
       "equipment": "bands",
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b9.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1148.jpg",
@@ -118,10 +119,10 @@
       "main_group": "Upper Legs",
       "detailed_group": "Hamstrings",
       "other_group": "Shoulders , Glutes",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
       "equipment": "Kettlebell",
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b8.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1964.jpg",
@@ -134,10 +135,10 @@
       "main_group": "Abs",
       "detailed_group": "Lower Abs",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "bench",
-      "difficulty": "intermediate",
+      "equipment": "Bench",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1388.jpg",
@@ -148,12 +149,12 @@
       "id": 10,
       "name": "Dumbbell Incline Hammer Press on Stability Ball",
       "main_group": "Chest",
-      "detailed_group": "strength",
+      "detailed_group": "Strength",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "dumbbell",
-      "difficulty": "intermediate",
+      "equipment": "Dumbbell",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2888.jpg",
@@ -166,10 +167,10 @@
       "main_group": "Shoulders",
       "detailed_group": "Traps",
       "other_group": "Triceps",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
-      "equipment": "dumbbell",
-      "difficulty": "intermediate",
+      "equipment": "Dumbbell",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/140.jpg",
@@ -180,12 +181,12 @@
       "id": 12,
       "name": "Cable One-Arm Reverse Grip Tricep Extension",
       "main_group": "Triceps",
-      "detailed_group": "strength",
+      "detailed_group": "Strength",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "machine strength",
-      "difficulty": "beginner",
+      "equipment": "Machine strength",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b7.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/4740.jpg",
@@ -196,44 +197,46 @@
       "id": 13,
       "name": "Dumbbell One-Arm Lateral Raise",
       "main_group": "Shoulders",
-      "detailed_group": "strength",
+      "detailed_group": "Strength",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "bench",
-      "difficulty": "beginner",
+      "equipment": "Bench",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b6.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/4544.jpg",
         "https://www.jefit.com/images/exercises/1080_664/4545.jpg"
       ]
     },
+
     {
       "id": 14,
       "name": "Dumbbell Alternating Arnold Press",
       "main_group": "Shoulders",
       "detailed_group": "Triceps",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
-      "equipment": "dumbbell",
-      "difficulty": "intermediate",
+      "equipment": "Dumbbell",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b6.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/4504.jpg",
         "https://www.jefit.com/images/exercises/1080_664/4505.jpg"
       ]
     },
+
     {
       "id": 15,
       "name": "Barbell Curl",
       "main_group": "Biceps",
-      "detailed_group": "strength",
+      "detailed_group": "Strength",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
-      "equipment": "barbell",
-      "difficulty": "beginner",
+      "equipment": "Barbell",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/448.jpg",
@@ -244,12 +247,12 @@
       "id": 16,
       "name": "Cable One-Arm Reverse Curl",
       "main_group": "Forearm",
-      "detailed_group": "strength",
+      "detailed_group": "Strength",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Isolation",
       "equipment": "Machine - Strength",
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b4.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/4360.jpg",
@@ -262,10 +265,10 @@
       "main_group": "Abs",
       "detailed_group": "Back , Glutes",
       "other_group": "Strength",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
-      "equipment": "body Only",
-      "difficulty": "intermediate",
+      "equipment": "Body Only",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2512.jpg",
@@ -278,10 +281,10 @@
       "main_group": "Back",
       "detailed_group": "Traps",
       "other_group": "Biceps",
-      "type": "strength",
+      "type": "Strength",
       "mechanics": "Compound",
       "equipment": "Machine - Strength",
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b1.jpg",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/748.jpg",
@@ -291,29 +294,45 @@
   ],
   "biceps": [
     {
+      "id": 1,
+      "name": "Barbell Curl Against an Incline",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
+      "other_group": "Strength",
+      "type": "Strength",
+      "mechanics": "Isolation",
+      "equipment": "Barbell",
+      "difficulty": "Beginner",
+      "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
+      "image_urls": [
+        "https://www.jefit.com/images/exercises/1080_664/388.jpg",
+        "https://www.jefit.com/images/exercises/1080_664/389.jpg"
+      ]
+    },
+    {
       "id": "b6",
       "name": "Incline Hammer Curls",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "http://player.vimeo.com/external/160305196.sd.mp4?s=a097ce5e29b2263bea0ce71c9c58da80bc2feac3&profile_id=165&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/3216.jpg",
         "https://www.jefit.com/images/exercises/1080_664/3217.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should pressed firmly against he back with your feet together. Allow the dumbbells to hang straight down at your side, holding them with a neutral grip. This will be your starting position. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary. Continue to the top of the movement and pause, then slowly return to the start position."
     },
     {
       "id": "b7",
       "name": "Wide-grip barbell curl",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
       "video": "http://player.vimeo.com/external/160280822.hd.mp4?s=06a58986198961bf222b735dd59890921bff154c&profile_id=113&oauth2_token_id=435967617",
@@ -321,216 +340,248 @@
         "https://www.jefit.com/images/exercises/1080_664/448.jpg",
         "https://www.jefit.com/images/exercises/1080_664/449.jpg"
       ],
-      "equipment": "barbell",
-      "difficulty": "beginner",
+      "equipment": "Barbell",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Stand up with your torso upright while holding a barbell at the wide outer handle. The palm of your hands should be facing forward. The elbows should be close to the torso. This will be your starting position. While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out. Tip: Only the forearms should move. Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second and squeeze the biceps hard. Slowly begin to bring the bar back to starting position as your breathe in. Repeat for the recommended amount of repetitions.  Variations:  You can also perform this movement using an E-Z bar or E-Z attachment hooked to a low pulley. This variation seems to really provide a good contraction at the top of the movement. You may also use the closer grip for variety purposes."
     },
     {
       "id": "b8",
       "name": "EZ-bar spider curl",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "bench",
+      "equipment": "Bench",
       "video": "http://player.vimeo.com/external/160273666.sd.mp4?s=ef438669fe98da156d75551bfaa6116b88d436ad&profile_id=165&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/420.jpg",
         "https://www.jefit.com/images/exercises/1080_664/421.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Start out by setting the bar on the part of the preacher bench that you would normally sit on. Make sure to align the barbell properly so that it is balanced and will not fall off. Move to the front side of the preacher bench (the part where the arms usually lay) and position yourself to lay at a 45 degree slant with your torso and stomach pressed against the front side of the preacher bench. Make sure that your feet (especially the toes) are well positioned on the floor and place your upper arms on top of the pad located on the inside part of the preacher bench. Use your arms to grab the barbell with a supinated grip (palms facing up) at about shoulder width apart or slightly closer from each other. Slowly begin to lift the barbell upwards and exhale. Hold the contracted position for a second as you squeeze the biceps. Slowly begin to bring the barbell back to the starting position as your breathe in. . Repeat for the recommended amount of repetitions.  Variation: You can also use dumbbells when performing this exercise. Just make sure you place the dumbbells on the part of the preacher bench where you would normally sit properly."
     },
     {
       "id": "b9",
       "name": "EZ-Bar Curl",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "ez Bar",
+      "equipment": "Ez Bar",
       "video": "http://player.vimeo.com/external/160273641.hd.mp4?s=93d3f7ad3b22dc2343abb2c6c7c37d241e3939e6&profile_id=113&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/380.jpg",
         "https://www.jefit.com/images/exercises/1080_664/381.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position. Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps. Focus on only moving your forearms. Continue to raise the weight until your biceps are fully contracted and the bar is at shoulder level. Hold the top contracted position for a moment and squeeze the biceps. Then inhale and slowly lower the bar back to the starting position. Repeat for the recommended amount of repetitions.  Variations: You can also perform this movement using an E-Z attachment hooked to a low pulley. This variation seems to really provide a good contraction at the top of the movement. You may also use the closer grip for variety purposes."
     },
     {
       "id": "ba",
       "name": "Dumbbell One-Arm Zottman Preacher Curl",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "http://player.vimeo.com/external/160280799.sd.mp4?s=7624b89023ef2584fce1be622768ff6710cf7819&profile_id=165&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1108.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1109.jpg"
       ],
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Stand up with your torso upright and a dumbbell in each hand being held at arms length. The elbows should be close to the torso. Make sure the palms of the hands are facing each other. This will be your starting position. While holding the upper arm stationary, curl the weights while contracting the biceps as you breathe out. Only the forearms should move. Your wrist should rotate so that you have a supinated (palms up) grip. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a second as you squeeze the biceps. Now during the contracted position, rotate your wrist until you now have a pronated (palms facing down) grip with the thumb at a higher position than the pinky. Slowly begin to bring the dumbbells back down using the pronated grip. As the dumbbells close your thighs, start rotating the wrist so that you go back to a neutral (palms facing your body) grip. Repeat for the recommended amount of repetitions."
     },
     {
       "id": "bb",
       "name": "Barbell Drag Curl",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "barbell",
+      "equipment": "Barbell",
       "video": "http://player.vimeo.com/external/160281014.sd.mp4?s=6977570d68892f7861c6d4fdbd7b2272fd5ff231&profile_id=165&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1456.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1457.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Stand up with your torso upright while holding a barbell at a shoulder-width grip. The palm of your hands should be facing forward and the elbows should be close to the torso. This will be your starting position. While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out. Tip: Only the forearms should move. Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second and squeeze the biceps hard. Slowly begin to bring the bar back to starting position as your breathe in. Repeat for the recommended amount of repetitions.  Variations:  You can also perform this movement using a straight bar attachment hooked to a low pulley. This variation seems to really provide a good contraction at the top of the movement. You may also use the closer grip for variety purposes."
     },
     {
       "id": "bc",
       "name": "Concentration curl",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "http://player.vimeo.com/external/160273673.sd.mp4?s=814c9f70ad163b1e45afa99cb8e4159c6f8ab498&profile_id=164&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1460.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1461.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Sit down on a flat bench with one dumbbell in front of you between your legs. Your legs should be spread with your knees bent and feet on the floor. Use your right arm to pick the dumbbell up. Place the back of your right upper arm on the top of your inner right thigh. Rotate the palm of your hand until it is facing forward away from your thigh. Tip: Your arm should be extended and the dumbbell should be above the floor. This will be your starting position. While holding the upper arm stationary, curl the weights forward while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Tip: At the top of the movement make sure that the little finger of your arm is higher than your thumb. This guarantees a good contraction. Hold the contracted position for a second as you squeeze the biceps. Slowly begin to bring the dumbbells back to starting position as your breathe in. Caution: Avoid swinging motions at any time. Repeat for the recommended amount of repetitions. Then repeat the movement with the left arm.  Variations: This exercise can be performed standing with the torso bent forward and the arm in front of you. In this case, no leg support is used for the back of your arm so you will need to make extra effort to ensure no movement of the upper arm. This is a more challenging version of the exercise and is not recommended for people with lower back issues."
     },
     {
       "id": "bd",
       "name": "Dumbbell Flexor Incline Curls",
-      "type": "strength",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Strength",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "http://player.vimeo.com/external/160280454.sd.mp4?s=e7c50fe6141077d35029eb1204df60f9921bc473&profile_id=165&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1056.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1057.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Hold the dumbbell towards the side farther from you so that you have more weight on the side closest to you. (This can be done for a good effect on all bicep dumbbell exercises). Now do a normal incline dumbbell curl, but keep your wrists as far back as possible so as to neutralize any stress that is placed on them. Sit on an incline bench that is angled at 45-degrees while holding a dumbbell on each hand. Let your arms hang down on your sides, with the elbows in, and turn the palms of your hands forward with the thumbs pointing away from the body. Tip: You will keep this hand position throughout the movement as there should not be any twisting of the hands as they come up. This will be your starting position. Curl up the two dumbbells at the same time until your biceps are fully contracted and exhale. Tip: Do not swing the arms or use momentum. Keep a controlled motion at all times. Hold the contracted position for a second at the top. As you inhale, slowly go back to the starting position. Repeat for the recommended amount of repetitions.  Caution: Do not extend your arms totally as you could injure your elbows if you hyperextend them. Also, make sure that on the way down you move slowly to avoid injury. Variations: You can use cables for this movement as well."
     },
     {
       "id": "be",
       "name": "Standing Biceps Stretch",
-      "type": "stretching",
-      "main_group": "biceps",
-      "detailed_group": "strength",
+      "type": "Stretching",
+      "main_group": "Biceps",
+      "detailed_group": "Strength",
       "other_group": "Strength",
       "mechanics": "Isolation",
-      "equipment": "other",
+      "equipment": "Body Only",
       "video": "http://player.vimeo.com/external/160305199.hd.mp4?s=c6d709d3e013d308c0ee70ecf535f5c945e19e05&profile_id=119&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/3224.jpg",
         "https://www.jefit.com/images/exercises/1080_664/3225.jpg"
       ],
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b2.jpg",
       "instructions": "Clasp your hands behind your back with your palms together, straighten arms and then rotate them so your palms face downward. Raise your arms up and hold until you feel a stretch in your biceps."
     }
   ],
   "chest": [
     {
+      "id": 3,
+      "name": "Dumbbell Reverse Bench Press",
+      "main_group": "Chest",
+      "detailed_group": "Shoulders , Triceps",
+      "other_group": "Strength",
+      "type": "Strength",
+      "mechanics": "Compound",
+      "equipment": "Bench",
+      "difficulty": "Beginner",
+      "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
+      "image_urls": [
+        "https://www.jefit.com/images/exercises/1080_664/4264.jpg",
+        "https://www.jefit.com/images/exercises/1080_664/4265.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Dumbbell Incline Hammer Press on Stability Ball",
+      "main_group": "Chest",
+      "detailed_group": "Strength",
+      "other_group": "Strength",
+      "type": "Strength",
+      "mechanics": "Isolation",
+      "equipment": "Dumbbell",
+      "difficulty": "Intermediate",
+      "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
+      "image_urls": [
+        "https://www.jefit.com/images/exercises/1080_664/2888.jpg",
+        "https://www.jefit.com/images/exercises/1080_664/2889.jpg"
+      ]
+    },
+    {
       "id": "c1",
       "name": "Dumbbell Bench Press",
-      "type": "strength",
-      "main_group": "chest",
+      "type": "Strength",
+      "main_group": "Chest",
       "Mechanics": "Compound",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "https://vod-progressive.akamaized.net/exp=1671115255~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2054%2F6%2F160273508%2F503174684.mp4~hmac=edfe3d23957256f414c0776ff45d30ae5e53cd1e6a61de8716d5605235b63397/vimeo-prod-skyfire-std-us/01/2054/6/160273508/503174684.mp4",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/104.jpg",
         "https://www.jefit.com/images/exercises/1080_664/105.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "instructions": "Lie down on a flat bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other. Then, using your thighs to help raise the dumbbells up, lift the dumbbells one at a time so that you can hold them in front of you at shoulder width. Once at shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. The dumbbells should be just to the sides of your chest, with your upper arm and forearm creating a 90 degree angle. Be sure to maintain full control of the dumbbells at all times. This will be your starting position. Then, as you breathe out, use your chest to push the dumbbells up. Lock your arms at the top of the lift and squeeze your chest, hold for a second and then begin coming down slowly. Tip: Ideally, lowering the weight should take about twice as long as raising it. Repeat the movement for the prescribed amount of repetitions of your training program.  Caution: When you are done, do not drop the dumbbells next to you as this is dangerous to your rotator cuff in your shoulders and others working out around you. Just lift your legs from the floor bending at the knees, twist your wrists so that the palms of your hands are facing each other and place the dumbbells on top of your thighs. When both dumbbells are touching your thighs simultaneously push your upper torso up (while pressing the dumbbells on your thighs) and also perform a slight kick forward with your legs (keeping the dumbbells on top of the thighs). By doing this combined movement, momentum will help you get back to a sitting position with both dumbbells still on top of your thighs. At this moment you can place the dumbbells on the floor. Variations: Another variation of this exercise is to perform it with the palms of the hands facing each other. Also, you can perform the exercise with the palms facing each other and then twisting the wrist as you lift the dumbbells so that at the top of the movement the palms are facing away from the body. I personally do not use this variation very often as it seems to be hard on my shoulders."
     },
     {
       "id": "c2",
       "name": "Pushups",
-      "type": "stretching",
-      "main_group": "chest",
+      "type": "Stretching",
+      "main_group": "Chest",
       "Mechanics": "Compound",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
-      "equipment": "body Only",
+      "equipment": "Body Only",
       "video": "http://player.vimeo.com/external/160273558.sd.mp4?s=f7476b3ed07a466c4178f2c4262213e69c70de2d&profile_id=164&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/188.jpg",
         "https://www.jefit.com/images/exercises/1080_664/189.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "instructions": "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length. Next, lower yourself downward until your chest almost touches the floor as you inhale. Now breathe out and press your upper body back up to the starting position while squeezing your chest. After a brief pause at the top contracted position, you can begin to lower yourself downward again for as many repetitions as needed.  Variations: If you are new at this exercise and do not have the strength to perform it, you can either bend your legs at the knees to take off resistance or perform the exercise against the wall instead of the floor. For the most advanced lifters, you can place your feet at a high surface such as a bench in order to increase the resistance and to target the upper chest more."
     },
     {
       "id": "c3",
       "name": "Dumbbell Fly",
-      "type": "strength",
-      "main_group": "chest",
+      "type": "Strength",
+      "main_group": "Chest",
       "Mechanics": "Compound",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "http://player.vimeo.com/external/160273568.hd.mp4?s=af8267536c67af15b002909eac50d4d8aa332aa8&profile_id=113&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/164.jpg",
         "https://www.jefit.com/images/exercises/1080_664/165.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "instructions": "Lie down on a flat bench with a dumbbell on each hand resting on top of your thighs. The palms of your hand will be facing each other. Then using your thighs to help raise the dumbbells, lift the dumbbells one at a time so you can hold them in front of you at shoulder width with the palms of your hands facing each other. Raise the dumbbells up like you're pressing them, but stop and hold just before you lock out. This will be your starting position. With a slight bend on your elbows in order to prevent stress at the biceps tendon, lower your arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms should remain stationary; the movement should only occur at the shoulder joint. Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights. Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions.  Variations: You may want to use a palms facing forward version for different stimulation."
     },
     {
       "id": "c4",
       "name": "Incline dumbbell Bench Press",
-      "type": "stretching",
-      "main_group": "chest",
+      "type": "Stretching",
+      "main_group": "Chest",
       "Mechanics": "Compound",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "http://player.vimeo.com/external/160273517.hd.mp4?s=2b836cc3008f7aef9323ca41f9c88fe7b5e5de54&profile_id=113&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/124.jpg",
         "https://www.jefit.com/images/exercises/1080_664/125.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "instructions": "Lie back on an incline bench with a dumbbell in each hand atop your thighs. The palms of your hands will be facing each other. Then, using your thighs to help push the dumbbells up, lift the dumbbells one at a time so that you can hold them at shoulder width. Once you have the dumbbells raised to shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. This will be your starting position. Be sure to keep full control of the dumbbells at all times. Then breathe out and push the dumbbells up with your chest. Lock your arms at the top, hold for a second, and then start slowly lowering the weight. Tip Ideally, lowering the weights should take about twice as long as raising them. Repeat the movement for the prescribed amount of repetitions. When you are done, place the dumbbells back on your thighs and then on the floor. This is the safest manner to release the dumbbells.  Variations: You can use several angles on the incline bench if the bench you are using is adjustable. Another variation of this exercise is to perform it with the palms of the hands facing each other. Also, you can perform the exercise with the palms facing each other and then twisting the wrist as you lift the dumbbells so that at the top of the movement the palms are facing away from the body. I personally do not use this variation very often as it seems to be hard on my shoulders."
     },
     {
       "id": "c5",
       "name": "Cable Lower Chest Raise",
-      "type": "strength",
-      "main_group": "chest",
+      "type": "Strength",
+      "main_group": "Chest",
       "Mechanics": "Compound",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
@@ -540,301 +591,1944 @@
         "https://www.jefit.com/images/exercises/1080_664/4236.jpg",
         "https://www.jefit.com/images/exercises/1080_664/4237.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "instructions": "To move into the starting position, place the pulleys at the low position, select the resistance to be used and grasp a handle in each hand. Step forward, gaining tension in the pulleys. Your palms should be facing forward, hands below the waist, and your arms straight. This will be your starting position. With a slight bend in your arms, draw your hands upward and toward the midline of your body. Your hands should come together in front of your chest, palms facing up. Return your arms back to the starting position after a brief pause."
     },
     {
       "id": "c6",
       "name": "Barbell Bench Press - Medium Grip",
-      "type": "strength",
-      "main_group": "chest",
+      "type": "Strength",
+      "main_group": "Chest",
       "Mechanics": "Compound",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
-      "equipment": "barbell",
+      "equipment": "Barbell",
       "video": "http://player.vimeo.com/external/160273318.hd.mp4?s=3e7adc31c89a4644e9bf80762e88ccefa2706e91&profile_id=119&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/8.jpg",
         "https://www.jefit.com/images/exercises/1080_664/9.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "instructions": "Lie back on a flat bench. Using a medium width grip (a grip that creates a 90-degree angle in the middle of the movement between the forearms and the upper arms), lift the bar from the rack and hold it straight over you with your arms locked. This will be your starting position. From the starting position, breathe in and begin coming down slowly until the bar touches your middle chest. After a brief pause, push the bar back to the starting position as you breathe out. Focus on pushing the bar using your chest muscles. Lock your arms and squeeze your chest in the contracted position at the top of the motion, hold for a second and then start coming down slowly again. Tip: Ideally, lowering the weight should take about twice as long as raising it. Repeat the movement for the prescribed amount of repetitions. When you are done, place the bar back in the rack.  Caution: If you are new at this exercise, it is advised that you use a spotter. If no spotter is available, then be conservative with the amount of weight used. Also, beware of letting the bar drift too far forward. You want the bar to touch your middle chest and nowhere else. Don't bounce the weight off your chest. You should be in full control of the barbell at all times."
     },
     {
       "id": "c7",
       "name": "Decline Dumbbell Fly",
-      "type": "strength",
-      "main_group": "chest",
+      "type": "Strength",
+      "main_group": "Chest",
       "Mechanics": "Compound",
       "detailed_group": "Shoulders , Triceps",
       "other_group": "Strength",
-      "equipment": "dumbbell",
+      "equipment": "Dumbbell",
       "video": "http://player.vimeo.com/external/160273547.sd.mp4?s=29407de360bd761400825f54482f8b8c536add2f&profile_id=164&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/160.jpg",
         "https://www.jefit.com/images/exercises/1080_664/161.jpg"
       ],
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b3.jpg",
       "instructions": "Secure your legs at the end of the decline bench and lie down with a dumbbell on each hand on top of your thighs. The palms of your hand will be facing each other. Once you are laying down, move the dumbbells in front of you at shoulder width. The palms of the hands should be facing each other and the arms should be perpendicular to the floor and fully extended. This will be your starting position. With a slight bend on your elbows in order to prevent stress at the biceps tendon, lower your arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms should remain stationary; the movement should only occur at the shoulder joint. Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights. Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions.  Variation: You may want to use a palms facing forward version for different stimulation."
     }
   ],
   "glutes": [
     {
+      "id": 6,
+      "name": "Barbell Lateral Lunge",
+      "main_group": "Glutes",
+      "detailed_group": "Upper Legs",
+      "other_group": "Strength",
+      "type": "Strength",
+      "mechanics": "Compound",
+      "equipment": "Barbell",
+      "difficulty": "Intermediate",
+      "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
+      "image_urls": [
+        "https://www.jefit.com/images/exercises/1080_664/2996.jpg",
+        "https://www.jefit.com/images/exercises/1080_664/2997.jpg"
+      ]
+    },
+    {
       "id": "g1",
       "name": "Kneeling Squat",
-      "type": "powerlifting",
-      "main_group": "glutes",
+      "type": "Powerlifting",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "barbell",
+      "equipment": "Barbell",
       "video": "http://player.vimeo.com/external/160281072.hd.mp4?s=4dfe5156a6b7bc90b4f1176a7b31041a32ec55c1&profile_id=113&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1564.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1565.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "Set the bar to the proper height in a power rack. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
     },
     {
       "id": "g2",
       "name": "Glute Kickback",
-      "type": "strength",
-      "main_group": "glutes",
+      "type": "Strength",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "body Only",
-      "video": "",
+      "equipment": "Body Only",
+      "video": "zzzz",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1548.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1549.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "Kneel on the floor or an exercise mat and bend at the waist with your arms extended in front of you (perpendicular to the torso) in order to get into a kneeling push-up position but with the arms spaced at shoulder width. Your head should be looking forward and the bend of the knees should create a 90-degree angle between the hamstrings and the calves. This will be your starting position. As you exhale, lift up your right leg until the hamstrings are in line with the back while maintaining the 90-degree angle bend. Contract the glutes throughout this movement and hold the contraction at the top for a second. Tip: At the end of the movement the upper leg should be parallel to the floor while the calf should be perpendicular to it. Go back to the initial position as you inhale and now repeat with the left leg. Continue to alternate legs until all of the recommended repetitions have been performed.  Variations: For this exercise you can also perform all of the repetitions with one leg first and then the other one. Additionally, you can also add ankle weights."
     },
     {
       "id": "g3",
       "name": "Kneeling Jump Squat",
-      "type": "olympic_weightlifting",
-      "main_group": "glutes",
+      "type": "Olympic WeightLifting",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "barbell",
-      "video": "",
+      "equipment": "Barbell",
+      "video": "yyyyy",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1560.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1561.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "Begin kneeling on the floor with a barbell racked across the back of your shoulders, or you can use your body weight for this exercise. This can be done inside of a power rack to make unracking easier. Sit back with your hips until your glutes touch your feet, keeping your head and chest up. Explode up with your hips, generating enough power to land with your feet flat on the floor. Continue with the squat by driving through your heels and extending the knees to come to a standing position."
     },
     {
       "id": "g4",
       "name": "Pull Through",
-      "type": "strength",
-      "main_group": "glutes",
+      "type": "Strength",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
       "equipment": "cable",
-      "video": "",
+      "video": "xxxxx",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1572.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1573.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "Begin standing a few feet in front of a low pulley with a rope or handle attached. Face away from the machine, straddling the cable, with your feet set wide apart. Begin the movement by reaching through your legs as far as possible, bending at the hips. Keep your knees slightly bent. Keeping your arms straight, extend through the hip to stand straight up. Avoid pulling upward through the shoulders; all of the motion should originate through the hips."
     },
     {
       "id": "g5",
       "name": "Standing hip extension",
-      "type": "strength",
-      "main_group": "glutes",
+      "type": "Strength",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "body Only",
-      "video": "",
+      "equipment": "Body Only",
+      "video": "xxxxx",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2984.jpg",
         "https://www.jefit.com/images/exercises/1080_664/2985.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "While standing up straight with both feet next to each other at around shoulder width, grab a sturdy surface such as the sides of a squat rack or the top of a chair to brace yourself and keep balance. With or without an ankle weight, lift one leg behind you as if performing a leg curl but standing up while keeping the other leg straight. Breathe out as you perform this movement. Slowly bring the raised leg back to the floor as you breathe in. Repeat for the recommended amount of repetitions. Repeat the movement with the opposite leg.  Variations: You can perform the same movement with a low pulley attached to your ankle using an ankle attachment. Optionally, you can use exercise cables as well."
     },
     {
       "id": "g6",
       "name": "Barbell glute bridge",
-      "type": "powerlifting",
-      "main_group": "glutes",
+      "type": "Powerlifting",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "barbell",
-      "video": "",
+      "equipment": "Barbell",
+      "video": "dsdsd",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1540.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1541.jpg"
       ],
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "Begin seated on the ground with a loaded barbell over your legs. Using a fat bar or having a pad on the bar can greatly reduce the discomfort caused by this exercise. Roll the bar so that it is directly above your hips, and lay down flat on the floor. Begin the movement by driving through with your heels, extending your hips vertically through the bar. Your weight should be supported by your upper back and the heels of your feet. Extend as far as possible, then reverse the motion to return to the starting position."
     },
     {
       "id": "g7",
       "name": "Barbell Hip Thrust",
-      "type": "powerlifting",
-      "main_group": "glutes",
+      "type": "Powerlifting",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "barbell",
-      "video": "",
+      "equipment": "Barbell",
+      "video": "http://player.vimeo.com/external/160281067.sd.mp4?s=8a9f3d7105348aac826f162c0c4c74c12d3e7f8d&profile_id=165&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/1544.jpg",
         "https://www.jefit.com/images/exercises/1080_664/1545.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "Begin seated on the ground with a bench directly behind you. Have a loaded barbell over your legs. Using a fat bar or having a pad on the bar can greatly reduce the discomfort caused by this exercise. Roll the bar so that it is directly above your hips, and lean back against the bench so that your shoulder blades are near the top of it. Begin the movement by driving through your feet, extending your hips vertically through the bar. Your weight should be supported by your shoulder blades and your feet. Extend as far as possible, then reverse the motion to return to the starting position."
     },
     {
       "id": "g8",
       "name": "Reverse Hyper on Flat Bench",
-      "type": "powerlifting",
-      "main_group": "glutes",
+      "type": "Powerlifting",
+      "main_group": "Glutes",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "barbell",
+      "equipment": "Barbell",
       "video": "http://player.vimeo.com/external/160305025.sd.mp4?s=7e047b3b95eb44136b0a6e5cf80478bb9a78d610&profile_id=165&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2932.jpg",
         "https://www.jefit.com/images/exercises/1080_664/2933.jpg"
       ],
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b5.jpg",
       "instructions": "Set the bar to the proper height in a power rack. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
     }
   ],
   "abs": [
     {
+      "id": 2,
+      "name": "Decline Crunch",
+      "main_group": "Abs",
+      "detailed_group": "Lower Abs",
+      "other_group": "Strength",
+      "type": "Strength",
+      "mechanics": "Isolation",
+      "equipment": "Machine strength",
+      "difficulty": "Intermediate",
+      "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
+      "image_urls": [
+        "https://www.jefit.com/images/exercises/1080_664/312.jpg",
+        "https://www.jefit.com/images/exercises/1080_664/313.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Exercise Band Sit-Up",
+      "main_group": "Abs",
+      "detailed_group": "Lower Abs",
+      "other_group": "Strength",
+      "type": "Strength",
+      "mechanics": "Isolation",
+      "equipment": "Bench",
+      "difficulty": "Intermediate",
+      "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
+      "image_urls": [
+        "https://www.jefit.com/images/exercises/1080_664/1388.jpg",
+        "https://www.jefit.com/images/exercises/1080_664/1389.jpg"
+      ]
+    },
+    {
       "id": "a1",
       "name": "Ab Draw Leg Slide",
-      "type": "strength",
-      "main_group": "abs",
+      "type": "Strength",
+      "main_group": "Abs",
       "detailed_group": "Upper Legs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "body Only",
+      "equipment": "Body Only",
       "video": "http://player.vimeo.com/external/160297513.hd.mp4?s=adb1dc35f3f1e336eeecd5a1380869c7edefae0e&profile_id=113&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2680.jpg",
         "https://www.jefit.com/images/exercises/1080_664/2681.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "instructions": " Start by laying on your back with your knees bent at 90-degrees keeping your arms at your sides, palms up. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
     },
     {
       "id": "a2",
       "name": "Ab Roll",
-      "type": "strength",
-      "main_group": "abs",
+      "type": "Strength",
+      "main_group": "Abs",
       "detailed_group": "Abs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "body Only",
+      "equipment": "Body Only",
       "video": "http://player.vimeo.com/external/160297530.hd.mp4?s=0098f0397cf824424b6060b2ecfe5b7985a397cb&profile_id=119&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2692.jpg",
         "https://www.jefit.com/images/exercises/1080_664/2693.jpg"
       ],
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "instructions": " Start by laying on your back with your knees bent at 90-degrees keeping your arms at your sides, palms up. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
     },
     {
       "id": "a3",
       "name": "Alternating Reverse Hyper on Flat Bench",
-      "type": "strength",
-      "main_group": "abs",
+      "type": "Strength",
+      "main_group": "Abs",
       "detailed_group": "Abs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "bench",
+      "equipment": "Bench",
       "video": "http://player.vimeo.com/external/160304993.hd.mp4?s=144b2ab30e55280a8ac75552e5bc4afc4faf313f&profile_id=113&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/2936.jpg",
         "https://www.jefit.com/images/exercises/1080_664/2637.jpg"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "Intermediate",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "instructions": " Start by laying on your back with your knees bent at 90-degrees keeping your arms at your sides, palms up. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
     },
     {
       "id": "a4",
       "name": "Barbell Press Sit-Up",
-      "type": "strength",
-      "main_group": "abs",
+      "type": "Strength",
+      "main_group": "Abs",
       "detailed_group": "Abs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "barbell",
+      "equipment": "Barbell",
       "video": "http://player.vimeo.com/external/160273590.sd.mp4?s=68174c97dd8e5dd9d93ad0e4a9b9d8ecbc4fef7b&profile_id=164&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/268.jpg",
         "https://www.jefit.com/images/exercises/1080_664/269.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "instructions": " Start by laying on your back with your knees bent at 90-degrees keeping your arms at your sides, palms up. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
     },
     {
       "id": "a5",
       "name": "Bench Leg Pull-In",
-      "type": "strength",
-      "main_group": "abs",
+      "type": "Strength",
+      "main_group": "Abs",
       "detailed_group": "Abs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "bench",
+      "equipment": "Bench",
       "video": "http://player.vimeo.com/external/160273594.sd.mp4?s=4b890a6926b8b446043230ebea32e16e9b529727&profile_id=164&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/272.jpg",
         "https://www.jefit.com/images/exercises/1080_664/273.jpg"
       ],
-      "difficulty": "expert",
+      "difficulty": "Expert",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "instructions": " Start by laying on your back with your knees bent at 90-degrees keeping your arms at your sides, palms up. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
     },
     {
       "id": "a6",
       "name": "Bench Oblique Crunch",
-      "type": "strength",
-      "main_group": "abs",
+      "type": "Strength",
+      "main_group": "Abs",
       "detailed_group": "Abs",
       "other_group": "Strength",
       "Mechanics": "Compound",
-      "equipment": "bench",
+      "equipment": "Bench",
       "video": "http://player.vimeo.com/external/160305176.sd.mp4?s=87f261483e6e7590346c6d9aad85269cb4b720b1&profile_id=164&oauth2_token_id=435967617",
       "image_urls": [
         "https://www.jefit.com/images/exercises/1080_664/3164.jpg",
         "https://www.jefit.com/images/exercises/1080_664/3165.jpg"
       ],
-      "difficulty": "beginner",
+      "difficulty": "Beginner",
       "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
       "instructions": " Start by laying on your back with your knees bent at 90-degrees keeping your arms at your sides, palms up. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight. With your head looking forward, sit back with your butt until you touch your calves. Reverse the motion, returning the torso to an upright position."
+    },
+    {
+      "id": 17,
+      "name": "Plank with Side Kick",
+      "main_group": "Abs",
+      "detailed_group": "Back , Glutes",
+      "other_group": "Strength",
+      "type": "Strength",
+      "mechanics": "Compound",
+      "equipment": "Body Only",
+      "difficulty": "Intermediate",
+      "muscle_image": "https://www.jefit.com/images/exercises/b0.jpg",
+      "image_urls": [
+        "https://www.jefit.com/images/exercises/1080_664/2512.jpg",
+        "https://www.jefit.com/images/exercises/1080_664/2513.jpg"
+      ]
+    }
+  ],
+  "routinesSlide": [
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0001.gif",
+      "id": "0001",
+      "name": "3/4 sit-up",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0002.gif",
+      "id": "0002",
+      "name": "45° side bend",
+      "target": "abs",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0003.gif",
+      "id": "0003",
+      "name": "air bike",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1512.gif",
+      "id": "1512",
+      "name": "all fours squad stretch",
+      "target": "quads",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0006.gif",
+      "id": "0006",
+      "name": "alternate heel touchers",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1512.gif",
+      "id": "1512",
+      "name": "all fours squad stretch",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "cable",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0007.gif",
+      "id": "0007",
+      "name": "alternate lateral pulldown",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1368.gif",
+      "id": "1368",
+      "name": "ankle circles",
+      "target": "calves",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3293.gif",
+      "id": "3293",
+      "name": "archer pull up",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3294.gif",
+      "id": "3294",
+      "name": "archer push up",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2355.gif",
+      "id": "2355",
+      "name": "arm slingers hanging bent knee legs",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2333.gif",
+      "id": "2333",
+      "name": "arm slingers hanging straight legs",
+      "target": "abs",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3214.gif",
+      "id": "3214",
+      "name": "arms apart circular toe touch (male)",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3204.gif",
+      "id": "3204",
+      "name": "arms overhead full sit-up (male)",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
+      "id": "0009",
+      "name": "assisted chest dip (kneeling)",
+      "target": "pectorals",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0011.gif",
+      "id": "0011",
+      "name": "assisted hanging knee raise",
+      "target": "abs",
+      "proUser": true
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1708.gif",
+      "id": "1708",
+      "name": "assisted lying calves stretch",
+      "target": "calves",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1709.gif",
+      "id": "1709",
+      "name": "assisted lying glutes stretch",
+      "target": "glutes",
+      "proUser": false
+    }
+  ],
+  "exercise": [
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0001.gif",
+      "id": "0001",
+      "name": "3/4 sit-up",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0002.gif",
+      "id": "0002",
+      "name": "45° side bend",
+      "target": "abs",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0003.gif",
+      "id": "0003",
+      "name": "air bike",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1512.gif",
+      "id": "1512",
+      "name": "all fours squad stretch",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0006.gif",
+      "id": "0006",
+      "name": "alternate heel touchers",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "cable",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0007.gif",
+      "id": "0007",
+      "name": "alternate lateral pulldown",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1368.gif",
+      "id": "1368",
+      "name": "ankle circles",
+      "target": "calves",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3293.gif",
+      "id": "3293",
+      "name": "archer pull up",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3294.gif",
+      "id": "3294",
+      "name": "archer push up",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2355.gif",
+      "id": "2355",
+      "name": "arm slingers hanging bent knee legs",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2333.gif",
+      "id": "2333",
+      "name": "arm slingers hanging straight legs",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3214.gif",
+      "id": "3214",
+      "name": "arms apart circular toe touch (male)",
+      "target": "glutes",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3204.gif",
+      "id": "3204",
+      "name": "arms overhead full sit-up (male)",
+      "target": "abs",
+      "proUser": true
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
+      "id": "0009",
+      "name": "assisted chest dip (kneeling)",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0011.gif",
+      "id": "0011",
+      "name": "assisted hanging knee raise",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0010.gif",
+      "id": "0010",
+      "name": "assisted hanging knee raise with throw down",
+      "target": "abs",
+      "proUser": true
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1708.gif",
+      "id": "1708",
+      "name": "assisted lying calves stretch",
+      "target": "calves",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1709.gif",
+      "id": "1709",
+      "name": "assisted lying glutes stretch",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1710.gif",
+      "id": "1710",
+      "name": "assisted lying gluteus and piriformis stretch",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0012.gif",
+      "id": "0012",
+      "name": "assisted lying leg raise with lateral throw down",
+      "target": "abs",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0013.gif",
+      "id": "0013",
+      "name": "assisted lying leg raise with throw down",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "medicine ball",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0014.gif",
+      "id": "0014",
+      "name": "assisted motion russian twist",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0015.gif",
+      "id": "0015",
+      "name": "assisted parallel close grip pull-up",
+      "target": "lats",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0016.gif",
+      "id": "0016",
+      "name": "assisted prone hamstring",
+      "target": "hamstrings",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1713.gif",
+      "id": "1713",
+      "name": "assisted prone lying quads stretch",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1714.gif",
+      "id": "1714",
+      "name": "assisted prone rectus femoris stretch",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0017.gif",
+      "id": "0017",
+      "name": "assisted pull-up",
+      "target": "lats",
+      "proUser": true
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1716.gif",
+      "id": "1716",
+      "name": "assisted seated pectoralis major stretch with stability ball",
+      "target": "pectorals",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1712.gif",
+      "id": "1712",
+      "name": "assisted side lying adductor stretch",
+      "target": "adductors",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1758.gif",
+      "id": "1758",
+      "name": "assisted sit-up",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1431.gif",
+      "id": "1431",
+      "name": "assisted standing chin-up",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1432.gif",
+      "id": "1432",
+      "name": "assisted standing pull-up",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "assisted",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0018.gif",
+      "id": "0018",
+      "name": "assisted standing triceps extension (with towel)",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0019.gif",
+      "id": "0019",
+      "name": "assisted triceps dip (kneeling)",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "leverage machine",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2364.gif",
+      "id": "2364",
+      "name": "assisted wide-grip chest dip (kneeling)",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "cardio",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3220.gif",
+      "id": "3220",
+      "name": "astride jumps (male)",
+      "target": "cardiovascular system",
+      "proUser": false
+    },
+    {
+      "bodyPart": "cardio",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3672.gif",
+      "id": "3672",
+      "name": "back and forth step",
+      "target": "cardiovascular system",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "stability ball",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1314.gif",
+      "id": "1314",
+      "name": "back extension on exercise ball",
+      "target": "spine",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3297.gif",
+      "id": "3297",
+      "name": "back lever",
+      "target": "upper back",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1405.gif",
+      "id": "1405",
+      "name": "back pec stretch",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1473.gif",
+      "id": "1473",
+      "name": "backward jump",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0020.gif",
+      "id": "0020",
+      "name": "balance board",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
+      "id": "0968",
+      "name": "band alternating biceps curl",
+      "target": "biceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0969.gif",
+      "id": "0969",
+      "name": "band alternating v-up",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0970.gif",
+      "id": "0970",
+      "name": "band assisted pull-up",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0971.gif",
+      "id": "0971",
+      "name": "band assisted wheel rollerout",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1254.gif",
+      "id": "1254",
+      "name": "band bench press",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0980.gif",
+      "id": "0980",
+      "name": "band bent-over hip extension",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0972.gif",
+      "id": "0972",
+      "name": "band bicycle crunch",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0974.gif",
+      "id": "0974",
+      "name": "band close-grip pulldown",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0975.gif",
+      "id": "0975",
+      "name": "band close-grip push-up",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0976.gif",
+      "id": "0976",
+      "name": "band concentration curl",
+      "target": "biceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3117.gif",
+      "id": "3117",
+      "name": "band fixed back close grip pulldown",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3116.gif",
+      "id": "3116",
+      "name": "band fixed back underhand pulldown",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0977.gif",
+      "id": "0977",
+      "name": "band front lateral raise",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0978.gif",
+      "id": "0978",
+      "name": "band front raise",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1408.gif",
+      "id": "1408",
+      "name": "band hip lift",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0979.gif",
+      "id": "0979",
+      "name": "band horizontal pallof press",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0981.gif",
+      "id": "0981",
+      "name": "band jack knife sit-up",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0983.gif",
+      "id": "0983",
+      "name": "band kneeling one arm pulldown",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0985.gif",
+      "id": "0985",
+      "name": "band kneeling twisting crunch",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0984.gif",
+      "id": "0984",
+      "name": "band lying hip internal rotation",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1002.gif",
+      "id": "1002",
+      "name": "band lying straight leg raise",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0986.gif",
+      "id": "0986",
+      "name": "band one arm overhead biceps curl",
+      "target": "biceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0987.gif",
+      "id": "0987",
+      "name": "band one arm single leg split squat",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0988.gif",
+      "id": "0988",
+      "name": "band one arm standing low row",
+      "target": "upper back",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0989.gif",
+      "id": "0989",
+      "name": "band one arm twisting chest press",
+      "target": "pectorals",
+      "proUser": true
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0990.gif",
+      "id": "0990",
+      "name": "band one arm twisting seated row",
+      "target": "upper back",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0991.gif",
+      "id": "0991",
+      "name": "band pull through",
+      "target": "glutes",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0992.gif",
+      "id": "0992",
+      "name": "band push sit-up",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0993.gif",
+      "id": "0993",
+      "name": "band reverse fly",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower arms",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0994.gif",
+      "id": "0994",
+      "name": "band reverse wrist curl",
+      "target": "forearms",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0996.gif",
+      "id": "0996",
+      "name": "band seated hip internal rotation",
+      "target": "glutes",
+      "proUser": true
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1011.gif",
+      "id": "1011",
+      "name": "band seated twist",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0997.gif",
+      "id": "0997",
+      "name": "band shoulder press",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1018.gif",
+      "id": "1018",
+      "name": "band shrug",
+      "target": "traps",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0998.gif",
+      "id": "0998",
+      "name": "band side triceps extension",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0999.gif",
+      "id": "0999",
+      "name": "band single leg calf raise",
+      "target": "calves",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1000.gif",
+      "id": "1000",
+      "name": "band single leg reverse calf raise",
+      "target": "calves",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1001.gif",
+      "id": "1001",
+      "name": "band single leg split squat",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1004.gif",
+      "id": "1004",
+      "name": "band squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1003.gif",
+      "id": "1003",
+      "name": "band squat row",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1005.gif",
+      "id": "1005",
+      "name": "band standing crunch",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1022.gif",
+      "id": "1022",
+      "name": "band standing rear delt row",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1007.gif",
+      "id": "1007",
+      "name": "band standing twisting crunch",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1008.gif",
+      "id": "1008",
+      "name": "band step-up",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1009.gif",
+      "id": "1009",
+      "name": "band stiff leg deadlift",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1023.gif",
+      "id": "1023",
+      "name": "band straight back stiff leg deadlift",
+      "target": "glutes",
+      "proUser": true
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1010.gif",
+      "id": "1010",
+      "name": "band straight leg deadlift",
+      "target": "spine",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1012.gif",
+      "id": "1012",
+      "name": "band twisting overhead press",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1369.gif",
+      "id": "1369",
+      "name": "band two legs calf raise - (band under both legs) v. 2",
+      "target": "calves",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1013.gif",
+      "id": "1013",
+      "name": "band underhand pulldown",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1014.gif",
+      "id": "1014",
+      "name": "band v-up",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "waist",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1015.gif",
+      "id": "1015",
+      "name": "band vertical pallof press",
+      "target": "abs",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower arms",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1016.gif",
+      "id": "1016",
+      "name": "band wrist curl",
+      "target": "forearms",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "band",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1017.gif",
+      "id": "1017",
+      "name": "band y-raise",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0023.gif",
+      "id": "0023",
+      "name": "barbell alternate biceps curl",
+      "target": "biceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0024.gif",
+      "id": "0024",
+      "name": "barbell bench front squat",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0025.gif",
+      "id": "0025",
+      "name": "barbell bench press",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0026.gif",
+      "id": "0026",
+      "name": "barbell bench squat",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1316.gif",
+      "id": "1316",
+      "name": "barbell bent arm pullover",
+      "target": "lats",
+      "proUser": true
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0027.gif",
+      "id": "0027",
+      "name": "barbell bent over row",
+      "target": "upper back",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2407.gif",
+      "id": "2407",
+      "name": "barbell biceps curl (with arm blaster)",
+      "target": "biceps",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0028.gif",
+      "id": "0028",
+      "name": "barbell clean and press",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0029.gif",
+      "id": "0029",
+      "name": "barbell clean-grip front squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0030.gif",
+      "id": "0030",
+      "name": "barbell close-grip bench press",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0031.gif",
+      "id": "0031",
+      "name": "barbell curl",
+      "target": "biceps",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0032.gif",
+      "id": "0032",
+      "name": "barbell deadlift",
+      "target": "glutes",
+      "proUser": true
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0033.gif",
+      "id": "0033",
+      "name": "barbell decline bench press",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0034.gif",
+      "id": "0034",
+      "name": "barbell decline bent arm pullover",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0035.gif",
+      "id": "0035",
+      "name": "barbell decline close grip to skull press",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1255.gif",
+      "id": "1255",
+      "name": "barbell decline pullover",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0036.gif",
+      "id": "0036",
+      "name": "barbell decline wide-grip press",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0037.gif",
+      "id": "0037",
+      "name": "barbell decline wide-grip pullover",
+      "target": "lats",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0038.gif",
+      "id": "0038",
+      "name": "barbell drag curl",
+      "target": "biceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1370.gif",
+      "id": "1370",
+      "name": "barbell floor calf raise",
+      "target": "calves",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0039.gif",
+      "id": "0039",
+      "name": "barbell front chest squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0041.gif",
+      "id": "0041",
+      "name": "barbell front raise",
+      "target": "delts",
+      "proUser": true
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0040.gif",
+      "id": "0040",
+      "name": "barbell front raise and pullover",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0042.gif",
+      "id": "0042",
+      "name": "barbell front squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0043.gif",
+      "id": "0043",
+      "name": "barbell full squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1461.gif",
+      "id": "1461",
+      "name": "barbell full squat (back pov)",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1462.gif",
+      "id": "1462",
+      "name": "barbell full squat (side pov)",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1545.gif",
+      "id": "1545",
+      "name": "barbell full zercher squat",
+      "target": "glutes",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1409.gif",
+      "id": "1409",
+      "name": "barbell glute bridge",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3562.gif",
+      "id": "3562",
+      "name": "barbell glute bridge two legs on bench (male)",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0044.gif",
+      "id": "0044",
+      "name": "barbell good morning",
+      "target": "hamstrings",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0045.gif",
+      "id": "0045",
+      "name": "barbell guillotine bench press",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0046.gif",
+      "id": "0046",
+      "name": "barbell hack squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1436.gif",
+      "id": "1436",
+      "name": "barbell high bar squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0047.gif",
+      "id": "0047",
+      "name": "barbell incline bench press",
+      "target": "pectorals",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1719.gif",
+      "id": "1719",
+      "name": "barbell incline close grip bench press",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0048.gif",
+      "id": "0048",
+      "name": "barbell incline reverse-grip press",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0049.gif",
+      "id": "0049",
+      "name": "barbell incline row",
+      "target": "upper back",
+      "proUser": false
+    },
+    {
+      "bodyPart": "chest",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0050.gif",
+      "id": "0050",
+      "name": "barbell incline shoulder raise",
+      "target": "serratus anterior",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0051.gif",
+      "id": "0051",
+      "name": "barbell jefferson squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0052.gif",
+      "id": "0052",
+      "name": "barbell jm bench press",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0053.gif",
+      "id": "0053",
+      "name": "barbell jump squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1410.gif",
+      "id": "1410",
+      "name": "barbell lateral lunge",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1435.gif",
+      "id": "1435",
+      "name": "barbell low bar squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0054.gif",
+      "id": "0054",
+      "name": "barbell lunge",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1720.gif",
+      "id": "1720",
+      "name": "barbell lying back of the head tricep extension",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0055.gif",
+      "id": "0055",
+      "name": "barbell lying close-grip press",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0056.gif",
+      "id": "0056",
+      "name": "barbell lying close-grip triceps extension",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0057.gif",
+      "id": "0057",
+      "name": "barbell lying extension",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0058.gif",
+      "id": "0058",
+      "name": "barbell lying lifting (on hip)",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0059.gif",
+      "id": "0059",
+      "name": "barbell lying preacher curl",
+      "target": "biceps",
+      "proUser": true
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0061.gif",
+      "id": "0061",
+      "name": "barbell lying triceps extension",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0060.gif",
+      "id": "0060",
+      "name": "barbell lying triceps extension skull crusher",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0063.gif",
+      "id": "0063",
+      "name": "barbell narrow stance squat",
+      "target": "glutes",
+      "proUser": false
+    },
+    {
+      "bodyPart": "back",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0064.gif",
+      "id": "0064",
+      "name": "barbell one arm bent over row",
+      "target": "upper back",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0065.gif",
+      "id": "0065",
+      "name": "barbell one arm floor press",
+      "target": "triceps",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0066.gif",
+      "id": "0066",
+      "name": "barbell one arm side deadlift",
+      "target": "glutes",
+      "proUser": true
+    },
+    {
+      "bodyPart": "shoulders",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0067.gif",
+      "id": "0067",
+      "name": "barbell one arm snatch",
+      "target": "delts",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0068.gif",
+      "id": "0068",
+      "name": "barbell one leg squat",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "upper legs",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0069.gif",
+      "id": "0069",
+      "name": "barbell overhead squat",
+      "target": "quads",
+      "proUser": false
+    },
+    {
+      "bodyPart": "lower arms",
+      "equipment": "barbell",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1411.gif",
+      "id": "1411",
+      "name": "barbell palms down wrist curl over a bench",
+      "target": "forearms",
+      "proUser": true
     }
   ],
   "adminData": {
@@ -843,7 +2537,5 @@
     "email": "admin@wefit.com",
     "password": "Admin@123"
   },
-  "userData": [
-      
-  ]
+  "userData": []
 }
