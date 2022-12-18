@@ -194,6 +194,7 @@ const UserTabs = () => {
                   <Text fontSize="2rem" color="gray">
                     {/* 22.5 */}
                     {BMI}
+                    </Text>
 
                   <Text fontSize="2rem" color="#257CFF">
                     22.5

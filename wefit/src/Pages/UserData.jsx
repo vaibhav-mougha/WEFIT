@@ -24,6 +24,7 @@ import { getProfile } from "../Redux/Profile/profile.actions";
 
 const UserData = () => {
   const { height, weight, name } = useSelector((store) => store.profile.data);
+  
   console.log("name: ", name);
   console.log("weight: ", weight);
   console.log("height: ", height);

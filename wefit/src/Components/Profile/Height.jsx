@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { addProfile } from "../../Redux/Profile/profile.actions";
+import { useNavigate } from "react-router-dom";
 
 const initState = {
   height: null,
@@ -24,6 +25,7 @@ const Height = () => {
   const [userCreds, setUserCreds] = useState(initState);
 
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const Name = useSelector((store) => store.login.user.userName);
   console.log("Name: ", Name);
   const toast = useToast();
@@ -64,6 +66,9 @@ const Height = () => {
         position: "top",
       });
       userCreds(initState);
+      setTimeout(() => {
+        navigate("/userdata");
+      }, 1200);
     }
   };
 

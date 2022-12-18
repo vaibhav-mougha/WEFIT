@@ -16,6 +16,7 @@ import UserData from "../Pages/UserData";
 import PrivateRoute from "../Pages/PrivateRoute";
 import RoutinesDetails from "../Pages/RoutinesDetails";
 import Admin from "../Pages/Admin";
+import Signup from "../Pages/Signup"
 
 const AllRoutes = () => {
   return (

@@ -117,9 +117,9 @@ const Navbar = () => {
                       Workout Plans <ChevronDownIcon />
                     </MenuButton>
                     <MenuList color="#257CFF" bg="white">
-                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                      <Link to="/routines"><MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
                         Pro-designed Plans
-                      </MenuItem>
+                      </MenuItem></Link>
                       <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
                         Create My Plan
                       </MenuItem>
@@ -327,7 +327,7 @@ const Navbar = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  <Link to="/">Pro-designed Plans</Link>
+                  <Link to="/routines">Pro-designed Plans</Link>
                 </AccordionPanel>
                 <AccordionPanel pb={4}>
                   <Link to="/"> Create My Plan</Link>
