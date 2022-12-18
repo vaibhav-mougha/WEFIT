@@ -12,6 +12,8 @@ import Coach from "../Pages/Coach";
 import Community from "../Pages/Community";
 import Elite from "../Pages/Elite";
 import SingleBlogPage from "../Pages/SingleBlogPage";
+import NewUser from "../Pages/NewUser";
+import UserData from "../Pages/UserData";
 
 const AllRoutes = () => {
   return (
@@ -29,6 +31,8 @@ const AllRoutes = () => {
         <Route path="/community" element={<Community />} />
         <Route path="/elite" element={<Elite />} />
         <Route path="/blog/:user_id" element={<SingleBlogPage />}></Route>
+        <Route path="/newuser" element={<NewUser />} />
+        <Route path="/userdata" element={<UserData />} />
       </Routes>
     </>
   );
