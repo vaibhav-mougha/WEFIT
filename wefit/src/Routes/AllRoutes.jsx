@@ -4,7 +4,7 @@ import ExerciseDetails from "../Pages/ExerciseDetails";
 import Excercise from "../Pages/Excercise";
 import ExcerciseFilter from "../Pages/ExcerciseFilter";
 import Home from "../Pages/Home";
-import Routines from "../Pages/routines/Routines";
+import Routines from "../Pages/Routines";
 import Login from "../Pages/Login";
 import SignUp from "../Pages/Signup";
 import Blog from "../Pages/Blog";
@@ -12,6 +12,7 @@ import Coach from "../Pages/Coach";
 import Community from "../Pages/Community";
 import Elite from "../Pages/Elite";
 import SingleBlogPage from "../Pages/SingleBlogPage";
+import RoutinesDetails from "../Pages/RoutinesDetails";
 
 const AllRoutes = () => {
   return (
