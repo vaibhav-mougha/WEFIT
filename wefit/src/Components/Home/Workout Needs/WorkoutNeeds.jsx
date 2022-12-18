@@ -86,7 +86,7 @@ const WorkoutNeeds = () => {
                 Flexible workout planning tool
               </Text>
 
-              <Link to="/">
+              <Link to="/signup">
                 <Button
                   mt={{ base: "1.5rem", md: "3rem", lg: "3rem" }}
                   fontSize={{ base: "0.7rem", md: "1rem", lg: "1.8rem" }}
@@ -174,7 +174,7 @@ const WorkoutNeeds = () => {
                 Audio and video instructions
               </Text>
 
-              <Link to="/">
+              <Link to="/signup">
                 <Button
                   mt={{ base: "1.5rem", md: "3rem", lg: "3rem" }}
                   fontSize={{ base: "0.7rem", md: "1rem", lg: "1.8rem" }}
@@ -272,7 +272,7 @@ const WorkoutNeeds = () => {
                 Set 1RM goals and refresh records
               </Text>
 
-              <Link to="/">
+              <Link to="/signup">
                 <Button
                   mt={{ base: "1.5rem", md: "3rem", lg: "3rem" }}
                   fontSize={{ base: "0.7rem", md: "1rem", lg: "1.8rem" }}
@@ -399,7 +399,7 @@ const WorkoutNeeds = () => {
             Workout Plan Builder. And easily share with friends.
           </Text>
 
-          <Link to="/">
+          <Link to="/routines">
             <Button
               mt={{ base: "1.5rem", md: "2rem", lg: "2rem" }}
               fontSize={{ base: "0.7rem", md: "1rem", lg: "1.8rem" }}
