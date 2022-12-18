@@ -39,7 +39,7 @@ const SignupForm = () => {
 
         <SignupMainFrom />
 
-        <LinkLoginSignup des={"Already a member?"} link={"Sign in"} />
+        <LinkLoginSignup des={"Already a member?"} link={"Sign in"} to={"/login"} />
 
         <Box w={"70%"} mt={"1rem"} align={"center"} fontSize={"0.9rem"}>
           <Text color={"#8A8377"}>

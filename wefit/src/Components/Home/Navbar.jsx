@@ -25,10 +25,26 @@ import {
 } from "@chakra-ui/react";
 import { ChevronDownIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { logoutFunc } from "../../Redux/Login/login.actions";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
+
+  const data = useSelector((store) => store.login);
+  const dispatch = useDispatch();
+
+  let userName = data.user.userName || "";
+  console.log("userName: ", userName);
+  let adminName = data.admin.adminName || "";
+
+  console.log("adminName: ", adminName);
+  console.log("data: ", data);
+
+  const handleSignout = () => {
+    dispatch(logoutFunc());
+  };
 
   return (
     <>
@@ -145,6 +161,62 @@ const Navbar = () => {
                   <Link to="/elite">Elite</Link>
                 </Box>
                 <Box>
+                  {userName ? (
+                    <Link
+                      to={"/profile"}
+                      style={{ fontWeight: "bold", color: "red" }}
+                    >
+                      {userName}
+                    </Link>
+                  ) : adminName ? (
+                    <Link style={{ fontWeight: "bold", color: "red" }}>
+                      {adminName}
+                    </Link>
+                  ) : (
+                    <Link to={"/login"}>Login</Link>
+                  )}
+                </Box>
+              </Flex>
+            </Box>
+            <Box w="12%" pt="0.5rem">
+              {userName || adminName ? (
+                <Link>
+                  <Button
+                    fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
+                    w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
+                    h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
+                    _hover={{
+                      background: "#184FA3",
+                      color: "white",
+                    }}
+                    bg="white"
+                    color="#257CFF"
+                    py={{ base: "0rem", md: "0.1rem", lg: "0.5rem" }}
+                    px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                    onClick={handleSignout}
+                  >
+                    Sign Out
+                  </Button>
+                </Link>
+              ) : (
+                <Link to={"/signup"}>
+                  <Button
+                    fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
+                    w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
+                    h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
+                    _hover={{
+                      background: "#184FA3",
+                      color: "white",
+                    }}
+                    bg="white"
+                    color="#257CFF"
+                    py={{ base: "0rem", md: "0.1rem", lg: "0.5rem" }}
+                    px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                  >
+                    Sign Up
+                  </Button>
+                </Link>
+              )}
                   <Link to="/login">Login</Link>
                 </Box>
               </Flex>
@@ -325,31 +397,60 @@ const Navbar = () => {
                 <h2>
                   <AccordionButton>
                     <Box as="span" flex="1" textAlign="left">
-                      <Link to="/"> Login</Link>
+                      {userName ? (
+                        <Link to={"/profile"}>{userName}</Link>
+                      ) : adminName ? (
+                        <Link>{adminName}</Link>
+                      ) : (
+                        <Link to="/login"> Login</Link>
+                      )}
                     </Box>
                   </AccordionButton>
                 </h2>
               </AccordionItem>
 
-              <Button
-                fontSize="1.5rem"
-                mt="3rem"
-                ml="6rem"
-                w="8rem"
-                h="2.9rem"
-                borderRadius="2rem"
-                _hover={{
-                  background: "white",
-                  color: "#39B7FF",
-                  border: "2px solid #39B7FF",
-                }}
-                bg="#257CFF"
-                color="white"
-                py={{ base: "0rem", md: "0.1rem", lg: "1.5rem" }}
-                px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
-              >
-                SignUp
-              </Button>
+              {userName || adminName ? <Link>
+                <Button
+                  fontSize="1.5rem"
+                  mt="3rem"
+                  ml="6rem"
+                  w="8rem"
+                  h="2.9rem"
+                  borderRadius="2rem"
+                  _hover={{
+                    background: "white",
+                    color: "#39B7FF",
+                    border: "2px solid #39B7FF",
+                  }}
+                  bg="#257CFF"
+                  color="white"
+                  py={{ base: "0rem", md: "0.1rem", lg: "1.5rem" }}
+                  px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                  onClick={handleSignout}
+                >
+                  Sign Out
+                </Button>
+              </Link> : <Link to={"/signup"}>
+                <Button
+                  fontSize="1.5rem"
+                  mt="3rem"
+                  ml="6rem"
+                  w="8rem"
+                  h="2.9rem"
+                  borderRadius="2rem"
+                  _hover={{
+                    background: "white",
+                    color: "#39B7FF",
+                    border: "2px solid #39B7FF",
+                  }}
+                  bg="#257CFF"
+                  color="white"
+                  py={{ base: "0rem", md: "0.1rem", lg: "1.5rem" }}
+                  px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                >
+                  Sign Up
+                </Button>
+              </Link>}
             </Accordion>
           </DrawerContent>
         </Drawer>

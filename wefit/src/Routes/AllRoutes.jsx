@@ -5,6 +5,8 @@ import Excercise from "../Pages/Excercise";
 import ExcerciseFilter from "../Pages/ExcerciseFilter";
 import Home from "../Pages/Home";
 import Routines from "../Pages/routines/Routines";
+import Signup from "../Pages/Signup";
+import Login from "../Pages/Login";
 import Login from "../Pages/Login";
 import SignUp from "../Pages/Signup";
 import Blog from "../Pages/Blog";
@@ -25,6 +27,9 @@ const AllRoutes = () => {
         <Route path="/routines" element={<Routines />} />
         <Route path="/exercise" element={<Excercise />} />
         <Route path="/exercise/filter" element={<ExcerciseFilter />} />
+        <Route path="/exercise/filter/:id" element={<ExcerciseDetails />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/exercise/filter/:id" element={<ExerciseDetails />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/coach" element={<Coach />} />
