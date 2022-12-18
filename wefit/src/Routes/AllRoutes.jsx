@@ -4,7 +4,7 @@ import ExerciseDetails from "../Pages/ExerciseDetails";
 import Excercise from "../Pages/Excercise";
 import ExcerciseFilter from "../Pages/ExcerciseFilter";
 import Home from "../Pages/Home";
-import Routines from "../Pages/routines/Routines";
+import Routines from "../Pages/Routines";
 import Signup from "../Pages/Signup";
 import Login from "../Pages/Login";
 import SignUp from "../Pages/Signup";

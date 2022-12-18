@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../../Components/Home/Navbar";
-import Footer from "../../Components/Home/Footer";
-import { Carousel, Filters, Heading } from "../../Components/Routines";
+import Navbar from "../Components/Home/Navbar";
+import Footer from "../Components/Home/Footer";
+import { Carousel, Filters, Heading } from "../Components/Routines";
 const Routines = () => {
   return (
     <>
