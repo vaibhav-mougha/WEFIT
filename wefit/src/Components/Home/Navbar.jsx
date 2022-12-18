@@ -120,9 +120,10 @@ const Navbar = () => {
                       <Link to="/routines"><MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
                         Pro-designed Plans
                       </MenuItem></Link>
+                      <Link to="/routines">
                       <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
                         Create My Plan
-                      </MenuItem>
+                      </MenuItem></Link>
                     </MenuList>
                   </Menu>
                 </Box>
@@ -330,7 +331,7 @@ const Navbar = () => {
                   <Link to="/routines">Pro-designed Plans</Link>
                 </AccordionPanel>
                 <AccordionPanel pb={4}>
-                  <Link to="/"> Create My Plan</Link>
+                  <Link to="/routines"> Create My Plan</Link>
                 </AccordionPanel>
               </AccordionItem>
 
