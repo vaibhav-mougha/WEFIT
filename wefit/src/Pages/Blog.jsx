@@ -9,7 +9,6 @@ import { Text } from "@chakra-ui/react";
 import Navbar from "../Components/Home/Navbar";
 import Footer from "../Components/Home/Footer";
 
-
 const getBlogData = async (currentPage) => {
   return await axios.get(
     `http://localhost:8080/Blog?_page=${currentPage}&_limit=10`
@@ -27,7 +26,7 @@ const Blog = () => {
       setTotalPage(res.headers.get("x-total-count"));
     });
   }, [currentPage]);
-
+  console.log(totalPage);
   const handlePageChange = (currentPage) => {
     setCurrentPage(currentPage);
   };
