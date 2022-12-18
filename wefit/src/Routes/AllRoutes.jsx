@@ -13,6 +13,7 @@ import Community from "../Pages/Community";
 import Elite from "../Pages/Elite";
 import SingleBlogPage from "../Pages/SingleBlogPage";
 import RoutinesDetails from "../Pages/RoutinesDetails";
+import Admin from "../Pages/Admin";
 
 const AllRoutes = () => {
   return (
@@ -31,6 +32,7 @@ const AllRoutes = () => {
         <Route path="/elite" element={<Elite />} />
         <Route path="/blog/:user_id" element={<SingleBlogPage />}></Route>
         <Route path="/routines/:id" element={<RoutinesDetails />}></Route>
+        <Route path="/admin" element={<Admin />}></Route>
       </Routes>
     </>
   );

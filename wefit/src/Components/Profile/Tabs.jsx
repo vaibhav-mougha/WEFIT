@@ -183,7 +183,7 @@ const UserTabs = () => {
                   <Text fontSize="0.9rem" color="gray">
                     BMI
                   </Text>
-                  <Text fontSize="2rem" color="gray">
+                  <Text fontSize="2rem" color="#257CFF">
                     22.5
                     {/* Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters. */}
                   </Text>
@@ -192,11 +192,12 @@ const UserTabs = () => {
               </Box>
 
               <Box pt="5rem" pl="1rem">
-                <CircularProgress value={10} size="14rem">
+                <CircularProgress value={21} size="14rem">
                   <CircularProgressLabel>
+                    <Text fontSize="2rem">Body Fat</Text>
                     <Text color="gray" fontSize="2rem">
                       {" "}
-                      10 %
+                      21 %
                     </Text>
                   </CircularProgressLabel>
                 </CircularProgress>

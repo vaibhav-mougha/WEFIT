@@ -235,7 +235,7 @@ const UserData = () => {
             </Box>
 
             {/* Right Grid */}
-            <Hide below="lg">
+            {/* <Hide below="lg">
               <Box
                 ml="2rem"
                 w="30%"
@@ -248,7 +248,7 @@ const UserData = () => {
                   and set the units of measurement used within the application.
                 </Text>
               </Box>
-            </Hide>
+            </Hide> */}
           </Box>
         </Box>
       </Box>

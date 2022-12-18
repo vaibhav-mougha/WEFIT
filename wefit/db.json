@@ -2557,10 +2557,6 @@
         "buttonBackGroundColor": "red"
     }
 ],
-
-
-
-
 "Blog": [
     {
         "id": 1,
@@ -4662,5 +4658,8 @@
       "password": "Shivam@123",
       "id": 5
     }
-  ]
+  ],
+  "userProfile": {
+    
+  }
 }
