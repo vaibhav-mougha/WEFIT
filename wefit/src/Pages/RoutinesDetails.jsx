@@ -14,7 +14,7 @@ const RoutinesDetails = () => {
         text={"Try one of these professionally designed workout plans"}
       />
       <TopComp />
-
+      {/* Footer */}
       <Footer />
     </div>
   );
