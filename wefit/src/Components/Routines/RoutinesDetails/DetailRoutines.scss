@@ -1,0 +1,33 @@
+.app__heros{
+    background-color: rgb(242, 242, 242);
+    width: 70%;
+    margin: 40px auto;
+    padding: 10px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+
+}
+.app__heros-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+.app__card-container{
+    p{
+        span{
+           font-size: 20px; 
+           color: #777;
+        }
+        font-size: 18px;
+        
+    }
+    
+}
+.related_routines-container{
+ 
+    width: 80%;
+    margin: 10px auto;
+
+}
