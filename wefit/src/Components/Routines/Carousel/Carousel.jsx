@@ -11,6 +11,7 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import { IoDiamond } from "react-icons/io5";
 import routinesSlide from "../db.json";
 import "./Carousel.scss";
+import { useNavigate } from "react-router-dom";
 const sliderSettings = {
   0: {
     slidesPerView: 1,
@@ -46,6 +47,14 @@ const sliderSettings = {
   },
 };
 const Carousel = () => {
+  const navigate = useNavigate();
+  const navigationHandler = (proUser, id) => {
+    if (proUser) {
+      navigate(`/elite`);
+    } else {
+      navigate(`/routines/${id}`);
+    }
+  };
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   return (
@@ -75,7 +84,11 @@ const Carousel = () => {
       >
         {routinesSlide.routinesSlide.map((el, i) => {
           return (
-            <SwiperSlide className="slideChild" key={i}>
+            <SwiperSlide
+              className="slideChild"
+              key={i}
+              onClick={() => navigationHandler(el.proUser, el.id)}
+            >
               <div className="app__slider-card">
                 <div className="app__pro-icon">
                   {el.proUser && <IoDiamond />}

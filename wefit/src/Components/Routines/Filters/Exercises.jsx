@@ -1,10 +1,25 @@
-import { Table, TableContainer, Tbody, Th, Thead, Tr } from "@chakra-ui/react";
+import {
+  Center,
+  Heading,
+  Table,
+  TableContainer,
+  Tbody,
+  Th,
+  Thead,
+  Tr,
+} from "@chakra-ui/react";
 import React from "react";
 import ExerciseRow from "./ExerciseRow";
 
-const Exercises = ({ data }) => {
+const Exercises = ({ data, loading }) => {
+  if (data.length === 0) {
+    return (
+      <Center>
+        <Heading my={40}>Data Not Found</Heading>
+      </Center>
+    );
+  }
   return (
-    // <div className="table_container">
     <TableContainer mt={"4"}>
       <Table
         size={["sm", "sm", "sm", "sm"]}
@@ -23,12 +38,11 @@ const Exercises = ({ data }) => {
         </Thead>
         <Tbody>
           {data?.map((plan) => (
-            <ExerciseRow key={plan.id} data={plan} />
+            <ExerciseRow key={plan.id} data={plan} loading={loading} />
           ))}
         </Tbody>
       </Table>
     </TableContainer>
-    // </div>
   );
 };
 
