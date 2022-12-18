@@ -23,9 +23,9 @@ const initState = {
 
 const Height = () => {
   const [userCreds, setUserCreds] = useState(initState);
+  const navigate = useNavigate();
 
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const Name = useSelector((store) => store.login.user.userName);
   console.log("Name: ", Name);
   const toast = useToast();
@@ -33,7 +33,6 @@ const Height = () => {
   const handleChange = (e) => {
     let { name, value, checked, type } = e.target;
     let val = type === "checkbox" ? checked : value;
-
     setUserCreds({ ...userCreds, [name]: val });
   };
 
@@ -50,6 +49,10 @@ const Height = () => {
         position: "top",
       });
     } else {
+      setTimeout(() => {
+        navigate("/userdata");
+      }, 1200);
+
       dispatch(
         addProfile({
           height: userCreds.height,
@@ -66,9 +69,6 @@ const Height = () => {
         position: "top",
       });
       userCreds(initState);
-      setTimeout(() => {
-        navigate("/userdata");
-      }, 1200);
     }
   };
 

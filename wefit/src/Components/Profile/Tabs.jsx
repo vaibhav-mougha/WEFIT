@@ -12,19 +12,28 @@ import {
   CircularProgress,
   CircularProgressLabel,
   Grid,
-  GridItem,
   Progress,
 } from "@chakra-ui/react";
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { getProfile } from "../../Redux/Profile/profile.actions";
 import TrainingStats from "./TrainingStats";
 
 const UserTabs = () => {
-  const { height, weight, name } = useSelector((store) => store.profile.data);
+  const profile = useSelector((store) => store.profile.data);
+  const dispatch = useDispatch();
+
+  let height = profile && profile.height;
+  let weight = profile && profile.weight;
+
   let h = Number(height);
   let w = Number(weight);
-  let formula = w /(h / 100) ** 2;
+  let formula = w / (h / 100) ** 2;
   let BMI = Number.parseFloat(formula).toFixed(2);
+
+  useEffect(() => {
+    dispatch(getProfile());
+  }, []);
 
   return (
     <Box>
@@ -190,15 +199,9 @@ const UserTabs = () => {
                   <Text fontSize="0.9rem" color="gray">
                     BMI
                   </Text>
-
                   <Text fontSize="2rem" color="gray">
                     {/* 22.5 */}
                     {BMI}
-                    </Text>
-
-                  <Text fontSize="2rem" color="#257CFF">
-                    22.5
-
                     {/* Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters. */}
                   </Text>
                   <hr />
@@ -206,12 +209,11 @@ const UserTabs = () => {
               </Box>
 
               <Box pt="5rem" pl="1rem">
-                <CircularProgress value={21} size="14rem">
+                <CircularProgress value={10} size="14rem">
                   <CircularProgressLabel>
-                    <Text fontSize="2rem">Body Fat</Text>
                     <Text color="gray" fontSize="2rem">
                       {" "}
-                      21 %
+                      10 %
                     </Text>
                   </CircularProgressLabel>
                 </CircularProgress>
