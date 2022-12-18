@@ -30,6 +30,7 @@ const AllRoutes = () => {
         <Route path="/community" element={<Community />} />
         <Route path="/elite" element={<Elite />} />
         <Route path="/blog/:user_id" element={<SingleBlogPage />}></Route>
+        <Route path="/routines/:id" element={<RoutinesDetails />}></Route>
       </Routes>
     </>
   );
