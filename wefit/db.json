@@ -64,7 +64,6 @@
         "https://www.jefit.com/images/exercises/1080_664/4557.jpg"
       ]
     },
-
     {
       "id": 5,
       "name": "Cable Standing Reverse Curl",
@@ -209,7 +208,6 @@
         "https://www.jefit.com/images/exercises/1080_664/4545.jpg"
       ]
     },
-
     {
       "id": 14,
       "name": "Dumbbell Alternating Arnold Press",
@@ -226,7 +224,6 @@
         "https://www.jefit.com/images/exercises/1080_664/4505.jpg"
       ]
     },
-
     {
       "id": 15,
       "name": "Barbell Curl",
@@ -2537,5 +2534,36 @@
     "email": "admin@wefit.com",
     "password": "Admin@123"
   },
-  "userData": []
+  "userData": [
+    {
+      "username": "Subha",
+      "email": "subha@gmail.com",
+      "password": "Subha@123",
+      "id": 1
+    },
+    {
+      "username": "Sonu",
+      "email": "sonu@gmail.com",
+      "password": "Sonu@123",
+      "id": 2
+    },
+    {
+      "username": "Vaibhav",
+      "email": "vaibhav@gmail.com",
+      "password": "Vaibhav@123",
+      "id": 3
+    },
+    {
+      "username": "Bikram",
+      "email": "bikram@gmail.com",
+      "password": "Bikram@123",
+      "id": 4
+    },
+    {
+      "username": "Shivam",
+      "email": "shivam@gmail.com",
+      "password": "Shivam@123",
+      "id": 5
+    }
+  ]
 }

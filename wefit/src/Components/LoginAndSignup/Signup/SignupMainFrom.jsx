@@ -14,7 +14,7 @@ import {
   Button,
   InputRightElement,
   InputGroup,
-  useToast
+  useToast,
 } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
 import { signup } from "../../../Redux/Signup/signup.actions";
@@ -41,6 +41,7 @@ const SignupMainFrom = () => {
 
   const handleSignup = () => {
     let { username, email, password, password2 } = signupData;
+    const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
 
     if (!username || !email || !password || !password2) {
       toast({
@@ -87,7 +88,16 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-    } else if (password !== password2) {
+    } else if (!specialChars.test(password)) {
+      toast({
+        title: "Sign Up Failed.",
+        description: "Password must have 1 special character (from standard US keyboard)",
+        status: "error",
+        duration: 900,
+        isClosable: true,
+        position: "top",
+      });
+    }else if (password !== password2) {
       toast({
         title: "Sign Up Failed.",
         description: "Password is not Matched",
@@ -97,7 +107,7 @@ const SignupMainFrom = () => {
         position: "top",
       });
     } else {
-      console.log("user");
+      // console.log("user");
       toast({
         title: "Account created",
         status: "success",
@@ -105,7 +115,14 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-      dispatch(signup(signupData));
+      dispatch(
+        signup({
+          username: signupData.username,
+          email: signupData.email,
+          password: signupData.password,
+        })
+      );
+      setSignupData({ username: "", email: "", password: "", password2: "" });
     }
   };
 
@@ -155,12 +172,12 @@ const SignupMainFrom = () => {
           <InputGroup size="md">
             <Input
               pr="4.5rem"
-              name="password1"
+              name="password"
               type={show ? "text" : "password"}
               placeholder="Enter password"
               bg={"white"}
               size={{ base: "sm", md: "md", lg: "lg" }}
-              value={signupData.password1}
+              value={signupData.password}
               onChange={handleChange}
             />
             <InputRightElement

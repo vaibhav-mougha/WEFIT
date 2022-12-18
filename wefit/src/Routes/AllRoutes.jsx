@@ -5,6 +5,8 @@ import Excercise from "../Pages/Excercise";
 import ExcerciseFilter from "../Pages/ExcerciseFilter";
 import Home from "../Pages/Home";
 import Routines from "../Pages/routines/Routines";
+import Signup from "../Pages/Signup";
+import Login from "../Pages/Login";
 
 const AllRoutes = () => {
   return (
@@ -15,6 +17,8 @@ const AllRoutes = () => {
         <Route path="/exercise" element={<Excercise />} />
         <Route path="/exercise/filter" element={<ExcerciseFilter />} />
         <Route path="/exercise/filter/:id" element={<ExcerciseDetails />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );
