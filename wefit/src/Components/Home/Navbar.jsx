@@ -67,7 +67,7 @@ const Navbar = () => {
               // border="1px solid white"
             >
               <Link to="/">
-                <Image src="Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
+                <Image src="/Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
               </Link>
             </Box>
             <Box w="65%">
@@ -245,7 +245,7 @@ const Navbar = () => {
               // border="1px solid white"
             >
               <Link to="/">
-                <Image src="Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
+                <Image src="/Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
               </Link>
             </Box>
 

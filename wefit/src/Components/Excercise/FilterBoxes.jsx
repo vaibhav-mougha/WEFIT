@@ -1,16 +1,14 @@
 import React from "react";
-import { Box, Button, Flex, Grid, Input } from "@chakra-ui/react";
+import { Box, Button, Checkbox, Flex, Grid, Input, Toast } from "@chakra-ui/react";
 import { NavLink, useSearchParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "../../Styles/Excercise.module.css";
+import { useToast } from "@chakra-ui/react";
 
 const FilterBoxes = ({ getData }) => {
+  const toast = useToast();
   const [searchParams, setSearchParams] = useSearchParams();
-  // const [click,setClick] = React.useState(true);
-  // const closeMenu = () => {
-  //     setClick(!click);
-  // }
-  const [type, settype] = useState(searchParams.getAll("type") || []);
+  const [type, setType] = useState(searchParams.getAll("type") || []);
   const [difficulty, setDifficulty] = useState(
     searchParams.getAll("difficulty") || []
   );
@@ -26,7 +24,13 @@ const FilterBoxes = ({ getData }) => {
     } else {
       newtypeOptions.push(option);
     }
-    settype(newtypeOptions);
+    setType(newtypeOptions);
+    toast({
+      title: "filter applied",
+      status: "success",
+      duration: 1000,
+      position:"top"
+    })
   };
 
   const handleDifficulty = (e) => {
@@ -38,6 +42,12 @@ const FilterBoxes = ({ getData }) => {
       newtypeOptions.push(option);
     }
     setDifficulty(newtypeOptions);
+    toast({
+      title: "filter applied",
+      status: "success",
+      duration: 1000,
+      position:"top"
+    })
   };
 
   const handleChangeEquipments = (e) => {
@@ -49,6 +59,12 @@ const FilterBoxes = ({ getData }) => {
       newtypeOptions.push(option);
     }
     setEquipment(newtypeOptions);
+    toast({
+      title: "filter applied",
+      status: "success",
+      duration: 1000,
+      position:"top"
+    })
   };
 
   useEffect(() => {
@@ -84,17 +100,17 @@ const FilterBoxes = ({ getData }) => {
           >
             <NavLink onClick={() => getData("excercises")}>All</NavLink>
             <NavLink onClick={() => getData("abs")}>Abs</NavLink>
-            <NavLink onClick={() => getData("back")}>Back</NavLink>
             <NavLink onClick={() => getData("biceps")}>Biceps</NavLink>
             <NavLink onClick={() => getData("chest")}>Chest</NavLink>
-            <NavLink onClick={() => getData("forearm")}>Forearm</NavLink>
+            <NavLink onClick={() => getData("back")}>Back</NavLink>
+            <NavLink onClick={() => getData("glutes")}>Glutes</NavLink>
           </Flex>
           <Flex
             className={styles.buttons}
             flexDirection="column"
             alignItems="flex-start"
           >
-            <NavLink onClick={() => getData("glutes")}>Glutes</NavLink>
+            <NavLink onClick={() => getData("forearm")}>Forearm</NavLink>
             <NavLink onClick={() => getData("shoulders")}>Shoulders</NavLink>
             <NavLink onClick={() => getData("triceps")}>Triceps</NavLink>
             <NavLink onClick={() => getData("upperlegs")}>Upper Legs</NavLink>
@@ -121,83 +137,68 @@ const FilterBoxes = ({ getData }) => {
             className={styles.flex}
           >
             <Box>
-              <input
-                type="checkbox"
-                name="Bands"
-                checked={equipment.includes("Bands")}
-                className="equipment"
-                value="Bands"
-                onChange={handleChangeEquipments}
-              />
-              <label style={{ marginLeft: "5px" }} htmlFor="Bands">
-                Bands
-              </label>
-            </Box>
-            <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Barbell"
                 checked={equipment.includes("Barbell")}
-                className="all"
                 value="Barbell"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Barbell">Barbell</label>
+                size="sm"
+               >Barbell</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Bench"
                 checked={equipment.includes("Bench")}
-                className="all"
                 value="Bench"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Bench">Bench</label>
+                size="sm"
+               >Bench</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Body Only"
                 checked={equipment.includes("Body Only")}
-                className="all"
                 value="Body Only"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Body Only">Body Only</label>
+                size="sm"
+               >Body Only</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Dumbell"
                 checked={equipment.includes("Dumbell")}
-                className="all"
                 value="Dumbell"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Dumbbell">Dumbbell</label>
+                size="sm"
+               >Dumbbell</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Exercise Ball"
                 checked={equipment.includes("exerciseball")}
-                className="all"
                 value="exerciseball"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Exercise Ball">Exercise Ball</label>
+                size="sm"
+               >Exercise Ball</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
+                name="Bands"
+                checked={equipment.includes("Bands")}
+                value="Bands"
+                onChange={handleChangeEquipments}
+                size="sm"
+               >
+                Bands</Checkbox>
+            </Box>
+            <Box>
+              <Checkbox
                 name="Ez - Bar"
                 checked={equipment.includes("Ez Bar")}
-                className="all"
                 value="Ez Bar"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Ez - Bar">EZ - Bar</label>
+                size="sm"
+               >EZ - Bar</Checkbox>
             </Box>
           </Flex>
           <Flex
@@ -206,81 +207,67 @@ const FilterBoxes = ({ getData }) => {
             className={styles.flex}
           >
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Foam Roll"
                 checked={equipment.includes("foamroll")}
-                className="all"
                 value="foamroll"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Foam Roll">Foam Roll</label>
+                size="sm"
+               >Foam Roll</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Kettlebell"
                 checked={equipment.includes("kettlebell")}
-                className="equipment"
                 value="kettlebell"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Kettlebell">Kettlebell</label>
+                size="sm"
+               >Kettlebell</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Machine - Cardio"
                 checked={equipment.includes("machinecardio")}
-                className="all"
                 value="machinecardio"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Machine - Cardio">Machine - Cardio</label>
+                size="sm"
+              >Machine - Cardio</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Machine - Strength"
                 checked={equipment.includes("Machine strength")}
-                className="all"
                 value="Machine strength"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Machine - Strength">Machine - Strength</label>
+                size="sm"
+              >Machine - Strength</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Other"
                 checked={equipment.includes("other")}
-                className="all"
                 value="other"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Other">Other</label>
+                size="sm"
+              >Other</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Pull Bar"
                 checked={equipment.includes("pullbar")}
-                className="all"
                 value="pullbar"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Pull Bar">Pull Bar</label>
+                size="sm"
+              >Pull Bar</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Weight Plate"
                 checked={equipment.includes("weightplate")}
-                className="all"
                 value="weightplate"
                 onChange={handleChangeEquipments}
-              />
-              <label htmlFor="Weight Plate">Weight Plate</label>
+                size="sm"
+              >Weight Plate</Checkbox>
             </Box>
           </Flex>
         </Grid>
@@ -306,48 +293,40 @@ const FilterBoxes = ({ getData }) => {
             className={styles.flex}
           >
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Strength"
-                className="all"
                 value="Strength"
                 checked={type.includes("Strength")}
                 onChange={handleTypeChange}
-              />
-              <label htmlFor="Strength">Strength</label>
+                size="sm"
+              >Strength</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Stretching"
-                className="all"
                 value="Stretching"
                 checked={type.includes("Stretching")}
                 onChange={handleTypeChange}
-              />
-              <label htmlFor="Stretching">Stretching</label>
+                size="sm"
+              >Stretching</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Powerlifting"
-                className="all"
                 value="Powerlifting"
                 checked={type.includes("Powerlifting")}
                 onChange={handleTypeChange}
-              />
-              <label htmlFor="Powerlifting">Powerlifting</label>
+                size="sm"
+              >Powerlifting</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Olympic Weight Lifting"
-                className="all"
                 value="Olympic WeightLifting"
                 checked={type.includes("Olympic WeightLifting")}
                 onChange={handleTypeChange}
-              />
-              <label htmlFor="Olympic Weight Lifting">Olympic Weight</label>
+                size="sm"
+              >Olympic Weight</Checkbox>
             </Box>
           </Flex>
         </Grid>
@@ -369,37 +348,31 @@ const FilterBoxes = ({ getData }) => {
             className={styles.flex}
           >
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Beginner"
-                className="all"
                 value="Beginner"
                 checked={difficulty.includes("Beginner")}
                 onChange={handleDifficulty}
-              />
-              <label htmlFor="Beginner">Beginner</label>
+                size="sm"
+              >Beginner</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Intermediate"
-                className="all"
                 value="Intermediate"
                 checked={difficulty.includes("Intermediate")}
                 onChange={handleDifficulty}
-              />
-              <label htmlFor="Intermediate">Intermediate</label>
+                size="sm"
+              >Intermediate</Checkbox>
             </Box>
             <Box>
-              <input
-                type="checkbox"
+              <Checkbox
                 name="Expert"
-                className="all"
                 value="Expert"
                 checked={difficulty.includes("Expert")}
                 onChange={handleDifficulty}
-              />
-              <label htmlFor="Expert">Expert</label>
+                size="sm"
+              >Expert</Checkbox>
             </Box>
           </Flex>
         </Grid>

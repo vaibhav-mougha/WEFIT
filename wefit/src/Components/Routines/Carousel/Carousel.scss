@@ -35,22 +35,25 @@
 //     position: relative;
    
 
-//     .slideChild {
-//         height: 250px;
-//         width: auto;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         border-radius: 10px;
-//         box-shadow: 2px 2px 10px rgb(209, 207, 207);
-//         img{
-//             height: 100%;
-//             width: 100%;
-//             object-fit: cover;
-//         }
-//         .app__slider-card{
-//           position: relative;
-//           cursor: pointer;
+
+    .slideChild {
+        height: 250px;
+        width: auto;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgb(209, 207, 207);
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .app__slider-card{
+          position: relative;
+          cursor: pointer;
+
          
 //           .app__pro-icon{
 //             position: absolute;
