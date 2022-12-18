@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../Components/Home/Navbar";
+import Footer from "../../Components/Home/Footer";
 import { Carousel, Filters, Heading } from "../../Components/Routines";
 const Routines = () => {
   return (
@@ -17,6 +18,7 @@ const Routines = () => {
         text={"Filter results down to your specific needs and find a new plan"}
       />
       <Filters />
+      {/* <Footer /> */}
     </>
   );
 };

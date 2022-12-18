@@ -1,10 +1,32 @@
-.App {
-  text-align: center;
+
+.paginationBlog{
+  /* border: 10px solid teal; */
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.4rem;
+  gap: 7px;
+  color: #4c4c4d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.paginationBlog .page-num{
+  border:1px solid red;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+
+.paginationBlog .page-num:hover{
+  background-color: #61dafb;
+  color: rgb(255, 255, 255);
+}
+
+.paginationBlog .active{
+  background-color: #61dafb;
 }
 
 @media (prefers-reduced-motion: no-preference) {

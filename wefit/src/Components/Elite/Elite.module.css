@@ -1,0 +1,719 @@
+.main_div {
+    background-color: #f3fdfe;
+    height: auto;
+    /* margin-bottom: 100px; */
+}
+
+.Year_End_of_discount_section {
+    width: 100%;
+    text-align: center;
+    color: #e5fbff;
+    background-color: #cb1a2f;
+    /* margin-top: 100px; */
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.Year_End_of_discount_section_h1_tag {
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.Year_End_of_discount_section_h2_tag {
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.Plans_that_suit_you_best_section {
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    height: 500px;
+}
+
+.Plans_that_suit_you_best_section_h1_tag_Plan_suit {
+    margin-top: 5px;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #808285;
+    font-size: 1.5em;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.Plans__Blog__Plan_ {
+
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.Plans__Blog__Plan_>div {
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Plans__Blog__Plan_Title_h2_tag {
+
+    color: #585f69;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.2;
+}
+
+.Plans__Blog__Plan_Title_h2_tag_discount {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 1.1em;
+    color: #888888;
+}
+
+.Plans__Blog__Plan_Title_h3_tag_description {
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5px;
+    font-size: 19px;
+    line-height: 1.2em;
+    color: #888888;
+}
+
+.Plans__Blog__Plan_Title_p_duration {
+    font-size: 13px;
+    line-height: 1em;
+    margin-top: 8px;
+    color: #888888;
+}
+
+.send_Jefit_elite_membership_gift_section {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_button {
+    /* border: 1px solid black; */
+    background-color: #cb1a2f;
+    width: 70%;
+    margin: auto;
+    color: white;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction {
+    /* border: 1px solid black; */
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>img {
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>h1 {
+    text-align: center;
+    color: #585f69;
+    margin-top: 5px;
+    text-shadow: none;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>p {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    line-height: 150%;
+    color: #888888;
+    color: #555;
+}
+
+.Also_unlock_feature_section {
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+
+.Also_unlock_feature_section>div:nth-child(1) {
+    /* border: 5px solid red; */
+    height: auto;
+    padding: 30px;
+}
+
+.Also_unlock_feature_section>div:nth-child(2) {
+    /* border: 1px solid black; */
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px;
+}
+
+.Also_unlock_feature_section>div:nth-child(1) h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1em;
+
+}
+
+.Also_unlock_feature_section_all_img {
+    background-color: #007bff;
+}
+
+.Also_unlock_feature_section_all_img_main {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Also_unlock_feature_section_all_img_main_backGroundImg {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/56a6de82cbced6755b98280e/1488241319126-VY00AQ1BR80LCKSKGYXE/shutterstock_298755041-800x430.jpg?format=2000w/width=100w");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    filter: blur(0.5px);
+}
+
+.Also_unlock_feature_section_all_img_main_backGroundImg>h1 {
+    text-align: center;
+    color: #ffffff;
+    /* border: 1px solid black; */
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.Also_unlock_feature_section_all_img_main_backGroundImg>button {
+    background-color: #007bff;
+    padding: 20px;
+    color: #f3fdfe;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.Also_unlock_feature_section_all_img_main_backGroundImg>button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Medium screens */
+@media all and (min-width: 550px) and (max-width: 950px) {
+
+
+    .Plans_that_suit_you_best_section {
+        /* border: 1px solid black; */
+        width: 99%;
+        margin: auto;
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .Plans_that_suit_you_best_section_h1_tag_Plan_suit {
+        /* border: 1px solid black; */
+        /* margin-top: 2px; */
+        margin-bottom: 10px;
+    }
+
+    .Plans__Blog__Plan_ {
+
+        width: 99%;
+        /* border: 1px solid black; */
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .Plans__Blog__Plan_>div {
+        /* border: 1px solid red; */
+        padding: 15px;
+    }
+
+    .Plans__Blog__Plan_Title_h2_tag {
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+
+    /* send jefit elite membership as gift */
+
+
+
+    .send_Jefit_elite_membership_gift_section {
+        /* border: 1px solid black; */
+        width: 99%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_button {
+        /* border: 1px solid black; */
+        background-color: #cb1a2f;
+        width: 90%;
+        margin: auto;
+        padding: 7px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction {
+        /* border: 1px solid black; */
+        width: 99%;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px;
+        padding: 20px;
+
+    }
+
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>img {
+        /* border: 1px solid red; */
+        height: 500px;
+        padding: 2px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+
+    /*  also unlock these features with elite  */
+
+
+
+    .Also_unlock_feature_section {
+        /* border: 1px solid black; */
+        width: 99%;
+        margin: auto;
+        height: auto;
+    }
+
+
+    .Also_unlock_feature_section>div:nth-child(1) {
+        /* border: 5px solid red; */
+        height: auto;
+        padding: 30px;
+    }
+
+    .Also_unlock_feature_section>div:nth-child(2) {
+        /* border: 1px solid black; */
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 160px;
+    }
+
+    .Also_unlock_feature_section>div:nth-child(1) h1 {
+        /* border: 1px solid black; */
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 2.1em;
+        line-height: 1em;
+
+    }
+
+    .Also_unlock_feature_section_all_img {
+        background-color: #007bff;
+    }
+
+    .Also_unlock_feature_section_all_img_main {
+        /* border: 1px solid black; */
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .Also_unlock_feature_section_all_img_main_backGroundImg {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/56a6de82cbced6755b98280e/1488241319126-VY00AQ1BR80LCKSKGYXE/shutterstock_298755041-800x430.jpg?format=2000w/width=100w");
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        filter: blur(0.5px);
+    }
+
+    .Also_unlock_feature_section_all_img_main_backGroundImg>h1 {
+        text-align: center;
+        color: #ffffff;
+        /* border: 1px solid black; */
+        font-weight: 500;
+        font-size: 2.5em;
+        line-height: 0.5em;
+    }
+
+    .Also_unlock_feature_section_all_img_main_backGroundImg>button {
+        background-color: #007bff;
+        padding: 12px;
+        color: #f3fdfe;
+        font-size: 20px;
+        font-weight: 600;
+        /* border: 1px solid black; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small screens */
+@media all and (min-width: 100px) and (max-width: 549px) {
+
+
+    .main_div {
+        width: 270%;
+        background-color: #f3fdfe;
+        height: auto;
+        /* margin-bottom: 200px; */
+    }
+
+
+
+
+    .Year_End_of_discount_section {
+        /* border: 1px solid black; */
+        /* margin-top: 80px; */
+        padding: 25px;
+    }
+
+    .Year_End_of_discount_section_h1_tag {
+        /* border: 1px solid black; */
+        text-align: center;
+        font-weight: 500;
+        font-size: 2.4em;
+        line-height: 1em;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .Year_End_of_discount_section_h2_tag {
+        /* border: 1px solid black; */
+        font-weight: 500;
+        font-size: 1.7em;
+        line-height: 1.1em;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    /* Plan that suit you best */
+
+
+    .Plans_that_suit_you_best_section {
+        /* border: 1px solid black; */
+        width: 100%;
+        margin: auto;
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .Plans_that_suit_you_best_section_h1_tag_Plan_suit {
+        /* border: 1px solid black; */
+        margin-top: 1px;
+        font-size: 1.7em;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .Plans__Blog__Plan_ {
+
+        width: 100%;
+        /* border: 1px solid black; */
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .Plans__Blog__Plan_>div {
+        /* border: 1px solid red; */
+        width: 70%;
+        height: auto;
+        margin: auto;
+        /* margin-left: 10px; */
+        padding: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .Plans__Blog__Plan_Title_h2_tag {
+        /* border: 1px solid black; */
+        color: #585f69;
+        margin-top: 5px;
+        font-size: 45px;
+        font-weight: 700;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        line-height: 1.1;
+    }
+
+    .Plans__Blog__Plan_Title_h2_tag_discount {
+        /* border: 1px solid black; */
+        font-family: 'DM Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 3px;
+        line-height: 1.1em;
+        color: #888888;
+    }
+
+    .Plans__Blog__Plan_Title_h3_tag_description {
+        /* border: 1px solid black; */
+        font-family: 'DM Sans', sans-serif;
+        margin-top: 5px;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 1.2em;
+        color: #888888;
+    }
+
+    .Plans__Blog__Plan_Title_p_duration {
+        /* border: 1px solid black; */
+        font-size: 25px;
+        line-height: 1em;
+        margin-top: 8px;
+        color: #888888;
+    }
+
+
+    /* memebership gift section */
+
+
+
+    .send_Jefit_elite_membership_gift_section {
+        /* border: 1px solid black; */
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_button {
+        /* border: 1px solid black; */
+        background-color: #cb1a2f;
+        width: 100%;
+        margin: auto;
+        color: white;
+        padding: 15px;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction {
+        /* border: 1px solid black; */
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 40px;
+
+    }
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div{
+        /* border: 5px solid teal; */
+        text-align: center;
+    }
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>img {
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 500px;
+        /* margin-right: 0px; */
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>h1 {
+        /* border: 1px solid black; */
+        text-align: center;
+        color: #585f69;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>p {
+        /* border: 1px solid black; */
+        font-family: 'DM Sans', sans-serif;
+        text-align: center;
+        font-size: 21px;
+        width: 90%;
+        line-height: 150%;
+        color: #888888;
+        color: #555;
+    }
+
+
+
+     /*  also unlock these features with elite  */
+
+
+
+     .Also_unlock_feature_section {
+        /* border: 1px solid black; */
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+
+    .Also_unlock_feature_section>div:nth-child(1) {
+        /* border: 5px solid red; */
+        height: auto;
+        padding: 20px;
+    }
+
+    .Also_unlock_feature_section>div:nth-child(2) {
+        /* border: 1px solid black; */
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 160px;
+    }
+
+    .Also_unlock_feature_section>div:nth-child(1) h1 {
+        /* border: 1px solid black; */
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 700;
+        padding: 10px;
+        font-size: 4em;
+        line-height: 1.3em;
+
+    }
+
+    .Also_unlock_feature_section_all_img {
+        background-color: #007bff;
+    }
+
+    .Also_unlock_feature_section_all_img_main {
+        /* border: 1px solid black; */
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .Also_unlock_feature_section_all_img_main_backGroundImg {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/56a6de82cbced6755b98280e/1488241319126-VY00AQ1BR80LCKSKGYXE/shutterstock_298755041-800x430.jpg?format=2000w/width=100w");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        filter: blur(0.5px);
+    }
+
+    .Also_unlock_feature_section_all_img_main_backGroundImg>h1 {
+        text-align: center;
+        color: #ffffff;
+        /* border: 1px solid black; */
+        font-weight: 500;
+        font-size: 4em;
+        line-height: 0.5em;
+    }
+
+    .Also_unlock_feature_section_all_img_main_backGroundImg>button {
+        background-color: #007bff;
+        padding: 20px;
+        color: #f3fdfe;
+        font-size: 21px;
+        font-weight: 800;
+        /* border: 1px solid black; */
+    }
+
+
+
+}

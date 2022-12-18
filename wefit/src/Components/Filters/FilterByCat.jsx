@@ -2,7 +2,6 @@ import { Button, Center, Grid, GridItem, Select } from "@chakra-ui/react";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Exercises from "./Exercises";
-import exerciseDB from "../db.json";
 import Pagination from "./Pagination";
 const categories = "all categories";
 
@@ -72,27 +71,15 @@ const catByEquipments = [
 const filterByTargetMuscles = "Filter By Target Muscles";
 const filterByBodyParts = "Filter By Body Parts";
 const filterByEquipments = "Filter By Equipments";
-const FilterByCat = () => {
+const FilterByCat = ({ data, setCurrPageHandler, totalPages }) => {
   const [filterbytargetmuscles, setTargetmuscles] = useState(
     filterByTargetMuscles
   );
   const [filterbdyparts, setBodyParts] = useState(filterByBodyParts);
   const [filterEquipments, setEquipments] = useState(filterByBodyParts);
-  const [dataDB, setDB] = useState([]);
-  const [currPage, setCurrPage] = useState(1);
-  const [totalPages, setTotal] = useState(0);
-
-  useEffect(() => {
-    axios
-      .get(`http://localhost:8080/exercise?_page=${currPage}&_limit=10`)
-      .then((res) => {
-        setDB(res.data);
-        setTotal(res.headers.get("x-total-count"));
-      });
-  }, [currPage]);
 
   const handlePageChange = (currentPage) => {
-    setCurrPage(currentPage);
+    setCurrPageHandler(currentPage);
   };
   return (
     <>
@@ -155,7 +142,7 @@ const FilterByCat = () => {
           </Select>
         </GridItem>
       </Grid>
-      <Exercises data={dataDB} />
+      <Exercises data={data} />
       <Pagination totalPages={totalPages} onSwitchPage={handlePageChange} />
     </>
   );
