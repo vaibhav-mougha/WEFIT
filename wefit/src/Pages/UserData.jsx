@@ -1,5 +1,5 @@
 import { Box, Grid, Hide, Image, Stack, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Components/Home/Navbar";
 import ProfilePic from "../Components/Profile/NewUserProfilePic";
 import {
@@ -16,11 +16,23 @@ import {
 import Footer from "../Components/Home/Footer";
 import Dob from "../Components/Profile/Dob";
 import Height from "../Components/Profile/Height";
-import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
 import UserTabs from "../Components/Profile/Tabs";
 import UserProfilePic from "../Components/Profile/UserProfilePic";
+import { useDispatch, useSelector } from "react-redux";
+import axios from "axios";
+import { getProfile } from "../Redux/Profile/profile.actions";
 
 const UserData = () => {
+  const { height, weight, name } = useSelector((store) => store.profile.data);
+  console.log("name: ", name);
+  console.log("weight: ", weight);
+  console.log("height: ", height);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getProfile());
+  }, []);
+
   return (
     <div>
       <Navbar />
@@ -120,8 +132,13 @@ const UserData = () => {
                   <UserProfilePic />
                 </Hide>
 
-                <Text mt="1rem" fontSize="1rem" fontStyle="italic">
-                  <b>User Name should render subah</b>
+                <Text
+                  mt="1rem"
+                  fontSize="2rem"
+                  fontStyle="italic"
+                  fontWeight={"bold"}
+                >
+                  {name}
                 </Text>
 
                 <Box w="100%" mt="1rem">

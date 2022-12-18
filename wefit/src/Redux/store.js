@@ -6,11 +6,13 @@ import {
 } from "redux";
 import thunk from "redux-thunk";
 import loginReducer from "./Login/login.reducer";
+import profileReducer from "./Profile/profile.redcuer";
 import signupReducer from "./Signup/signup.reducer";
 
 const rootReducer = combineReducers({
   signup: signupReducer,
   login: loginReducer,
+  profile: profileReducer,
 });
 
 const composerEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
