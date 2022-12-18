@@ -12,15 +12,9 @@ import Footer from "../Components/Home/Footer";
 const ExcerciseFilter = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
-  const [query, setQuery] = useState("excercises"); //by default query
-  //   const [queryData, setqueryData] = useState([]);
+  const [query, setQuery] = useState("excercises");
   const location = useLocation();
   const [searchParams] = useSearchParams();
-  //   const [limit, setLimit] = useState(8);
-  // let totalpages = Math.ceil(data.length / 8);
-  // console.log(data);
-
-  // console.log(searchParams.getAll("type"))
   const getExerciseData = (query, param, page) => {
     setQuery(query);
     if (query === "biceps") {

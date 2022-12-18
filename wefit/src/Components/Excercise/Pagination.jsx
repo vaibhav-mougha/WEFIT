@@ -27,10 +27,11 @@ const Pagination = ({ page, onChange, total }) => {
     <Button
       size={"sm"}
       key={i}
-      color="blue.600"
-      variant="outline"
+      color="white"
+      backgroundColor="blue.500"
       onClick={() => onChange(i + 1)}
       disabled={page === i + 1}
+      _hover={{backgroundColor:"blue.600"}}
     >
       {i + 1}
     </Button>
