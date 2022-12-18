@@ -668,7 +668,7 @@ const UserTabs = () => {
               Benchmark Exercise Progress
             </Text>
             <hr />
-            
+
             <TrainingStats />
           </TabPanel>
 
@@ -684,14 +684,12 @@ const UserTabs = () => {
               src="https://www.jefit.com/assets/img/group-avatar.png"
             />
             <Button colorScheme="gray" color="gray" variant="outline" mt="2rem">
-              No Pictures Found Upload now to enable progress photo comparison feature.
+              No Pictures Found Upload now to enable progress photo comparison
+              feature.
             </Button>
           </TabPanel>
-
         </TabPanels>
-
       </Tabs>
-      
     </Box>
   );
 };

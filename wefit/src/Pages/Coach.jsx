@@ -1,6 +1,6 @@
 import { Button, Icon } from "@chakra-ui/react";
 import React, { useEffect, useRef } from "react";
-import style from "../Components/Coach-Page/Coach.module.css";
+import style from "../Components/Coach/Coach.module.css";
 // import { FaRegNewspaper } from "@react-icons/all-files/fa/FaRegNewspaper";
 import { FaRegNewspaper } from "react-icons/fa";
 import { CalendarIcon, SettingsIcon } from "@chakra-ui/icons";

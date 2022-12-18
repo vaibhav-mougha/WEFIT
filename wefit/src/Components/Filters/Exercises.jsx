@@ -5,7 +5,7 @@ import ExerciseRow from "./ExerciseRow";
 const Exercises = ({ data }) => {
   return (
     // <div className="table_container">
-    <TableContainer mt={"4"}>
+    <TableContainer mt={"4"} p="1rem">
       <Table
         size={["sm", "sm", "sm", "sm"]}
         colorScheme={"facebook"}

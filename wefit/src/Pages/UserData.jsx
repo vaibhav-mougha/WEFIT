@@ -228,7 +228,6 @@ const UserData = () => {
             {/* Center */}
             <Box
               // border="3px solid black"
-              w="80%"
               borderRadius="1rem"
               boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
             >

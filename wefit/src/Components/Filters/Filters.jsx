@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import FilterByCat from "./Filter"
+import FilterByCat from "./FilterByCat"
 import axios from "axios";
 const getData = async (currPage, searchTerm) => {
   let res = await axios.get(
@@ -38,7 +38,7 @@ const Filters = () => {
   };
 
   return (
-    <div className="app__filters-container">
+    <div>
       {/* <Search onSearch={searchHandler} /> */}
       <FilterByCat
         data={dataDB}
