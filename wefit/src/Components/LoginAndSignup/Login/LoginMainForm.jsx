@@ -15,6 +15,7 @@ import {
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../../../Redux/Login/login.actions";
+import { useNavigate } from "react-router-dom";
 
 const LoginMainFrom = () => {
   const [loginData, setLogindata] = useState({
@@ -27,11 +28,12 @@ const LoginMainFrom = () => {
   const dispatch = useDispatch();
   const { user, admin } = useSelector((store) => store.login);
 
-  console.log("admin: ", admin);
-  // console.log("user: ", user);
+  // console.log("admin: ", admin);
+  console.log("user: ", user);
 
   const [show, setShow] = React.useState(false);
 
+  const navigate = useNavigate();
   const handleClick = () => setShow(!show);
   const toast = useToast();
 
@@ -62,6 +64,9 @@ const LoginMainFrom = () => {
         isClosable: true,
         position: "top",
       });
+      setTimeout(() => {
+        navigate("/newuser");
+      }, 1300);
     } else if (admin.adminStatus) {
       toast({
         title: "Login Successful",
@@ -70,6 +75,9 @@ const LoginMainFrom = () => {
         isClosable: true,
         position: "top",
       });
+      // setTimeout(() => {
+      //   navigate("/admin");
+      // }, 1300);
     } else if (user.createAccount) {
       toast({
         title: "Login Failed",
@@ -107,7 +115,6 @@ const LoginMainFrom = () => {
     user.createAccount,
     dispatch,
     toast,
-    status,
   ]);
 
   const handleChange = (e) => {
@@ -128,12 +135,9 @@ const LoginMainFrom = () => {
         position: "top",
       });
     } else {
-      setStatus(!status);
       dispatch(login(loginData));
     }
   };
-
-  // handleLogin();
 
   return (
     <FormControl w={"85%"} h={"35vh"} mb={"1.5rem"}>

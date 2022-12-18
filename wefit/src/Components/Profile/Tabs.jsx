@@ -16,9 +16,16 @@ import {
   Progress,
 } from "@chakra-ui/react";
 import React from "react";
+import { useSelector } from "react-redux";
 import TrainingStats from "./TrainingStats";
 
 const UserTabs = () => {
+  const { height, weight, name } = useSelector((store) => store.profile.data);
+  let h = Number(height);
+  let w = Number(weight);
+  let formula = w /(h / 100) ** 2;
+  let BMI = Number.parseFloat(formula).toFixed(2);
+
   return (
     <Box>
       <Tabs>
@@ -154,7 +161,7 @@ const UserTabs = () => {
                     Current Weight
                   </Text>
                   <Text fontSize="2rem" color="#257CFF">
-                    72 Kgs
+                    {w}kgs
                   </Text>
                   <hr />
                 </Box>
@@ -184,7 +191,8 @@ const UserTabs = () => {
                     BMI
                   </Text>
                   <Text fontSize="2rem" color="gray">
-                    22.5
+                    {/* 22.5 */}
+                    {BMI}
                     {/* Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters. */}
                   </Text>
                   <hr />
