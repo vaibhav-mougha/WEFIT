@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import FilterByCat from "./FilterByCat";
-import "./Filters.scss";
-import Search from "./Search";
+import FilterByCat from "./Filter"
 import axios from "axios";
 const getData = async (currPage, searchTerm) => {
   let res = await axios.get(
