@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 
 import Recaptcha from "./Recaptcha/Recaptcha";
 
@@ -17,16 +16,21 @@ import {
   InputGroup,
   useToast
 } from "@chakra-ui/react";
+import { useDispatch } from "react-redux";
+import { signup } from "../../../Redux/Signup/signup.actions";
 
 const SignupMainFrom = () => {
   const [signupData, setSignupData] = useState({
     username: "",
     email: "",
-    password1: "",
+    password: "",
     password2: "",
   });
+
   const [show, setShow] = React.useState(false);
   const toast = useToast();
+
+  const dispatch = useDispatch();
 
   const handleClick = () => setShow(!show);
 
@@ -35,18 +39,10 @@ const SignupMainFrom = () => {
     setSignupData({ ...signupData, [name]: value });
   };
 
-  const adminSigup = async (creds) => {
-    await axios.post("http://localhost:8080/adminSignup", creds);
-  };
-
-  const userSigup = async (creds) => {
-    await axios.post("http://localhost:8080/userSignup", creds);
-  };
-
   const handleSignup = () => {
-    let { username, email, password1, password2 } = signupData;
+    let { username, email, password, password2 } = signupData;
 
-    if (!username || !email || !password1 || !password2) {
+    if (!username || !email || !password || !password2) {
       toast({
         title: "Sign Up Failed",
         description: "Fill all the Credentials",
@@ -55,7 +51,7 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-    } else if (!/\d/.test(password1)) {
+    } else if (!/\d/.test(password)) {
       toast({
         title: "Sign Up Failed",
         description: "Password must have 1 Number (0-9)",
@@ -64,7 +60,7 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-    } else if (!/[A-Z]/.test(password1)) {
+    } else if (!/[A-Z]/.test(password)) {
       toast({
         title: "Sign Up Failed",
         description: "Password must have 1 Uppercase Letter (A-Z)",
@@ -73,7 +69,7 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-    } else if (!/[a-z]/.test(password1)) {
+    } else if (!/[a-z]/.test(password)) {
       toast({
         title: "Sign Up Failed",
         description: "Password must have 1 Lowercase Letter (a-z)",
@@ -82,7 +78,7 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-    } else if (password1.length < 8) {
+    } else if (password.length < 8) {
       toast({
         title: "Sign Up Failed",
         description: "Password minimum 8 Characters needed",
@@ -91,7 +87,7 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-    } else if (password1 !== password2) {
+    } else if (password !== password2) {
       toast({
         title: "Sign Up Failed.",
         description: "Password is not Matched",
@@ -100,15 +96,6 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-    } else if (email.includes("@admin")) {
-      toast({
-        title: "Successfully Signup as Admin",
-        status: "success",
-        duration: 1200,
-        isClosable: true,
-        position: "top",
-      });
-      // adminSigup(signupData);
     } else {
       console.log("user");
       toast({
@@ -118,7 +105,7 @@ const SignupMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-      // userSigup(signupData);
+      dispatch(signup(signupData));
     }
   };
 

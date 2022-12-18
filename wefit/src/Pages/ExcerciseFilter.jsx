@@ -4,10 +4,14 @@ import { useLocation, useSearchParams } from "react-router-dom";
 import axios from "axios";
 import ExcerciseDisplay from "../Components/Excercise/ExcerciseDisplay";
 import { Box, Image, Text } from "@chakra-ui/react";
+import Navbar from "../Components/Home/Navbar";
+import styles from "../Styles/Excercise.module.css";
+import Pagination from "../Components/Excercise/Pagination";
+import Footer from "../Components/Home/Footer";
 
 const ExcerciseFilter = () => {
   const [data, setData] = useState([]);
-  //   const [page, setpage] = useState(1);
+  const [page, setPage] = useState(1);
   const [query, setQuery] = useState("excercises"); //by default query
   //   const [queryData, setqueryData] = useState([]);
   const location = useLocation();
@@ -17,29 +21,33 @@ const ExcerciseFilter = () => {
   // console.log(data);
 
   // console.log(searchParams.getAll("type"))
-  const getExerciseData = (query, param) => {
+  const getExerciseData = (query, param, page) => {
     setQuery(query);
     if (query === "biceps") {
-      return axios.get(`http://localhost:8080/biceps`, param).then((res) => {
-        setData(res.data);
-      });
+      return axios
+        .get(`http://localhost:8080/biceps?_page=${page}&_limit=5`, param)
+        .then((res) => {
+          setData(res.data);
+        });
     } else if (query === "excercises") {
       return axios
-        .get(`http://localhost:8080/excercises`, param)
+        .get(`http://localhost:8080/excercises?_page=${page}&_limit=8`, param)
         .then((res) => {
           setData(res.data);
         });
     } else if (query === "chest") {
-      return axios.get(`http://localhost:8080/chest`, param).then((res) => {
-        setData(res.data);
-      });
+      return axios
+        .get(`http://localhost:8080/chest?_page=${page}&_limit=5`, param)
+        .then((res) => {
+          setData(res.data);
+        });
     } else if (query === "glutes") {
       return axios
-        .get(`http://localhost:8080/glutes`, param)
+        .get(`http://localhost:8080/glutes?_page=${page}&_limit=5`, param)
         .then((res) => setData(res.data));
     } else if (query === "abs") {
       return axios
-        .get(`http://localhost:8080/abs`, param)
+        .get(`http://localhost:8080/abs?_page=${page}&_limit=5`, param)
         .then((res) => setData(res.data));
     }
   };
@@ -57,10 +65,10 @@ const ExcerciseFilter = () => {
           equipment: equipment,
         },
       };
-      getExerciseData(query, getResult);
+      getExerciseData(query, getResult, page);
       console.log(query, getResult);
     }
-  }, [location, data.length, searchParams, query]);
+  }, [location, data.length, searchParams, query, page]);
   const noResults = () => {
     return (
       <div>
@@ -78,16 +86,20 @@ const ExcerciseFilter = () => {
         </Box>
         <Image
           m="auto"
+          mt="-80px"
           src="https://cdni.iconscout.com/illustration/premium/thumb/error-404-4344461-3613889.png"
           alt="no-results"
+          overflow="hidden"
         />
       </div>
     );
   };
   console.log("query", query);
   return (
-    <div>
-      {/* <Navbar /> */}
+    <>
+    <Navbar />
+    <div style={{ backgroundColor: "rgb(248, 251, 254)" }}>
+      
       <FilterBoxes getData={getExerciseData} />
       {data.length === 0 ? (
         noResults()
@@ -107,20 +119,31 @@ const ExcerciseFilter = () => {
           </Box>
           {data &&
             data.map((elem) => (
-              <ExcerciseDisplay
-                key={elem.id}
-                id={elem.id}
-                name={elem.name}
-                muscle_group={elem.main_group}
-                type={elem.type}
-                equipment={elem.equipment}
-                image={elem.image_urls}
-                url={elem.main_group}
-              />
+              <Box className={styles.bgcolor} display="flex" gap="20px">
+                <ExcerciseDisplay
+                  key={elem.id}
+                  id={elem.id}
+                  name={elem.name}
+                  muscle_group={elem.main_group}
+                  type={elem.type}
+                  equipment={elem.equipment}
+                  image={elem.image_urls}
+                  url={elem.main_group}
+                />
+              </Box>
             ))}
+          <Box m="auto" w="20%">
+            <Pagination
+              page={page}
+              onChange={(value) => setPage(value)}
+              total={2}
+            />
+          </Box>
         </div>
       )}
     </div>
+    <Footer />
+    </>
   );
 };
 
