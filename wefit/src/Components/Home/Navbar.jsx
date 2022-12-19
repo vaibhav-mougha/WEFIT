@@ -31,7 +31,7 @@ const Navbar = () => {
   const btnRef = React.useRef();
 
   return (
-    <>
+    <div style={{position: "sticky", top:"0", zIndex:"100"}}>
       <Hide below="sm" >
         <Flex
           w="100%"
@@ -354,7 +354,7 @@ const Navbar = () => {
           </DrawerContent>
         </Drawer>
       </Show>
-    </>
+    </div>
   );
 };
 

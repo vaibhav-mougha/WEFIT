@@ -19,29 +19,29 @@ const ExcerciseFilter = () => {
     setQuery(query);
     if (query === "biceps") {
       return axios
-        .get(`http://localhost:8080/biceps?_page=${page}&_limit=5`, param)
+        .get(`https://we-fit-database-api.vercel.app/biceps?_page=${page}&_limit=5`, param)
         .then((res) => {
           setData(res.data);
         });
     } else if (query === "excercises") {
       return axios
-        .get(`http://localhost:8080/excercises?_page=${page}&_limit=8`, param)
+        .get(`https://we-fit-database-api.vercel.app/excercises?_page=${page}&_limit=8`, param)
         .then((res) => {
           setData(res.data);
         });
     } else if (query === "chest") {
       return axios
-        .get(`http://localhost:8080/chest?_page=${page}&_limit=5`, param)
+        .get(`https://we-fit-database-api.vercel.app/chest?_page=${page}&_limit=5`, param)
         .then((res) => {
           setData(res.data);
         });
     } else if (query === "glutes") {
       return axios
-        .get(`http://localhost:8080/glutes?_page=${page}&_limit=5`, param)
+        .get(`https://we-fit-database-api.vercel.app/glutes?_page=${page}&_limit=5`, param)
         .then((res) => setData(res.data));
     } else if (query === "abs") {
       return axios
-        .get(`http://localhost:8080/abs?_page=${page}&_limit=5`, param)
+        .get(`https://we-fit-database-api.vercel.app/abs?_page=${page}&_limit=5`, param)
         .then((res) => setData(res.data));
     }
   };

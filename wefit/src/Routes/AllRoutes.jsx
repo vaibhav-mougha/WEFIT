@@ -15,10 +15,12 @@ import Elite from "../Pages/Elite";
 import SingleBlogPage from "../Pages/SingleBlogPage";
 import NewUser from "../Pages/NewUser";
 import UserData from "../Pages/UserData";
+import ScrollToTop from "../Components/Excercise/ScrollToTop";
 
 const AllRoutes = () => {
   return (
     <>
+      <ScrollToTop>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -37,6 +39,7 @@ const AllRoutes = () => {
         <Route path="/newuser" element={<NewUser />} />
         <Route path="/userdata" element={<UserData />} />
       </Routes>
+        </ScrollToTop>
     </>
   );
 };

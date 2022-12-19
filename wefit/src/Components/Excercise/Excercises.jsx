@@ -11,7 +11,7 @@ const Excercises = () => {
   }, []);
 
   const getData = async () => {
-    let data = axios.get("http://localhost:8080/excercises");
+    let data = axios.get("https://we-fit-database-api.vercel.app/excercises");
     let res = await data;
     setData(res.data);
   };
