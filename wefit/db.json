@@ -2526,6 +2526,15 @@
       "name": "barbell palms down wrist curl over a bench",
       "target": "forearms",
       "proUser": true
+    },
+    {
+      "bodyPart": "neck",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1403.gif",
+      "id": "1403",
+      "name": "neck side stretch",
+      "target": "levator scapulae",
+      "proUser": true
     }
   ],
   "PlansElitePage": [
