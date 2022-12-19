@@ -24,13 +24,14 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { ChevronDownIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutFunc } from "../../Redux/Login/login.actions";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
+  const navigate = useNavigate();
 
   const data = useSelector((store) => store.login);
   const dispatch = useDispatch();

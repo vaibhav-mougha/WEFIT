@@ -59,9 +59,9 @@ const AllRoutes = () => {
           <Route
             path="/admin"
             element={
-              <PrivateRoute>
+              
                 <Admin />
-              </PrivateRoute>
+             
             }
           ></Route>
         </Routes>
