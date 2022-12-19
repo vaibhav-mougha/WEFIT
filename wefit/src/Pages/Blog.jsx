@@ -9,7 +9,7 @@ import { Text } from '@chakra-ui/react';
 
 
 const getBlogData = async (currentPage) => {
-  return await axios.get(`http://localhost:8080/Blog?_page=${currentPage}&_limit=10`);
+  return await axios.get(`https://we-fit-database-api.vercel.app/Blog?_page=${currentPage}&_limit=10`);
 }
 
 

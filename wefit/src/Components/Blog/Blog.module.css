@@ -3,7 +3,7 @@
     height: auto;
     padding: 60px;
     background-color: #f3fdfe;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .blog_Img_Main_section {
@@ -105,7 +105,7 @@
 
 
 /* Medium screens */
-@media all and (min-width: 550px) and (max-width: 950px) {
+@media all and (min-width: 450px) and (max-width: 950px) {
 
     .main_div {
         width: 100%;
@@ -232,11 +232,11 @@
 
 
 /* Small screens */
-@media all and (min-width: 100px) and (max-width: 549px) {
+@media all and (min-width: 100px) and (max-width: 449px) {
 
 
     .main_div {
-        width: 149%;
+        width: 109%;
         height: auto;
         padding: 5px;
         background-color: #f3fdfe;

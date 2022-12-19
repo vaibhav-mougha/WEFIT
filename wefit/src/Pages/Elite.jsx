@@ -9,7 +9,7 @@ import { useState } from 'react'
 
 
 const GetPlansEliteData = async () => {
-    return await axios.get(`http://localhost:8080/PlansElitePage`)
+    return await axios.get(`https://we-fit-database-api.vercel.app/PlansElitePage`)
 }
 
 const send_Jefit_elite_membership_gift_section_img = [

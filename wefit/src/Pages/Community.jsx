@@ -9,7 +9,7 @@ const Community = () => {
 
 
                 <div className={style.Community_Main_div_section}>
-                    <h1>Jefit Community Members</h1>
+                    <h1>Wefit Community Members</h1>
                     <p>Check out some of the latest posts from the community and stay strong together!</p>
                 </div>
 
@@ -17,7 +17,7 @@ const Community = () => {
                 <div className={style.Community_Question_And_answer_Main_div}>
 
                     <div>
-                        <h1>Question and Answers from the Jefit Community</h1>
+                        <h1>Question and Answers from the Wefit Community</h1>
                         <p> • What are people's thoughts on working out twice a day?</p>
                         <p> • If I’m looking at bulking, is it good to do light cardio on the rest days?</p>
                         <p> • Simple advice for nutrition to lose fat.</p>
@@ -31,7 +31,7 @@ const Community = () => {
                     </div>
 
                     <div className={style.Community_Question_And_answer_Main_div_Image_Section} >
-                        <h1>Active Jefit Users</h1>
+                        <h1>Active Wefit Users</h1>
                         
                         <div className={style.Community_Question_And_answer_Main_div_Image__Main_section_With_Name_Image}>
                                 <div>

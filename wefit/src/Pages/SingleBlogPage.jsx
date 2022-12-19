@@ -18,7 +18,7 @@ const SingleBlogPage = () => {
 
   useEffect(() => {
 
-    getDetailsBlogData(`http://localhost:8080/Blog/${user_id}`).then((res) =>
+    getDetailsBlogData(`https://we-fit-database-api.vercel.app/Blog/${user_id}`).then((res) =>
 
       setBlogDetails(res)
       // console.log(res)
