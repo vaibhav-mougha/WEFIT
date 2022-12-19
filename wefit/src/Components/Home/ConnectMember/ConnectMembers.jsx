@@ -69,7 +69,7 @@ export default function ConnectMembers() {
             justify="space-between"
           >
             <Box>
-              <Link to="/">
+              <Link to="/community">
                 <Button
                   fontSize={{ base: "0.7rem", md: "1rem", lg: "1.8rem" }}
                   w={{ base: "8rem", md: "13rem", lg: "21rem" }}
@@ -91,7 +91,7 @@ export default function ConnectMembers() {
             </Box>
 
             <Box ml={{ base: "1rem", md: "5rem", lg: "5rem" }}>
-              <Link to="/">
+              <Link to="/signup">
                 <Button
                   fontSize={{ base: "0.7rem", md: "1rem", lg: "1.8rem" }}
                   w={{ base: "5rem", md: "8rem", lg: "15rem" }}

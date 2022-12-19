@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Input,
@@ -8,9 +8,70 @@ import {
   Checkbox,
   Image,
   Button,
+  useToast,
 } from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
+import { addProfile } from "../../Redux/Profile/profile.actions";
+import { useNavigate } from "react-router-dom";
+
+const initState = {
+  height: null,
+  weight: null,
+  male: false,
+  female: false,
+};
 
 const Height = () => {
+  const [userCreds, setUserCreds] = useState(initState);
+  const navigate = useNavigate();
+
+  const dispatch = useDispatch();
+  const Name = useSelector((store) => store.login.user.userName);
+  console.log("Name: ", Name);
+  const toast = useToast();
+
+  const handleChange = (e) => {
+    let { name, value, checked, type } = e.target;
+    let val = type === "checkbox" ? checked : value;
+    setUserCreds({ ...userCreds, [name]: val });
+  };
+
+  const handleSubmit = () => {
+    let { height, weight, male, female } = userCreds;
+    let gen = male ? "male" : female ? "female" : undefined;
+
+    if (!height || !weight || !gen) {
+      toast({
+        title: "Fill all the Credentials",
+        status: "error",
+        duration: 900,
+        isClosable: true,
+        position: "top",
+      });
+    } else {
+      setTimeout(() => {
+        navigate("/userdata");
+      }, 1200);
+
+      dispatch(
+        addProfile({
+          height: userCreds.height,
+          weight: userCreds.weight,
+          gender: gen,
+          name: Name,
+        })
+      );
+      toast({
+        title: "Account created",
+        status: "success",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+      userCreds(initState);
+    }
+  };
+
   return (
     <Box mt="0.7rem" ml="3rem">
       {/* Height Weight */}
@@ -23,10 +84,13 @@ const Height = () => {
             <InputGroup>
               <Input
                 type="number"
+                name="height"
                 placeholder="Height"
                 size="sm"
                 maxW={20}
                 mr="1rem"
+                onChange={handleChange}
+                value={userCreds.height}
               />
               <span>(cm)</span>
             </InputGroup>
@@ -41,10 +105,13 @@ const Height = () => {
             <InputGroup>
               <Input
                 type="number"
+                name="weight"
                 placeholder="Weight"
                 size="sm"
                 maxW={20}
                 mr="1rem"
+                onChange={handleChange}
+                value={userCreds.weight}
               />
               <span>(Kgs)</span>
             </InputGroup>
@@ -67,13 +134,23 @@ const Height = () => {
           >
             <Box>
               <Image src="https://www.jefit.com/images/male_setup1.jpg" />
-              <Checkbox colorScheme="blue" defaultChecked>
+              <Checkbox
+                colorScheme="blue"
+                name="male"
+                onChange={handleChange}
+                value={userCreds.male}
+              >
                 Male
               </Checkbox>
             </Box>
             <Box>
               <Image src="https://www.jefit.com/images/female_setup1.jpg" />
-              <Checkbox colorScheme="blue" defaultChecked>
+              <Checkbox
+                colorScheme="blue"
+                name="female"
+                onChange={handleChange}
+                value={userCreds.female}
+              >
                 Female
               </Checkbox>
             </Box>
@@ -96,6 +173,7 @@ const Height = () => {
           color="white"
           py={{ base: "0rem", md: "0.1rem", lg: "1.2rem" }}
           px={{ base: "1.5rem", md: "2.2rem", lg: "2rem" }}
+          onClick={handleSubmit}
         >
           Save Settings
         </Button>

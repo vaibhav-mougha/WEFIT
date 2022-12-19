@@ -18,6 +18,7 @@ import {
 } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
 import { signup } from "../../../Redux/Signup/signup.actions";
+import { useNavigate } from "react-router-dom";
 
 const SignupMainFrom = () => {
   const [signupData, setSignupData] = useState({
@@ -27,12 +28,15 @@ const SignupMainFrom = () => {
     password2: "",
   });
 
+  const [status, setStatus] = useState(false);
+
   const [show, setShow] = React.useState(false);
   const toast = useToast();
 
   const dispatch = useDispatch();
 
   const handleClick = () => setShow(!show);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     let { name, value } = e.target;
@@ -91,13 +95,14 @@ const SignupMainFrom = () => {
     } else if (!specialChars.test(password)) {
       toast({
         title: "Sign Up Failed.",
-        description: "Password must have 1 special character (from standard US keyboard)",
+        description:
+          "Password must have 1 special character (from standard US keyboard)",
         status: "error",
         duration: 900,
         isClosable: true,
         position: "top",
       });
-    }else if (password !== password2) {
+    } else if (password !== password2) {
       toast({
         title: "Sign Up Failed.",
         description: "Password is not Matched",
@@ -123,6 +128,10 @@ const SignupMainFrom = () => {
         })
       );
       setSignupData({ username: "", email: "", password: "", password2: "" });
+
+      setTimeout(() => {
+        navigate("/newuser");
+      }, 1200);
     }
   };
 

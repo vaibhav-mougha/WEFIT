@@ -1,29 +1,18 @@
 import React from "react";
 import {
-  NumberInput,
-  NumberInputField,
-  NumberInputStepper,
-  NumberIncrementStepper,
-  NumberDecrementStepper,
-  Stack,
   Box,
-  Select,
   Input,
 } from "@chakra-ui/react";
-import { FormControl, FormLabel } from "@chakra-ui/react";
 
 const Dob = () => {
   return (
     <Box mt="1rem" display="flex">
-      
       <Input
         placeholder="Select Date and Time"
-        size={{base:"sm",md:"md",lg:"md"}}
-        w={{base:"50%",md:"40%",lg:"40%"}}
+        size={{ base: "sm", md: "md", lg: "md" }}
+        w={{ base: "50%", md: "40%", lg: "40%" }}
         type="datetime-local"
-        // color="#257CFF"
       />
-      
 
       {/* <FormControl >
        
