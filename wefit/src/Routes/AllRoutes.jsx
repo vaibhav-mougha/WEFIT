@@ -31,23 +31,6 @@ const AllRoutes = () => {
           <Route path="/routines" element={<Routines />} />
           <Route path="/exercise" element={<Excercise />} />
 
-          <Route
-            path="/routines"
-            element={
-              <PrivateRoute>
-                <Routines />
-              </PrivateRoute>
-            }
-          />
-          <Route
-            path="/exercise"
-            element={
-              <PrivateRoute>
-                <Excercise />
-              </PrivateRoute>
-            }
-          />
-
           <Route path="/exercise/filter" element={<ExcerciseFilter />} />
           <Route path="/exercise/filter/:id" element={<ExerciseDetails />} />
           <Route path="/blog" element={<Blog />} />
@@ -55,24 +38,6 @@ const AllRoutes = () => {
           <Route path="/community" element={<Community />} />
           <Route path="/elite" element={<Elite />} />
           <Route path="/blog/:user_id" element={<SingleBlogPage />}></Route>
-
-          <Route
-            path="/newuser"
-            element={
-              <PrivateRoute>
-                <NewUser />
-              </PrivateRoute>
-            }
-          />
-          <Route
-            path="/userdata"
-            element={
-              <PrivateRoute>
-                <UserData />
-              </PrivateRoute>
-            }
-          />
-
           <Route
             path="/newuser"
             element={
