@@ -10,10 +10,8 @@ import Navbar from "../Components/Home/Navbar";
 import Footer from "../Components/Home/Footer";
 
 const getBlogData = async (currentPage) => {
-  return await axios.get(
-    `http://localhost:8080/Blog?_page=${currentPage}&_limit=10`
-  );
-};
+  return await axios.get(`https://we-fit-database-api.vercel.app/Blog?_page=${currentPage}&_limit=10`);
+}
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
