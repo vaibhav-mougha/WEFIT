@@ -2,6 +2,7 @@ import {
   ADMIN_LOGIN_ERROR,
   ADMIN_LOGIN_FAILED,
   ADMIN_LOGIN_SUCCESS,
+  CREATE_ACCOUNT,
   LOGOUT,
   USER_LOGIN_ERROR,
   USER_LOGIN_FAILED,
@@ -13,13 +14,14 @@ const loginAdminName = localStorage.getItem("loginAdminName") || "";
 
 const initState = {
   user: {
-    userStatus: !!loginUserName,
+    userStatus: false,
     userName: loginUserName,
     failed: false,
     isError: false,
+    createAccount: false,
   },
   admin: {
-    adminStatus: !!loginAdminName,
+    adminStatus: false,
     adminName: loginAdminName,
     failed: false,
     isError: false,
@@ -33,9 +35,17 @@ const loginReducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         user: {
-          ...state.user,
           userStatus: true,
           userName: payload,
+          failed: false,
+          isError: false,
+          createAccount: false,
+        },
+        admin: {
+          adminStatus: false,
+          adminName: "",
+          failed: false,
+          isError: false,
         },
       };
     }
@@ -43,8 +53,35 @@ const loginReducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         user: {
-          ...state.user,
+          userStatus: false,
+          userName: "",
           failed: true,
+          isError: false,
+          createAccount: false,
+        },
+        admin: {
+          adminStatus: false,
+          adminName: "",
+          failed: false,
+          isError: false,
+        },
+      };
+    }
+    case CREATE_ACCOUNT: {
+      return {
+        ...state,
+        user: {
+          userStatus: false,
+          userName: "",
+          failed: false,
+          isError: false,
+          createAccount: true,
+        },
+        admin: {
+          adminStatus: false,
+          adminName: "",
+          failed: false,
+          isError: false,
         },
       };
     }
@@ -52,8 +89,17 @@ const loginReducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         user: {
-          ...state.user,
+          userStatus: false,
+          userName: "",
+          failed: false,
           isError: true,
+          createAccount: false,
+        },
+        admin: {
+          adminStatus: false,
+          adminName: "",
+          failed: false,
+          isError: false,
         },
       };
     }
@@ -62,9 +108,17 @@ const loginReducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         admin: {
-          ...state.admin,
           adminStatus: true,
           adminName: payload,
+          failed: false,
+          isError: false,
+        },
+        user: {
+          userStatus: false,
+          userName: "",
+          failed: false,
+          isError: false,
+          createAccount: false,
         },
       };
     }
@@ -72,8 +126,17 @@ const loginReducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         admin: {
-          ...state.admin,
+          adminStatus: false,
+          adminName: "",
           failed: true,
+          isError: false,
+        },
+        user: {
+          userStatus: false,
+          userName: "",
+          failed: false,
+          isError: false,
+          createAccount: false,
         },
       };
     }
@@ -81,8 +144,17 @@ const loginReducer = (state = initState, { type, payload }) => {
       return {
         ...state,
         admin: {
-          ...state.admin,
+          adminStatus: false,
+          adminName: "",
+          failed: false,
           isError: true,
+        },
+        user: {
+          userStatus: false,
+          userName: "",
+          failed: false,
+          isError: false,
+          createAccount: false,
         },
       };
     }

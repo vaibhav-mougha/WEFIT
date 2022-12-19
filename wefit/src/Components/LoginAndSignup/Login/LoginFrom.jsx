@@ -1,5 +1,5 @@
-import { Box, Text} from "@chakra-ui/react";
-import React from "react";
+import { Box, Text } from "@chakra-ui/react";
+
 import ContinueWith from "../ContinueWith";
 import FormHeading from "../FormHeading";
 import SocialMedia from "../SocialMedia";
@@ -16,7 +16,7 @@ const LoginFrom = () => {
       pt="2rem"
       pb={{ base: "4rem", md: "6rem", lg: "8rem" }}
       backgroundImage="url('https://wallpapercave.com/wp/wp11122753.jpg')"
-      backgroundPosition={{base: "center", md: "center", "lg": "contain"}}
+      backgroundPosition={{ base: "center", md: "center", lg: "contain" }}
       backgroundRepeat="no-repeat"
     >
       <SiteLogo />
@@ -41,8 +41,12 @@ const LoginFrom = () => {
             Or
           </Text>
         </Box>
-        
-        <LinkLoginSignup des={"New to JEFIT?"} link={"Create an account."} />
+
+        <LinkLoginSignup
+          des={"New to JEFIT?"}
+          link={"Create an account."}
+          to={"/signup"}
+        />
       </Box>
     </Box>
   );
