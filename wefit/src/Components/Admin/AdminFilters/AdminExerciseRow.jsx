@@ -8,16 +8,11 @@ import {
   Text,
   Textarea,
   Tr,
-
   Spinner,
   useToast
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { adminDeleteExercise } from "../../../Redux/Admin/admin.actions";
-
-} from "@chakra-ui/react";
-import { useNavigate } from "react-router-dom";
-
 
 const ExerciseRow = ({ data, loading }) => {
   let [exer, setExer] = React.useState(data.name);
@@ -25,7 +20,6 @@ const ExerciseRow = ({ data, loading }) => {
   let [equip, setEquip] = React.useState(data.equipment);
   let [target, setTarget] = React.useState(data.target);
   let [free, setFree] = React.useState(data.proUser ? "Elite" : "Free");
-
 
   const toast = useToast();
 
@@ -35,7 +29,6 @@ const ExerciseRow = ({ data, loading }) => {
 
   // console.log(data)
 
-
   // const navigate = useNavigate();
   // const navigationHandler = (id) => {
   //   if (data.proUser) {
@@ -44,7 +37,6 @@ const ExerciseRow = ({ data, loading }) => {
   //     navigate(`/routines/${id}`);
   //   }
   // };
-
 
   let exerInputChange = (e) => {
     let inputValue = e.target.value;
@@ -71,7 +63,6 @@ const ExerciseRow = ({ data, loading }) => {
     setFree(inputValue);
   };
 
-
   const handleDelete = () => {
     dispatch(adminDeleteExercise(data.id));
     toast({
@@ -96,12 +87,10 @@ const ExerciseRow = ({ data, loading }) => {
   // />
   // }
 
-
   return (
     <>
       <Tr cursor={"pointer"}>
         <Td>
-
           <Button
             onClick={handleDelete}
             colorScheme="red"
@@ -113,18 +102,9 @@ const ExerciseRow = ({ data, loading }) => {
               border: "2px solid red",
             }}
           >
-
-          <Button colorScheme="red" borderRadius="1rem" variant="solid" _hover={{
-                    background: "white",
-                    color: "red",
-                    border: "2px solid red",
-                  }}
-                  >
-
             Delete
           </Button>
         </Td>
-
 
         <Td>
           <Image
@@ -137,7 +117,6 @@ const ExerciseRow = ({ data, loading }) => {
             alt={data.name}
           />
         </Td>
-
 
         <Td>
           <Text mb="8px">
@@ -183,22 +162,6 @@ const ExerciseRow = ({ data, loading }) => {
 
         <Td>
           <Text mb="8px">
-
-            <b>Edit:</b> {target}
-          </Text>
-          <Box border="1px solid gray">
-            <Textarea
-              value={target}
-              onChange={targetInputChange}
-              placeholder="Here is a sample placeholder"
-              size="sm"
-            />
-          </Box>
-        </Td>
-
-        <Td>
-          <Text mb="8px">
-
             <b>Edit:</b> {free}
           </Text>
           <Box border="1px solid gray">

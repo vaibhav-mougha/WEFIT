@@ -9,7 +9,7 @@ import {
 export const adminAddExercise = (creds) => async (dispatch) => {
   dispatch({ type: ADMIN_LOADING_EXERCISE });
   try {
-    let res = await axios.post("https://we-fit-database-api.vercel.app/adminData", creds);
+    let res = await axios.post("https://we-fit-database-api.vercel.app/exercise", creds);
     dispatch({ type: ADMIN_ADD__EXERCISE, payload: res.data });
   } catch (error) {
     dispatch({ type: ADMIN_ERROR_EXERCISE, payload: error.message });
@@ -19,7 +19,7 @@ export const adminAddExercise = (creds) => async (dispatch) => {
 export const adminDeleteExercise = (id) => async (dispatch) => {
   dispatch({ type: ADMIN_LOADING_EXERCISE });
   try {
-    let res = await axios.delete(`https://we-fit-database-api.vercel.app/adminData/${id}`);
+    let res = await axios.delete(`https://we-fit-database-api.vercel.app/exercise/${id}`);
     dispatch({ type: ADMIN_DELETE_EXERCISE, payload: id });
   } catch (error) {
     dispatch({ type: ADMIN_ERROR_EXERCISE, payload: error.message });
