@@ -29,18 +29,23 @@ const TopComp = () => {
   const [currPage, setCurrPage] = useState(1);
   const navigate = useNavigate();
   useEffect(() => {
-    axios.get(`http://localhost:8080/exercise/${id}`).then((res) => {
-      setData(res.data);
-      axios
-        .get(
-          `http://localhost:8080/exercise/?bodyPart_like=${res.data.bodyPart}&_page=${currPage}&_limit=10`
-        )
-        .then((res) => {
-          setRelatedData(res.data);
-          setTotalPages(res.headers.get("x-total-count"));
-        });
-    });
+    axios
+      .get(`https://we-fit-database-api.vercel.app/exercise/${id}`)
+      .then((res) => {
+        setData(res.data);
+      });
   }, [id, currPage]);
+  if (data.bodyPart !== undefined) {
+    axios
+      .get(
+        `https://we-fit-database-api.vercel.app/exercise/?bodyPart_like=${data.bodyPart}&_page=${currPage}&_limit=10`
+      )
+      .then((res) => {
+        setRelatedData(res.data);
+        setTotalPages(res.headers.get("x-total-count"));
+      });
+  }
+
   const currPageHandler = (currPage) => {
     setCurrPage(currPage);
   };

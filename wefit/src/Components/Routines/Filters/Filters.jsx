@@ -5,7 +5,7 @@ import Search from "./Search";
 import axios from "axios";
 const getData = async (currPage, searchTerm) => {
   let res = await axios.get(
-    `http://localhost:8080/exercise?q=${searchTerm}&_page=${currPage}&_limit=10`
+    `https://we-fit-database-api.vercel.app/exercise?q=${searchTerm}&_page=${currPage}&_limit=10`
   );
   return res;
 };
