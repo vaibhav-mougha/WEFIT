@@ -1,18 +1,20 @@
 import React from "react";
 import { Image, Td, Tr } from "@chakra-ui/react";
-const ExerciseRow = ({ data }) => {
+import { useNavigate } from "react-router-dom";
+const ExerciseRow = ({ data, loading }) => {
+  const navigate = useNavigate();
+  const navigationHandler = (id) => {
+    if (data.proUser) {
+      navigate(`/elite`);
+    } else {
+      navigate(`/routines/${id}`);
+    }
+  };
+
   return (
     <>
-      <Tr>
-        <Td
-          style={
-            {
-              // display: "flex",
-              // justifyContent: "center",
-              // alignItems: "center",
-            }
-          }
-        >
+      <Tr cursor={"pointer"} onClick={() => navigationHandler(data.id)}>
+        <Td>
           <Image
             border={"1px solid black"}
             borderRadius="md"

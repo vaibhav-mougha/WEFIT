@@ -1,8 +1,13 @@
 import React from "react";
 import { GridItem, Grid, Image, Box, Button, Center } from "@chakra-ui/react";
 import styles from "../../Styles/Excercise.module.css";
+import { useNavigate } from "react-router";
 
 const MuscleGroup = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/exercise/filter");
+  };
   return (
     <Box
       position="relative"
@@ -12,41 +17,67 @@ const MuscleGroup = () => {
     >
       <Grid className={styles.muscle}>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Triceps</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Triceps
+          </Button>
         </GridItem>
         <GridItem colSpan={2}></GridItem>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Shoulders</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Shoulders
+          </Button>
         </GridItem>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Biceps</Button>
-        </GridItem>
-        <GridItem colSpan={2}></GridItem>
-        <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Chest</Button>
-        </GridItem>
-        <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Back</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Biceps
+          </Button>
         </GridItem>
         <GridItem colSpan={2}></GridItem>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Forearms</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Chest
+          </Button>
         </GridItem>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Glutes</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Back
+          </Button>
         </GridItem>
         <GridItem colSpan={2}></GridItem>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Abs</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Forearms
+          </Button>
         </GridItem>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Lower Legs</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Glutes
+          </Button>
+        </GridItem>
+        <GridItem colSpan={2}></GridItem>
+        <GridItem>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Abs
+          </Button>
+        </GridItem>
+        <GridItem>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Lower Legs
+          </Button>
         </GridItem>
         <GridItem colSpan={2} position="relative">
-          <Button position="absolute" bottom="0px" size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Cardio</Button>
+          <Button
+            position="absolute"
+            bottom="0px"
+            size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}
+          >
+            Cardio
+          </Button>
         </GridItem>
         <GridItem>
-          <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}}>Upper Legs</Button>
+          <Button size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}>
+            Upper Legs
+          </Button>
         </GridItem>
       </Grid>
       <Image
@@ -55,7 +86,14 @@ const MuscleGroup = () => {
         alt="musclegroup"
       />
       <Center className={styles.singlebtn} mt="20px">
-        <Button size={{base:"sm", sm:"sm",md:"md",lg:"md"}} textAlign="center" color="rgb(88, 95, 105)">View All Excercises</Button>
+        <Button
+          size={{ base: "sm", sm: "sm", md: "md", lg: "md" }}
+          textAlign="center"
+          color="rgb(88, 95, 105)"
+          onClick={handleClick}
+        >
+          View All Excercises
+        </Button>
       </Center>
     </Box>
   );

@@ -12,6 +12,7 @@
 }
 
 .paginationBlog .page-num{
+  border:1px solid red;
   padding: 8px 15px;
   cursor: pointer;
   border-radius: 3px;

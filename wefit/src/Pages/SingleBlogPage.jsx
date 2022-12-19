@@ -2,7 +2,9 @@ import { Button } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from "react-router-dom"
 
-import style from "../Blog/SingleBlogPage.module.css"
+import style from '../Components/Blog/SingleBlogPage.module.css'
+import Footer from '../Components/Home/Footer';
+import Navbar from '../Components/Home/Navbar';
 
 
 const getDetailsBlogData = (url) => {
@@ -30,6 +32,8 @@ const SingleBlogPage = () => {
 
 
   return (
+   <>
+   <Navbar/>
     <div className={style.SingleBlogPageMain_div}>
       <div key={blogDetails.id} className={style.SingleBlogPageMain_div_section}>
         <div>
@@ -47,6 +51,8 @@ const SingleBlogPage = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+   </>
   )
 }
 

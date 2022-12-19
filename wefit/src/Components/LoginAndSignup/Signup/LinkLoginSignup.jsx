@@ -2,7 +2,7 @@ import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const LinkLoginSignup = ({des, link}) => {
+const LinkLoginSignup = ({des, link, to}) => {
   return (
     <Box
         w={"37.5%"}
@@ -15,7 +15,7 @@ const LinkLoginSignup = ({des, link}) => {
         
         <Text fontSize={{ base: "0.9rem", md: "1rem", lg: "1.2rem" }}>{des}</Text>
         <Text color={"#50B6FF"} textDecoration={"underline"} fontSize={{ base: "0.9rem", md: "1rem", lg: "1.2rem" }}>
-          <Link to={"/signin"}>{link}</Link>
+          <Link to={to}>{link}</Link>
         </Text>
       </Box>
   )
