@@ -8,8 +8,16 @@ import {
   Text,
   Textarea,
   Tr,
+
+  Spinner,
+  useToast
+} from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
+import { adminDeleteExercise } from "../../../Redux/Admin/admin.actions";
+
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+
 
 const ExerciseRow = ({ data, loading }) => {
   let [exer, setExer] = React.useState(data.name);
@@ -17,6 +25,16 @@ const ExerciseRow = ({ data, loading }) => {
   let [equip, setEquip] = React.useState(data.equipment);
   let [target, setTarget] = React.useState(data.target);
   let [free, setFree] = React.useState(data.proUser ? "Elite" : "Free");
+
+
+  const toast = useToast();
+
+  const dispatch = useDispatch();
+  const {isLoading,isError} = useSelector(store => store.admin);
+  // console.log(isLoading,isError)
+
+  // console.log(data)
+
 
   // const navigate = useNavigate();
   // const navigationHandler = (id) => {
@@ -27,7 +45,6 @@ const ExerciseRow = ({ data, loading }) => {
   //   }
   // };
 
-  
 
   let exerInputChange = (e) => {
     let inputValue = e.target.value;
@@ -55,16 +72,55 @@ const ExerciseRow = ({ data, loading }) => {
   };
 
 
+  const handleDelete = () => {
+    dispatch(adminDeleteExercise(data.id));
+    toast({
+      title: "Exercise deleted successfully",
+      status: "error",
+      duration: 1200,
+      isClosable: true,
+      position: "top",
+    });
+   setTimeout(() => {
+    location.reload()
+   }, 1200);
+  };
+
+  // if(isLoading){
+  //   return <Spinner
+  //   thickness='4px'
+  //   speed='0.65s'
+  //   emptyColor='gray.200'
+  //   color='blue.500'
+  //   size='xl'
+  // />
+  // }
+
+
   return (
     <>
       <Tr cursor={"pointer"}>
         <Td>
+
+          <Button
+            onClick={handleDelete}
+            colorScheme="red"
+            borderRadius="1rem"
+            variant="solid"
+            _hover={{
+              background: "white",
+              color: "red",
+              border: "2px solid red",
+            }}
+          >
+
           <Button colorScheme="red" borderRadius="1rem" variant="solid" _hover={{
                     background: "white",
                     color: "red",
                     border: "2px solid red",
                   }}
                   >
+
             Delete
           </Button>
         </Td>
@@ -82,7 +138,6 @@ const ExerciseRow = ({ data, loading }) => {
           />
         </Td>
 
-        
 
         <Td>
           <Text mb="8px">
@@ -128,6 +183,7 @@ const ExerciseRow = ({ data, loading }) => {
 
         <Td>
           <Text mb="8px">
+
             <b>Edit:</b> {target}
           </Text>
           <Box border="1px solid gray">
@@ -142,6 +198,7 @@ const ExerciseRow = ({ data, loading }) => {
 
         <Td>
           <Text mb="8px">
+
             <b>Edit:</b> {free}
           </Text>
           <Box border="1px solid gray">

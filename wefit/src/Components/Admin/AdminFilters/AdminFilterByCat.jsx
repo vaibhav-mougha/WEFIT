@@ -1,5 +1,11 @@
+
+import { Box, Button, Center, Grid, GridItem, Select } from "@chakra-ui/react";
+import React, { useState } from "react";
+import AddExercises from "./AddExercises";
+
 import { Button, Center, Grid, GridItem, Select } from "@chakra-ui/react";
 import React, { useState } from "react";
+
 import Exercises from "./AdminExercises";
 import Pagination from "./AdminPagination";
 const categories = "all categories";
@@ -70,6 +76,9 @@ const catByEquipments = [
 const filterByTargetMuscles = "Filter By Target Muscles";
 const filterByBodyParts = "Filter By Body Parts";
 const filterByEquipments = "Filter By Equipments";
+
+import Search from "./AdminSearch";
+
 const FilterByCat = ({
   data,
   setCurrPageHandler,
@@ -89,6 +98,33 @@ const FilterByCat = ({
   const allCatHandler = () => {
     allClickCat();
   };
+
+
+  const searchHandler = (query) => {
+    setSearchTerm(query);
+  };
+
+  return (
+    <>
+      <Box display={{lg:"flex"}} mt="2rem" justify="space-between"
+      // border="1px solid black"
+      w="50%"
+      >
+
+        {/* All Categories */}
+        <Button
+          onClick={allCatHandler}
+          variant={"outline"}
+          textTransform={"capitalize"}
+        >
+          {categories}
+        </Button>
+
+        {/*  Add New Exercise */}
+        <AddExercises />
+      </Box>
+
+
   return (
     <>
       <Grid
@@ -154,6 +190,7 @@ const FilterByCat = ({
           </Select>
         </GridItem>
       </Grid>
+
       <Exercises data={data} loading={loading} />
       <Pagination totalPages={totalPages} onSwitchPage={handlePageChange} />
     </>
