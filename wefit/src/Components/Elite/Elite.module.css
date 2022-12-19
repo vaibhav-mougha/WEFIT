@@ -245,7 +245,7 @@
 
 
 /* Medium screens */
-@media all and (min-width: 550px) and (max-width: 950px) {
+@media all and (min-width: 450px) and (max-width: 950px) {
 
 
     .Plans_that_suit_you_best_section {
@@ -447,11 +447,11 @@
 
 
 /* Small screens */
-@media all and (min-width: 100px) and (max-width: 549px) {
+@media all and (min-width: 100px) and (max-width: 449px) {
 
 
     .main_div {
-        width: 270%;
+        width: 100%;
         background-color: #f3fdfe;
         height: auto;
         /* margin-bottom: 200px; */
@@ -463,14 +463,14 @@
     .Year_End_of_discount_section {
         /* border: 1px solid black; */
         /* margin-top: 80px; */
-        padding: 25px;
+        padding: 20px;
     }
 
     .Year_End_of_discount_section_h1_tag {
         /* border: 1px solid black; */
         text-align: center;
         font-weight: 500;
-        font-size: 2.4em;
+        font-size: 1.4em;
         line-height: 1em;
         font-family: 'DM Sans', sans-serif;
     }
@@ -478,7 +478,7 @@
     .Year_End_of_discount_section_h2_tag {
         /* border: 1px solid black; */
         font-weight: 500;
-        font-size: 1.7em;
+        font-size: 1.1em;
         line-height: 1.1em;
         font-family: 'DM Sans', sans-serif;
     }
@@ -497,7 +497,7 @@
     .Plans_that_suit_you_best_section_h1_tag_Plan_suit {
         /* border: 1px solid black; */
         margin-top: 1px;
-        font-size: 1.7em;
+        font-size: 1.5em;
         line-height: 1.5;
         margin-bottom: 25px;
     }
@@ -516,7 +516,7 @@
 
     .Plans__Blog__Plan_>div {
         /* border: 1px solid red; */
-        width: 70%;
+        width: 80%;
         height: auto;
         margin: auto;
         /* margin-left: 10px; */
@@ -531,7 +531,7 @@
         /* border: 1px solid black; */
         color: #585f69;
         margin-top: 5px;
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 700;
         font-family: 'Barlow Semi Condensed', sans-serif;
         line-height: 1.1;
@@ -540,7 +540,7 @@
     .Plans__Blog__Plan_Title_h2_tag_discount {
         /* border: 1px solid black; */
         font-family: 'DM Sans', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         margin-top: 3px;
         line-height: 1.1em;
@@ -551,8 +551,8 @@
         /* border: 1px solid black; */
         font-family: 'DM Sans', sans-serif;
         margin-top: 5px;
-        font-size: 35px;
-        font-weight: 500;
+        font-size: 19px;
+        font-weight: 400;
         line-height: 1.2em;
         color: #888888;
     }
@@ -585,8 +585,8 @@
         width: 100%;
         margin: auto;
         color: white;
-        padding: 15px;
-        font-size: 25px;
+        padding: 5px;
+        font-size: 20px;
         font-weight: 700;
         text-align: center;
     }
@@ -610,16 +610,17 @@
     .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>img {
         width: 100%;
         /* border: 1px solid red; */
-        height: 500px;
+        height: 350px;
+        padding: 2px;
         /* margin-right: 0px; */
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
-
+/*  */
     .SEND_JEFIT_ELITE_MEMBERSHIP_AS_GIFT_IMG_SEction>div>h1 {
         /* border: 1px solid black; */
         text-align: center;
         color: #585f69;
-        font-size: 40px;
+        font-size: 25px;
         font-weight: 700;
         font-family: 'Open Sans', sans-serif;
     }
@@ -628,8 +629,8 @@
         /* border: 1px solid black; */
         font-family: 'DM Sans', sans-serif;
         text-align: center;
-        font-size: 21px;
-        width: 90%;
+        font-size: 13px;
+        width: 100%;
         line-height: 150%;
         color: #888888;
         color: #555;
@@ -656,8 +657,8 @@
     }
 
     .Also_unlock_feature_section>div:nth-child(2) {
-        /* border: 1px solid black; */
-        height: 450px;
+        /* border: 10px solid black; */
+        height: 250px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -666,12 +667,12 @@
     }
 
     .Also_unlock_feature_section>div:nth-child(1) h1 {
-        /* border: 1px solid black; */
+        /* border: 10px solid black; */
         text-align: center;
         color: #FFFFFF;
         font-weight: 700;
-        padding: 10px;
-        font-size: 4em;
+        padding: 1px;
+        font-size: 1.7em;
         line-height: 1.3em;
 
     }
@@ -682,7 +683,7 @@
 
     .Also_unlock_feature_section_all_img_main {
         /* border: 1px solid black; */
-        margin-top: 30px;
+        margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
@@ -698,20 +699,22 @@
 
     .Also_unlock_feature_section_all_img_main_backGroundImg>h1 {
         text-align: center;
+        display: none;
         color: #ffffff;
         /* border: 1px solid black; */
         font-weight: 500;
-        font-size: 4em;
-        line-height: 0.5em;
+        font-size: 1.5em;
+        line-height: 1.5em;
     }
 
     .Also_unlock_feature_section_all_img_main_backGroundImg>button {
         background-color: #007bff;
         padding: 20px;
+        display: none;
         color: #f3fdfe;
         font-size: 21px;
         font-weight: 800;
-        /* border: 1px solid black; */
+        border: 1px solid black;
     }
 
 

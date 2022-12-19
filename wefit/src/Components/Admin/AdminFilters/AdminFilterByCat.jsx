@@ -1,6 +1,11 @@
+
 import { Box, Button, Center, Grid, GridItem, Select } from "@chakra-ui/react";
 import React, { useState } from "react";
 import AddExercises from "./AddExercises";
+
+import { Button, Center, Grid, GridItem, Select } from "@chakra-ui/react";
+import React, { useState } from "react";
+
 import Exercises from "./AdminExercises";
 import Pagination from "./AdminPagination";
 const categories = "all categories";
@@ -71,7 +76,9 @@ const catByEquipments = [
 const filterByTargetMuscles = "Filter By Target Muscles";
 const filterByBodyParts = "Filter By Body Parts";
 const filterByEquipments = "Filter By Equipments";
+
 import Search from "./AdminSearch";
+
 const FilterByCat = ({
   data,
   setCurrPageHandler,
@@ -91,6 +98,7 @@ const FilterByCat = ({
   const allCatHandler = () => {
     allClickCat();
   };
+
 
   const searchHandler = (query) => {
     setSearchTerm(query);
@@ -115,6 +123,73 @@ const FilterByCat = ({
         {/*  Add New Exercise */}
         <AddExercises />
       </Box>
+
+
+  return (
+    <>
+      <Grid
+        gap={"8"}
+        mt="1rem"
+        templateColumns={[
+          "repeat(1, 1fr)",
+          "repeat(2, 1fr)",
+          "repeat(3, 1fr)",
+          "repeat(4, 1fr)",
+        ]}
+      >
+        <GridItem>
+          <Center>
+            <Button
+              onClick={allCatHandler}
+              variant={"outline"}
+              textTransform={"capitalize"}
+            >
+              {categories}
+            </Button>
+          </Center>
+        </GridItem>
+        <GridItem>
+          <Select
+            cursor={"pointer"}
+            onChange={(e) => setBodyParts(e.target.value)}
+          >
+            <option value="filterbybodyparts">{filterByBodyParts}</option>
+            {catByBodyParts.map((cat, i) => (
+              <option value={cat} key={i}>
+                {cat}
+              </option>
+            ))}
+          </Select>
+        </GridItem>
+        <GridItem>
+          <Select
+            cursor={"pointer"}
+            onChange={(e) => setTargetmuscles(e.target.value)}
+          >
+            <option value="filterbytargetmuscles">
+              {filterByTargetMuscles}
+            </option>
+            {catByTragetMuscles.map((cat, i) => (
+              <option value={cat} key={i}>
+                {cat}
+              </option>
+            ))}
+          </Select>
+        </GridItem>
+        <GridItem>
+          <Select
+            cursor={"pointer"}
+            onChange={(e) => setEquipments(e.target.value)}
+          >
+            <option value="filterbyequipments">{filterByEquipments}</option>
+            {catByEquipments.map((cat, i) => (
+              <option value={cat} key={i}>
+                {cat}
+              </option>
+            ))}
+          </Select>
+        </GridItem>
+      </Grid>
 
       <Exercises data={data} loading={loading} />
       <Pagination totalPages={totalPages} onSwitchPage={handlePageChange} />

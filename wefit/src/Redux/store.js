@@ -14,7 +14,9 @@ const rootReducer = combineReducers({
   signup: signupReducer,
   login: loginReducer,
   profile: profileReducer,
+
   admin: adminReducer,
+
 });
 
 const composerEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

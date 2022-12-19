@@ -756,12 +756,12 @@
     }
 
     .Client_Management_section>div {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
     }
 
     .Client_Management_section_H1_tag_Head {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         font-size: 40px;
         font-weight: 700;
     }

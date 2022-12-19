@@ -1,6 +1,6 @@
 import { Button } from "@chakra-ui/react";
 import React from "react";
-import style from "../Components/Elite-Page/Elite.module.css";
+import style from "../Components/Elite/Elite.module.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
@@ -9,8 +9,9 @@ import Navbar from "../Components/Home/Navbar";
 import Footer from "../Components/Home/Footer";
 
 const GetPlansEliteData = async () => {
-  return await axios.get(`http://localhost:8080/PlansElitePage`);
-};
+    return await axios.get(`https://we-fit-database-api.vercel.app/PlansElitePage`)
+}
+
 
 const send_Jefit_elite_membership_gift_section_img = [
   {

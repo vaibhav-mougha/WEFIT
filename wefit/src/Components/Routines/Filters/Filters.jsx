@@ -5,7 +5,7 @@ import Search from "./Search";
 import axios from "axios";
 const getData = async (currPage, searchTerm) => {
   let res = await axios.get(
-    `http://localhost:8080/exercise?q=${searchTerm}&_page=${currPage}&_limit=10`
+    `https://we-fit-database-api.vercel.app/exercise?q=${searchTerm}&_page=${currPage}&_limit=10`
   );
   return res;
 };
@@ -15,37 +15,43 @@ const Filters = () => {
   const [currPage, setCurrPage] = useState(1);
   const [totalPages, setTotal] = useState(0);
   const [searchTerm, setSearchTerm] = useState("");
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
-    getData(currPage, searchTerm).then((res) => {
-      setDB(res.data);
-      setTotal(res.headers.get("x-total-count"));
-    });
+    setLoading(true);
+    getData(currPage, searchTerm)
+      .then((res) => {
+        setDB(res.data);
+        setTotal(res.headers.get("x-total-count"));
+        setLoading(false);
+      })
+      .catch((err) => {
+        setLoading(false);
+      });
   }, [currPage, searchTerm]);
   const searchHandler = (query) => {
-    // axios
-    //   .get(
-    //     `http://localhost:8080/exercise?q=${query}&_page=${currPage}&_limit=10`
-    //   )
-    //   .then((res) => {
-    //     setDB(res.data);
-    //     setTotal(res.headers.get("x-total-count"));
-    //     console.log(res);
-    //   });
     setSearchTerm(query);
-    console.log(query);
   };
 
   const setCurrPageHandler = (currPage) => {
     setCurrPage(currPage);
   };
-
+  const allClickCat = () => {
+    setLoading(true);
+    getData("", currPage).then((res) => {
+      setDB(res.data);
+      setTotal(res.headers.get("x-total-count"));
+      setLoading(false);
+    });
+  };
   return (
     <div className="app__filters-container">
       <Search onSearch={searchHandler} />
       <FilterByCat
+        loading={loading}
         data={dataDB}
         setCurrPageHandler={setCurrPageHandler}
         totalPages={totalPages}
+        allClickCat={allClickCat}
       />
     </div>
   );

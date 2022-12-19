@@ -47,8 +47,12 @@ const Navbar = () => {
   };
 
   return (
+
     <>
-      <Hide below="sm">
+
+    <div style={{position: "sticky", top:"0", zIndex:"100"}}>
+      <Hide below="sm" >
+
         <Flex
           w="100%"
           bg="#257CFF"
@@ -170,9 +174,13 @@ const Navbar = () => {
                       {userName}
                     </Link>
                   ) : adminName ? (
+
                     <Link 
                     to="/admin"
                     style={{ fontWeight: "bold", color: "white" }}>
+
+                    <Link style={{ fontWeight: "bold", color: "white" }}>
+
                       {adminName}
                     </Link>
                   ) : (
@@ -391,12 +399,20 @@ const Navbar = () => {
                       {userName ? (
                         <Link
                           to={"/newuser"}
+
                           style={{ fontWeight: "bold", color: "#257CFF" }}
+
+                          style={{ fontWeight: "bold", color: "red" }}
+
                         >
                           {userName}
                         </Link>
                       ) : adminName ? (
+
                         <Link style={{ fontWeight: "bold", color: "#257CFF" }}>
+
+                        <Link style={{ fontWeight: "bold", color: "red" }}>
+
                           {adminName}
                         </Link>
                       ) : (
@@ -453,7 +469,7 @@ const Navbar = () => {
           </DrawerContent>
         </Drawer>
       </Show>
-    </>
+    </div>
   );
 };
 

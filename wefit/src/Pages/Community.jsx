@@ -58,27 +58,11 @@ const Community = () => {
           >
             <h1>Active Jefit Users</h1>
 
-            <div
-              className={
-                style.Community_Question_And_answer_Main_div_Image__Main_section_With_Name_Image
-              }
-            >
-              <div>
-                <img
-                  className={
-                    style.Community_Question_And_answer_Main_div_Image_Active_user
-                  }
-                  src="https://www.jefit.com/assets/customavatars/avatar3098230_1.gif"
-                  alt=""
-                />
-                <p
-                  className={
-                    style.Community_Question_And_answer_Main_div_Image_Active_user_name
-                  }
-                >
-                  miodan
-                </p>
-              </div>
+                <div className={style.Community_Main_div_section}>
+                    <h1>Wefit Community Members</h1>
+                    <p>Check out some of the latest posts from the community and stay strong together!</p>
+                </div>
+
 
               <div>
                 <img
@@ -114,39 +98,29 @@ const Community = () => {
                 </p>
               </div>
 
-              <div>
-                <img
-                  className={
-                    style.Community_Question_And_answer_Main_div_Image_Active_user
-                  }
-                  src="https://www.jefit.com/assets/customavatars/avatar1318728_7.gif"
-                  alt=""
-                />
-                <p
-                  className={
-                    style.Community_Question_And_answer_Main_div_Image_Active_user_name
-                  }
-                >
-                  AD89
-                </p>
-              </div>
+                    <div>
+                        <h1>Question and Answers from the Wefit Community</h1>
+                        <p> • What are people's thoughts on working out twice a day?</p>
+                        <p> • If I’m looking at bulking, is it good to do light cardio on the rest days?</p>
+                        <p> • Simple advice for nutrition to lose fat.</p>
+                        <p> • Anyone have a good way to tell if you are gaining muscle or fat?</p>
+                        <p> • Doing strength training, bulking. Do you take a week off?</p>
+                        <p> • If you lift less weight for a muscle group one day of the week, does that make the workout pointless in terms of muscle hypertrophy?</p>
+                        <p> • I’ve been on creatine before.</p>
+                        <p> • I need help finding a successful routine.</p>
+                        <p> • Anyone have any tips on recognizing they need a deload before your body makes it clear?</p>
+                        <p> • So I've been back in the gym for 5 months (after a few years of not going).</p>
+                    </div>
 
-              <div>
-                <img
-                  className={
-                    style.Community_Question_And_answer_Main_div_Image_Active_user
-                  }
-                  src="https://www.jefit.com/assets/customavatars/avatar2801403_1.gif"
-                  alt=""
-                />
-                <p
-                  className={
-                    style.Community_Question_And_answer_Main_div_Image_Active_user_name
-                  }
-                >
-                  miodan1
-                </p>
-              </div>
+                    <div className={style.Community_Question_And_answer_Main_div_Image_Section} >
+                        <h1>Active Wefit Users</h1>
+                        
+                        <div className={style.Community_Question_And_answer_Main_div_Image__Main_section_With_Name_Image}>
+                                <div>
+                                    <img className={style.Community_Question_And_answer_Main_div_Image_Active_user} src="https://www.jefit.com/assets/customavatars/avatar3098230_1.gif" alt="" />
+                                    <p className={style.Community_Question_And_answer_Main_div_Image_Active_user_name} >miodan</p>
+                                </div>
+
 
               <div>
                 <img
@@ -358,6 +332,7 @@ const Community = () => {
         </div>
       </div>
       <Footer />
+    </div>
     </>
   );
 };

@@ -1,6 +1,5 @@
 import { Button, Center, Grid, GridItem, Select } from "@chakra-ui/react";
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState } from "react";
 import Exercises from "./Exercises";
 import Pagination from "./Pagination";
 const categories = "all categories";
@@ -71,7 +70,13 @@ const catByEquipments = [
 const filterByTargetMuscles = "Filter By Target Muscles";
 const filterByBodyParts = "Filter By Body Parts";
 const filterByEquipments = "Filter By Equipments";
-const FilterByCat = ({ data, setCurrPageHandler, totalPages }) => {
+const FilterByCat = ({
+  data,
+  setCurrPageHandler,
+  totalPages,
+  loading,
+  allClickCat,
+}) => {
   const [filterbytargetmuscles, setTargetmuscles] = useState(
     filterByTargetMuscles
   );
@@ -80,6 +85,9 @@ const FilterByCat = ({ data, setCurrPageHandler, totalPages }) => {
 
   const handlePageChange = (currentPage) => {
     setCurrPageHandler(currentPage);
+  };
+  const allCatHandler = () => {
+    allClickCat();
   };
   return (
     <>
@@ -95,7 +103,11 @@ const FilterByCat = ({ data, setCurrPageHandler, totalPages }) => {
       >
         <GridItem>
           <Center>
-            <Button variant={"outline"} textTransform={"capitalize"}>
+            <Button
+              onClick={allCatHandler}
+              variant={"outline"}
+              textTransform={"capitalize"}
+            >
               {categories}
             </Button>
           </Center>
@@ -142,7 +154,7 @@ const FilterByCat = ({ data, setCurrPageHandler, totalPages }) => {
           </Select>
         </GridItem>
       </Grid>
-      <Exercises data={data} />
+      <Exercises data={data} loading={loading} />
       <Pagination totalPages={totalPages} onSwitchPage={handlePageChange} />
     </>
   );

@@ -13,7 +13,11 @@ import {
 export const login = ({ email, password }) => async (dispatch) => {
   if (email === "admin@wefit.com") {
     try {
+
       let adminRes = await axios.get("https://we-fit-database-api.vercel.app/adminData");
+
+      let adminRes = await axios.get("http://localhost:8080/adminData");
+
       if (
         adminRes.data.email === email &&
         adminRes.data.password === password
@@ -30,7 +34,11 @@ export const login = ({ email, password }) => async (dispatch) => {
     }
   } else {
     try {
+
       let userRes = await axios.get("https://we-fit-database-api.vercel.app/userData");
+
+      let userRes = await axios.get("http://localhost:8080/userData");
+
       let count = 0;
 
       for (let i = 0; i < userRes.data.length; i++) {

@@ -1,17 +1,15 @@
-import { Box, Grid, Hide, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import Navbar from "../Components/Home/Navbar";
 import ProfilePic from "../Components/Profile/NewUserProfilePic";
 import {
   Table,
-  Thead,
-  Tbody,
-  Tfoot,
   Tr,
-  Th,
   Td,
-  TableCaption,
   TableContainer,
+  Box,
+  Hide,
+  Image,
+  Text,
 } from "@chakra-ui/react";
 import Footer from "../Components/Home/Footer";
 import Dob from "../Components/Profile/Dob";
@@ -41,7 +39,7 @@ const NewUser = () => {
           // border="1px solid black"
         >
           {/* relic advt */}
-          <Box w={{base:"100%",md:"65%",lg:"65%"}}>
+          <Box w={{ base: "100%", md: "65%", lg: "65%" }}>
             <Image src="/Assets/relic.jpg" />
           </Box>
 
@@ -54,124 +52,128 @@ const NewUser = () => {
             // border="1px solid black"
           >
             {/* Left Grid */}
-             
-             <Hide  below="md">
-             <Box
-              w="55%"
-              // border="1px solid black"
-              borderRadius="1rem"
-              mr="2rem"
-              p="1.5rem"
-              boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
-            >
-             <Hide below="lg">
-             <ProfilePic />
-             </Hide>
 
-              <Box w="100%" mt="5rem">
-                <TableContainer>
-                  <Table variant="simple" size="sm">
-                    <Tr>
-                      {" "}
-                      <Td display="flex">
-                        <Image
-                          w="10%"
-                          mr="0.5rem"
-                          src="https://www.jefit.com/images/routine_icon_64_64.png"
-                        />{" "}
-                        My Routines
-                      </Td>
-                    </Tr>
-                    <Tr>
-                      {" "}
-                      <Td display="flex">
-                        <Image
-                          w="10%"
-                          mr="0.5rem"
-                          src="https://www.jefit.com/images/main_menu_logs_70_70.png"
-                        />
-                        My Logs
-                      </Td>
-                    </Tr>
-                    <Tr>
-                      {" "}
-                      <Td display="flex">
-                        <Image
-                          w="10%"
-                          mr="0.5rem"
-                          src="https://www.jefit.com/images/training_reports_icon_70_70.png"
-                        />
-                        My Reports
-                      </Td>
-                    </Tr>
-                    <Tr>
-                      {" "}
-                      <Td display="flex">
-                        <Image
-                          w="10%"
-                          mr="0.5rem"
-                          src="https://www.jefit.com/images/pictureicon.png"
-                        />
-                        My Photos
-                      </Td>
-                    </Tr>
-                    <Tr>
-                      {" "}
-                      <Td display="flex">
-                        <Image
-                          w="10%"
-                          mr="0.5rem"
-                          src="https://www.jefit.com/images/exercise_icon3_64_64.png"
-                        />
-                        My Custom Exercises
-                      </Td>
-                    </Tr>
-                    <Tr>
-                      {" "}
-                      <Td display="flex">
-                        <Image
-                          w="10%"
-                          mr="0.5rem"
-                          src="https://www.jefit.com/images/message_icon.png"
-                        />
-                        My Messages
-                      </Td>
-                    </Tr>
-                  </Table>
-                </TableContainer>
-              </Box>
+            <Hide below="md">
+              <Box
+                w="55%"
+                // border="1px solid black"
+                borderRadius="1rem"
+                mr="2rem"
+                p="1.5rem"
+                boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+              >
+                <Hide below="lg">
+                  <ProfilePic />
+                </Hide>
 
-              <Box mt="2rem">
-                <Image src="https://tpc.googlesyndication.com/simgad/5710722612612753432?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qmez8LRNXvmWmjgO0wMECruwXYCDQ" />
-              </Box>
+                <Box w="100%" mt="5rem">
+                  <TableContainer>
+                    <Table variant="simple" size="sm">
+                      <Tr>
+                        {" "}
+                        <Td display="flex">
+                          <Image
+                            w="10%"
+                            mr="0.5rem"
+                            src="https://www.jefit.com/images/routine_icon_64_64.png"
+                          />{" "}
+                          My Routines
+                        </Td>
+                      </Tr>
+                      <Tr>
+                        {" "}
+                        <Td display="flex">
+                          <Image
+                            w="10%"
+                            mr="0.5rem"
+                            src="https://www.jefit.com/images/main_menu_logs_70_70.png"
+                          />
+                          My Logs
+                        </Td>
+                      </Tr>
+                      <Tr>
+                        {" "}
+                        <Td display="flex">
+                          <Image
+                            w="10%"
+                            mr="0.5rem"
+                            src="https://www.jefit.com/images/training_reports_icon_70_70.png"
+                          />
+                          My Reports
+                        </Td>
+                      </Tr>
+                      <Tr>
+                        {" "}
+                        <Td display="flex">
+                          <Image
+                            w="10%"
+                            mr="0.5rem"
+                            src="https://www.jefit.com/images/pictureicon.png"
+                          />
+                          My Photos
+                        </Td>
+                      </Tr>
+                      <Tr>
+                        {" "}
+                        <Td display="flex">
+                          <Image
+                            w="10%"
+                            mr="0.5rem"
+                            src="https://www.jefit.com/images/exercise_icon3_64_64.png"
+                          />
+                          My Custom Exercises
+                        </Td>
+                      </Tr>
+                      <Tr>
+                        {" "}
+                        <Td display="flex">
+                          <Image
+                            w="10%"
+                            mr="0.5rem"
+                            src="https://www.jefit.com/images/message_icon.png"
+                          />
+                          My Messages
+                        </Td>
+                      </Tr>
+                    </Table>
+                  </TableContainer>
+                </Box>
 
-              <Box mt="2rem">
-                <TableContainer>
-                  <Table variant="simple" size="sm">
-                    <Tr>
-                      {" "}
-                      <Td display="flex">
-                        <Image
-                          w="10%"
-                          mr="0.5rem"
-                          src="https://www.jefit.com/images/friend_request_20.png"
-                        />{" "}
-                        0 Friends (s)
-                      </Td>
-                    </Tr>
-                  </Table>
-                </TableContainer>
-              </Box>
+                <Box mt="2rem">
+                  <Image src="https://tpc.googlesyndication.com/simgad/5710722612612753432?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qmez8LRNXvmWmjgO0wMECruwXYCDQ" />
+                </Box>
 
-              <Box mt="2rem">
-                <Image src="/Assets/payoneer.jpg" alt="payoneeradvt" w="70%" />
+                <Box mt="2rem">
+                  <TableContainer>
+                    <Table variant="simple" size="sm">
+                      <Tr>
+                        {" "}
+                        <Td display="flex">
+                          <Image
+                            w="10%"
+                            mr="0.5rem"
+                            src="https://www.jefit.com/images/friend_request_20.png"
+                          />{" "}
+                          0 Friends (s)
+                        </Td>
+                      </Tr>
+                    </Table>
+                  </TableContainer>
+                </Box>
+
+                <Box mt="2rem">
+                  <Image
+                    src="/Assets/payoneer.jpg"
+                    alt="payoneeradvt"
+                    w="70%"
+                  />
+                </Box>
               </Box>
-            </Box>
-             </Hide>
+            </Hide>
 
             {/* Center */}
             <Box
-              w={{md:"100%",lg:"130%"}}
+              w={{ md: "100%", lg: "130%" }}
               // border="1px solid red"
               textAlign="left"
               mr="2rem"
@@ -205,21 +207,19 @@ const NewUser = () => {
             </Box>
 
             {/* Right Grid */}
-           <Hide below="lg">
-           <Box
-              w="50%"
-              // border="2px solid blue"
-              color="gray"
-            >
-              <Text fontWeight="bold">Account</Text>
-              <Text textAlign="left">
-                On this page you will be able to change your profile settings
-                and set the units of measurement used within the application.
-              </Text>
-            </Box>
-            
-           </Hide>
-
+            <Hide below="lg">
+              <Box
+                w="50%"
+                // border="2px solid blue"
+                color="gray"
+              >
+                <Text fontWeight="bold">Account</Text>
+                <Text textAlign="left">
+                  On this page you will be able to change your profile settings
+                  and set the units of measurement used within the application.
+                </Text>
+              </Box>
+            </Hide>
           </Box>
         </Box>
       </Box>

@@ -12,13 +12,29 @@ import {
   CircularProgress,
   CircularProgressLabel,
   Grid,
-  GridItem,
   Progress,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { getProfile } from "../../Redux/Profile/profile.actions";
 import TrainingStats from "./TrainingStats";
 
 const UserTabs = () => {
+  const profile = useSelector((store) => store.profile.data);
+  const dispatch = useDispatch();
+
+  let height = profile && profile.height;
+  let weight = profile && profile.weight;
+
+  let h = Number(height);
+  let w = Number(weight);
+  let formula = w / (h / 100) ** 2;
+  let BMI = Number.parseFloat(formula).toFixed(2);
+
+  useEffect(() => {
+    dispatch(getProfile());
+  }, []);
+
   return (
     <Box>
       <Tabs>
@@ -154,7 +170,7 @@ const UserTabs = () => {
                     Current Weight
                   </Text>
                   <Text fontSize="2rem" color="#257CFF">
-                    72 Kgs
+                    {w}kgs
                   </Text>
                   <hr />
                 </Box>
@@ -184,7 +200,8 @@ const UserTabs = () => {
                     BMI
                   </Text>
                   <Text fontSize="2rem" color="gray">
-                    22.5
+                    {/* 22.5 */}
+                    {BMI}
                     {/* Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters. */}
                   </Text>
                   <hr />
@@ -668,7 +685,7 @@ const UserTabs = () => {
               Benchmark Exercise Progress
             </Text>
             <hr />
-            
+
             <TrainingStats />
           </TabPanel>
 
@@ -684,14 +701,12 @@ const UserTabs = () => {
               src="https://www.jefit.com/assets/img/group-avatar.png"
             />
             <Button colorScheme="gray" color="gray" variant="outline" mt="2rem">
-              No Pictures Found Upload now to enable progress photo comparison feature.
+              No Pictures Found Upload now to enable progress photo comparison
+              feature.
             </Button>
           </TabPanel>
-
         </TabPanels>
-
       </Tabs>
-      
     </Box>
   );
 };

@@ -1,6 +1,6 @@
 import { Button, Icon } from "@chakra-ui/react";
 import React, { useEffect, useRef } from "react";
-import style from "../Components/Coach-Page/Coach.module.css";
+import style from "../Components/Coach/Coach.module.css";
 // import { FaRegNewspaper } from "@react-icons/all-files/fa/FaRegNewspaper";
 import { FaRegNewspaper } from "react-icons/fa";
 import { CalendarIcon, SettingsIcon } from "@chakra-ui/icons";
@@ -51,21 +51,12 @@ const Coach = () => {
 
           <div className={style.LowerTimeSpentSection}>
             <div>
-              <h4 className={style.LowerTimeSpent_H4_tag}>
-                Lower Your Time Spent On Each Client
-              </h4>
-              <p className={style.LowerTimeSpent_P_Tag}>
-                Quickly and efficiently coach clients via JEFIT allowing you to
-                expand your client base without increasing your time invested.
-              </p>
 
-              <h4 className={style.LowerTimeSpent_H4_tag}>
-                Easily Build and Sell Workout Plans
-              </h4>
-              <p className={style.LowerTimeSpent_P_Tag}>
-                Develop and distribute your premium workout plan with JEFIT’s
-                robust exercise and workout plan libraries
-              </p>
+              <h4 className={style.LowerTimeSpent_H4_tag}>Lower Your Time Spent On Each Client</h4>
+              <p className={style.LowerTimeSpent_P_Tag}>Quickly and efficiently coach clients via WeFit allowing you to expand your client base without increasing your time invested.</p>
+
+              <h4 className={style.LowerTimeSpent_H4_tag}>Easily Build and Sell Workout Plans</h4>
+              <p className={style.LowerTimeSpent_P_Tag}>Develop and distribute your premium workout plan with WeFit’s robust exercise and workout plan libraries</p>
 
               <h4 className={style.LowerTimeSpent_H4_tag}>Build Your Brand</h4>
               <p className={style.LowerTimeSpent_P_Tag}>
@@ -98,9 +89,16 @@ const Coach = () => {
                 Client Management
               </h1>
 
-              <h2 className={style.Client_Management_section_H2_tag_Head}>
-                Coach More Clients in Less Time
-              </h2>
+              <h2 className={style.Client_Management_section_H2_tag_Head}>Coach More Clients in Less Time</h2>
+
+              <p className={style.Client_Management_section_P_Tag_Des}>· Easily onboard new clients with Wifit's robust online routine building and distribution system.</p>
+              <p className={style.Client_Management_section_P_Tag_Des}>· Wifit's premium exercise library coaches clients during their workout with exercise instructions and HD video demonstrations.</p>
+              <p className={style.Client_Management_section_P_Tag_Des}>· Limit time spent coaching with advanced analytics, insights, and automated notifications from clients logging their workouts.</p>
+              <p className={style.Client_Management_section_P_Tag_Des}>· Limit time spent coaching with advanced analytics, insights, and automated notifications from clients logging their workouts.</p>
+              <p className={style.Client_Management_section_P_Tag_Des}>· Wifit's feature-rich in-app messenger makes form reviews or workout plan updates quick and simple.</p>
+              <p className={style.Client_Management_section_P_Tag_Des}>· Avoid conflicting with geographic based non-compete clauses by expanding your business online.</p>
+
+              <button className={style.Client_Management_section_Button_Start_explore}>START EXPLORING</button>
 
               <p className={style.Client_Management_section_P_Tag_Des}>
                 · Easily onboard new clients with JEFIT's robust online routine
@@ -178,10 +176,16 @@ const Coach = () => {
                 breeze. JEFIT teaches your clients how to perform each
               </p>
 
-              <p className={style.Premium_Workout_Plans_section_P_tag}>
-                <Icon as={FaRegNewspaper} boxSize={4} /> . exercise with
-                detailed instructions and an HD video mid-workout.
-              </p>
+              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaRegNewspaper} boxSize={4} />  . Wefit's extensive exercise library makes updating or personalizing workout plans a breeze.
+                Wefit teaches your clients how to perform each</p>
+
+              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaRegNewspaper} boxSize={4} />  . exercise with detailed instructions and an HD video mid-workout.</p>
+
+              <p className={style.Premium_Workout_Plans_section_P_tag}><Icon as={FaRegNewspaper} boxSize={4} />  . Sell your services as a coach or just sell your premium workout plan - diversify your types of clients.</p>
+
+
+              <button className={style.Client_Management_section_Button_Start_explore}>START EXPLORING</button>
+
 
               <p className={style.Premium_Workout_Plans_section_P_tag}>
                 <Icon as={FaRegNewspaper} boxSize={4} /> . Sell your services as
@@ -205,9 +209,14 @@ const Coach = () => {
                 Coach Branding
               </h1>
 
-              <h2 className={style.Client_Management_section_H2_tag_Head}>
-                Build a reputation & let new clients come to you.
-              </h2>
+              <h2 className={style.Client_Management_section_H2_tag_Head}>Build a reputation & let new clients come to you.</h2>
+
+              <p className={style.Client_Management_section_P_Tag_Des}>· Be one of the first Coaches on wifits and start building your reputation first</p>
+              <p className={style.Client_Management_section_P_Tag_Des}>· Find time efficient clients as wifits users require less coaching than your average client.</p>
+              <p className={style.Client_Management_section_P_Tag_Des}>· Display your client successes and your certifications on your profile.</p>
+
+
+              <button className={style.Client_Management_section_Button_Start_explore}>START EXPLORING</button>
 
               <p className={style.Client_Management_section_P_Tag_Des}>
                 · Be one of the first Coaches on JEFIT and start building your

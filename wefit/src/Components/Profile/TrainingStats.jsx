@@ -1,14 +1,12 @@
 import React from "react";
-import Navbar from "../../Components/Home/Navbar";
-import { Carousel, Filters, Heading } from "../../Components/Routines";
-import FilterByCat from "../Routines/Filters/FilterByCat";
+import UserFilter from "../Filters/Filters"
 
 const TrainingStats = () => {
   return (
     <>
-      <FilterByCat />
+      <UserFilter />
     </>
-  )
-}
+  );
+};
 
-export default TrainingStats
+export default TrainingStats;

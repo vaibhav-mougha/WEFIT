@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import React from "react";
 import ReactPaginate from "react-paginate";
-import "../../Routines/Filters/Filters.scss";
+import "../../Profile/userFilter/Filters.scss";
 const Pagination = ({ onSwitchPage, totalPages }) => {
   const handleClick = async (data) => {
     onSwitchPage(data.selected + 1);
