@@ -13,11 +13,18 @@ import Elite from "../Pages/Elite";
 import SingleBlogPage from "../Pages/SingleBlogPage";
 import NewUser from "../Pages/NewUser";
 import UserData from "../Pages/UserData";
+
+import PrivateRoute from "../Pages/PrivateRoute";
+import RoutinesDetails from "../Pages/RoutinesDetails";
+import Admin from "../Pages/Admin";
+import Signup from "../Pages/Signup"
+
 import ScrollToTop from "../Components/Excercise/ScrollToTop";
 import PrivateRoute from "../Pages/PrivateRoute";
 import RoutinesDetails from "../Pages/RoutinesDetails";
 import Admin from "../Pages/Admin";
 import Signup from "../Pages/Signup";
+
 
 const AllRoutes = () => {
   return (
@@ -27,6 +34,10 @@ const AllRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+
+        <Route path="/routines" element={<Routines />} />
+        <Route path="/exercise" element={<Excercise />} />
+
         <Route
           path="/routines"
           element={
@@ -43,6 +54,7 @@ const AllRoutes = () => {
             </PrivateRoute>
           }
         />
+
         <Route path="/exercise/filter" element={<ExcerciseFilter />} />
         <Route path="/exercise/filter/:id" element={<ExerciseDetails />} />
         <Route path="/blog" element={<Blog />} />
@@ -50,6 +62,10 @@ const AllRoutes = () => {
         <Route path="/community" element={<Community />} />
         <Route path="/elite" element={<Elite />} />
         <Route path="/blog/:user_id" element={<SingleBlogPage />}></Route>
+
+        <Route path="/newuser" element={<PrivateRoute><NewUser /></PrivateRoute>} />
+        <Route path="/userdata" element={<PrivateRoute><UserData /></PrivateRoute>} />
+
         <Route
           path="/newuser"
           element={
@@ -66,6 +82,7 @@ const AllRoutes = () => {
             </PrivateRoute>
           }
         />
+
         <Route path="/routines/:id" element={<RoutinesDetails />}></Route>
         <Route path="/admin" element={<Admin />}></Route>
       </Routes>

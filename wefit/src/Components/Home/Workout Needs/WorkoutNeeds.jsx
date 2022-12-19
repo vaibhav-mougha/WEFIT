@@ -16,7 +16,7 @@ const WorkoutNeeds = () => {
           pb="5rem"
         >
           <Heading fontSize={{ base: "0.9rem", md: "2rem", lg: "2.8rem" }}>
-            JEFIT COVERS ALL OF YOUR WORKOUT NEEDS
+            WEFIT COVERS ALL OF YOUR WORKOUT NEEDS
           </Heading>
 
           {/* WORKOUT TRACKING */}
@@ -395,7 +395,7 @@ const WorkoutNeeds = () => {
             fontSize={{ base: "0.5rem", md: "1rem", lg: "1.5rem" }}
             pt="0.7rem"
           >
-            Customize your workout plan with over 3000 free exercises in Jefit
+            Customize your workout plan with over 3000 free exercises in WEFIT
             Workout Plan Builder. And easily share with friends.
           </Text>
 

@@ -14,6 +14,9 @@ import React from "react";
 import { useState } from "react";
 import ExerciseRow from "./AdminExerciseRow";
 
+import AddExercises from "./AddExercises"
+
+
 const Exercises = ({ data, loading }) => {
   if (data.length === 0) {
     return (
@@ -22,6 +25,7 @@ const Exercises = ({ data, loading }) => {
       </Center>
     );
   }
+
 
   return (
     <>
@@ -55,6 +59,7 @@ const Exercises = ({ data, loading }) => {
           Add New Exercise
         </Button>
       </Box>
+
 
       <TableContainer mt={"4"}>
         <Table
