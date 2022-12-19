@@ -47,8 +47,8 @@ const Navbar = () => {
   };
 
   return (
-    <>
-      <Hide below="sm">
+    <div style={{position: "sticky", top:"0", zIndex:"100"}}>
+      <Hide below="sm" >
         <Flex
           w="100%"
           bg="#257CFF"
@@ -451,7 +451,7 @@ const Navbar = () => {
           </DrawerContent>
         </Drawer>
       </Show>
-    </>
+    </div>
   );
 };
 
