@@ -1,6 +1,6 @@
 import { Button } from "@chakra-ui/react";
 import React from "react";
-import style from "../Components/Elite-Page/Elite.module.css";
+import style from "../Components/Elite/Elite.module.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";

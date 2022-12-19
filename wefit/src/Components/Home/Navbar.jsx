@@ -25,14 +25,30 @@ import {
 } from "@chakra-ui/react";
 import { ChevronDownIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { logoutFunc } from "../../Redux/Login/login.actions";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
+  const data = useSelector((store) => store.login);
+  const dispatch = useDispatch();
+
+  let userName = data.user.userName || "";
+  console.log("userName: ", userName);
+  let adminName = data.admin.adminName || "";
+
+  console.log("adminName: ", adminName);
+  console.log("data: ", data);
+
+  const handleSignout = () => {
+    dispatch(logoutFunc());
+  };
+
   return (
     <>
-      <Hide below="sm" >
+      <Hide below="sm">
         <Flex
           w="100%"
           bg="#257CFF"
@@ -51,7 +67,7 @@ const Navbar = () => {
               // border="1px solid white"
             >
               <Link to="/">
-                <Image src="Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
+                <Image src="/Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
               </Link>
             </Box>
             <Box w="65%">
@@ -91,7 +107,7 @@ const Navbar = () => {
                   </Menu>
                 </Box>
 
-                <Box  zIndex="10">
+                <Box zIndex="10">
                   <Menu>
                     <MenuButton
                       bg="#257CFF"
@@ -101,12 +117,13 @@ const Navbar = () => {
                       Workout Plans <ChevronDownIcon />
                     </MenuButton>
                     <MenuList color="#257CFF" bg="white">
-                      <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
+                      <Link to="/routines"><MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
                         Pro-designed Plans
-                      </MenuItem>
+                      </MenuItem></Link>
+                      <Link to="/routines">
                       <MenuItem bg="white" _hover={{ bg: "#C2DAFF" }}>
                         Create My Plan
-                      </MenuItem>
+                      </MenuItem></Link>
                     </MenuList>
                   </Menu>
                 </Box>
@@ -114,7 +131,7 @@ const Navbar = () => {
                   <Link to="/exercise">Exercises</Link>
                 </Box>
 
-                <Box  zIndex="10">
+                <Box zIndex="10">
                   <Menu>
                     <MenuButton
                       bg="#257CFF"
@@ -145,7 +162,20 @@ const Navbar = () => {
                   <Link to="/elite">Elite</Link>
                 </Box>
                 <Box>
-                  <Link to="/login">Login</Link>
+                  {userName ? (
+                    <Link
+                      to={"/newuser"}
+                      style={{ fontWeight: "bold", color: "white" }}
+                    >
+                      {userName}
+                    </Link>
+                  ) : adminName ? (
+                    <Link style={{ fontWeight: "bold", color: "white" }}>
+                      {adminName}
+                    </Link>
+                  ) : (
+                    <Link to={"/login"}>Login</Link>
+                  )}
                 </Box>
               </Flex>
             </Box>
@@ -154,23 +184,44 @@ const Navbar = () => {
               // border="1px solid white"
               pt="0.5rem"
             >
-              <Link to="/signup">
-                <Button
-                  fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
-                  w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
-                  h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
-                  _hover={{
-                    background: "#184FA3",
-                    color: "white",
-                  }}
-                  bg="white"
-                  color="#257CFF"
-                  py={{ base: "0rem", md: "0.1rem", lg: "0.5rem" }}
-                  px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
-                >
-                  Sign Up
-                </Button>
-              </Link>
+              {userName || adminName ? (
+                <Link>
+                  <Button
+                    fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
+                    w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
+                    h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
+                    _hover={{
+                      background: "#184FA3",
+                      color: "white",
+                    }}
+                    bg="white"
+                    color="#257CFF"
+                    py={{ base: "0rem", md: "0.1rem", lg: "0.5rem" }}
+                    px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                    onClick={handleSignout}
+                  >
+                    Sign Out
+                  </Button>
+                </Link>
+              ) : (
+                <Link to={"/signup"}>
+                  <Button
+                    fontSize={{ base: "0.6rem", md: "0.8rem", lg: "1.2rem" }}
+                    w={{ base: "1.7rem", md: "3rem", lg: "8.7rem" }}
+                    h={{ base: "1.2rem", md: "1.8rem", lg: "2.3rem" }}
+                    _hover={{
+                      background: "#184FA3",
+                      color: "white",
+                    }}
+                    bg="white"
+                    color="#257CFF"
+                    py={{ base: "0rem", md: "0.1rem", lg: "0.5rem" }}
+                    px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                  >
+                    Sign Up
+                  </Button>
+                </Link>
+              )}
             </Box>
           </Flex>
         </Flex>
@@ -195,7 +246,7 @@ const Navbar = () => {
               // border="1px solid white"
             >
               <Link to="/">
-                <Image src="Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
+                <Image src="/Assets/WEFIT.png" w="100%" alt="WeFitLogo" />
               </Link>
             </Box>
 
@@ -250,10 +301,20 @@ const Navbar = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  <a href="https://apps.apple.com/app/apple-store/id449810000" target="_blank">Workout App (iOS)</a>
+                  <a
+                    href="https://apps.apple.com/app/apple-store/id449810000"
+                    target="_blank"
+                  >
+                    Workout App (iOS)
+                  </a>
                 </AccordionPanel>
                 <AccordionPanel pb={4}>
-                  <a href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail"  target="_blank"> Workout App (Android)</a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail"
+                    target="_blank"
+                  >
+                    Workout App (Android)
+                  </a>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -267,10 +328,10 @@ const Navbar = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  <Link to="/">Pro-designed Plans</Link>
+                  <Link to="/routines">Pro-designed Plans</Link>
                 </AccordionPanel>
                 <AccordionPanel pb={4}>
-                  <Link to="/"> Create My Plan</Link>
+                  <Link to="/routines"> Create My Plan</Link>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -325,31 +386,67 @@ const Navbar = () => {
                 <h2>
                   <AccordionButton>
                     <Box as="span" flex="1" textAlign="left">
-                      <Link to="/"> Login</Link>
+                      {userName ? (
+                        <Link
+                          to={"/newuser"}
+                          style={{ fontWeight: "bold", color: "red" }}
+                        >
+                          {userName}
+                        </Link>
+                      ) : adminName ? (
+                        <Link style={{ fontWeight: "bold", color: "red" }}>
+                          {adminName}
+                        </Link>
+                      ) : (
+                        <Link to={"/login"}>Login</Link>
+                      )}
                     </Box>
                   </AccordionButton>
                 </h2>
               </AccordionItem>
 
-              <Button
-                fontSize="1.5rem"
-                mt="3rem"
-                ml="6rem"
-                w="8rem"
-                h="2.9rem"
-                borderRadius="2rem"
-                _hover={{
-                  background: "white",
-                  color: "#39B7FF",
-                  border: "2px solid #39B7FF",
-                }}
-                bg="#257CFF"
-                color="white"
-                py={{ base: "0rem", md: "0.1rem", lg: "1.5rem" }}
-                px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
-              >
-                SignUp
-              </Button>
+              {userName || adminName ? (
+                <Button
+                  fontSize="1.5rem"
+                  mt="3rem"
+                  ml="6rem"
+                  w="8rem"
+                  h="2.9rem"
+                  borderRadius="2rem"
+                  _hover={{
+                    background: "white",
+                    color: "#39B7FF",
+                    border: "2px solid #39B7FF",
+                  }}
+                  bg="#257CFF"
+                  color="white"
+                  py={{ base: "0rem", md: "0.1rem", lg: "1.5rem" }}
+                  px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                  onClick={handleSignout}
+                >
+                  <Link>Sign Out</Link>
+                </Button>
+              ) : (
+                <Button
+                  fontSize="1.5rem"
+                  mt="3rem"
+                  ml="6rem"
+                  w="8rem"
+                  h="2.9rem"
+                  borderRadius="2rem"
+                  _hover={{
+                    background: "white",
+                    color: "#39B7FF",
+                    border: "2px solid #39B7FF",
+                  }}
+                  bg="#257CFF"
+                  color="white"
+                  py={{ base: "0rem", md: "0.1rem", lg: "1.5rem" }}
+                  px={{ base: "1.5rem", md: "2.2rem", lg: "2.2rem" }}
+                >
+                  <Link to={"/signup"}>Sign Up</Link>
+                </Button>
+              )}
             </Accordion>
           </DrawerContent>
         </Drawer>

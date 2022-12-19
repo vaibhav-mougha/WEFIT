@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import {
   Box,
@@ -11,24 +11,111 @@ import {
   Checkbox,
   InputGroup,
   InputRightElement,
-  useToast
+  useToast,
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../../../Redux/Login/login.actions";
+import { useNavigate } from "react-router-dom";
 
 const LoginMainFrom = () => {
   const [loginData, setLogindata] = useState({
     email: "",
     password: "",
   });
+
+  const [status, setStatus] = useState(false);
+
   const dispatch = useDispatch();
-  const data = useSelector(store => store.login.user)
-  console.log('data: ', data);
+  const { user, admin } = useSelector((store) => store.login);
+
+  // console.log("admin: ", admin);
+  console.log("user: ", user);
 
   const [show, setShow] = React.useState(false);
 
+  const navigate = useNavigate();
   const handleClick = () => setShow(!show);
   const toast = useToast();
+
+  useEffect(() => {
+    if (user.failed) {
+      toast({
+        title: "Login Failed",
+        description: "The email or password that you've entered is incorrect",
+        status: "error",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+    } else if (admin.failed) {
+      toast({
+        title: "Login Failed",
+        description: "The email or password that you've entered is incorrect",
+        status: "error",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+    } else if (user.userStatus) {
+      toast({
+        title: "Login Successful",
+        status: "success",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+      setTimeout(() => {
+        navigate("/newuser");
+      }, 1300);
+    } else if (admin.adminStatus) {
+      toast({
+        title: "Login Successful",
+        status: "success",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+      // setTimeout(() => {
+      //   navigate("/admin");
+      // }, 1300);
+    } else if (user.createAccount) {
+      toast({
+        title: "Login Failed",
+        description:
+          "You didn't have any account first create an account then login",
+        status: "error",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+    } else if (user.isError) {
+      toast({
+        title: "Server Error",
+        status: "error",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+    } else if (admin.isError) {
+      toast({
+        title: "Server Error",
+        status: "error",
+        duration: 1200,
+        isClosable: true,
+        position: "top",
+      });
+    }
+  }, [
+    user.failed,
+    user.isError,
+    admin.isError,
+    user.userStatus,
+    admin.adminStatus,
+    admin.failed,
+    user.createAccount,
+    dispatch,
+    toast,
+  ]);
 
   const handleChange = (e) => {
     let { type, value } = e.target;
@@ -113,12 +200,7 @@ const LoginMainFrom = () => {
           <Text as="span" mr={"0.3rem"}>
             Remember Me
           </Text>
-          <Checkbox
-            defaultChecked
-            bg={"white"}
-            border={"0.5px solid"}
-            size={"sm"}
-          ></Checkbox>
+          <Checkbox bg={"white"} border={"0.5px solid"} size={"sm"}></Checkbox>
         </Flex>
 
         <Box>
