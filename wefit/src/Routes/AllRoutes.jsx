@@ -22,6 +22,7 @@ import RoutinesDetails from "../Pages/RoutinesDetails";
 const AllRoutes = () => {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
