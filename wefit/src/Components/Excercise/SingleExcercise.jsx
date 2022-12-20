@@ -8,18 +8,15 @@ import Carousel from "./Carousel";
 const SingleExcercise = () => {
   let { id } = useParams();
   const [data, setData] = useState([]);
-  const capitalizeFirstLetter = (string) => {
-    return string[0].toUpperCase() + string.slice(1);
-  };
 
   useEffect(() => {
     let url = id.split("-").join("/");
     getData(url);
     console.log(url);
-  }, []);
+  }, [id]);
 
   const getData = async (url) => {
-    let data = axios.get(`http://localhost:8080/${url}`);
+    let data = axios.get(`https://we-fit-database-api.vercel.app/${url}`);
     let res = await data;
     setData(res.data);
     console.log(res);

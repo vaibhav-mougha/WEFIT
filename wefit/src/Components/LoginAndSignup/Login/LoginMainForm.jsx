@@ -79,7 +79,6 @@ const LoginMainFrom = () => {
       setTimeout(() => {
         navigate("/admin");
       }, 1200);
-      // navigate("/admin");
     } else if (user.createAccount) {
       toast({
         title: "Login Failed",

@@ -13,10 +13,11 @@ import Elite from "../Pages/Elite";
 import SingleBlogPage from "../Pages/SingleBlogPage";
 import NewUser from "../Pages/NewUser";
 import UserData from "../Pages/UserData";
-import PrivateRoute from "../Pages/PrivateRoute";
-import RoutinesDetails from "../Pages/RoutinesDetails";
 import Admin from "../Pages/Admin";
 import Signup from "../Pages/Signup";
+import ScrollToTop from "../Components/Excercise/ScrollToTop";
+import PrivateRoute from "../Pages/PrivateRoute";
+import RoutinesDetails from "../Pages/RoutinesDetails";
 
 const AllRoutes = () => {
   return (
@@ -65,14 +66,7 @@ const AllRoutes = () => {
           }
         />
         <Route path="/routines/:id" element={<RoutinesDetails />}></Route>
-        <Route
-          path="/admin"
-          element={
-            <PrivateRoute>
-              <Admin />
-            </PrivateRoute>
-          }
-        ></Route>
+        <Route path="/admin" element={<Admin />}></Route>
       </Routes>
     </>
   );

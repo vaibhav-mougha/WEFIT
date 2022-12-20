@@ -24,13 +24,14 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { ChevronDownIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutFunc } from "../../Redux/Login/login.actions";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
+  const navigate = useNavigate();
 
   const data = useSelector((store) => store.login);
   const dispatch = useDispatch();
@@ -170,7 +171,9 @@ const Navbar = () => {
                       {userName}
                     </Link>
                   ) : adminName ? (
-                    <Link style={{ fontWeight: "bold", color: "white" }}>
+                    <Link 
+                    to="/admin"
+                    style={{ fontWeight: "bold", color: "white" }}>
                       {adminName}
                     </Link>
                   ) : (
@@ -389,12 +392,12 @@ const Navbar = () => {
                       {userName ? (
                         <Link
                           to={"/newuser"}
-                          style={{ fontWeight: "bold", color: "red" }}
+                          style={{ fontWeight: "bold", color: "#257CFF" }}
                         >
                           {userName}
                         </Link>
                       ) : adminName ? (
-                        <Link style={{ fontWeight: "bold", color: "red" }}>
+                        <Link style={{ fontWeight: "bold", color: "#257CFF" }}>
                           {adminName}
                         </Link>
                       ) : (
