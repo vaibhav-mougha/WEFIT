@@ -65,7 +65,14 @@ const AllRoutes = () => {
           }
         />
         <Route path="/routines/:id" element={<RoutinesDetails />}></Route>
-        <Route path="/admin" element={<Admin />}></Route>
+        <Route
+          path="/admin"
+          element={
+            <PrivateRoute>
+              <Admin />
+            </PrivateRoute>
+          }
+        ></Route>
       </Routes>
     </>
   );

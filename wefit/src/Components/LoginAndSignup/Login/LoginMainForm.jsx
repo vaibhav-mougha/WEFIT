@@ -66,7 +66,8 @@ const LoginMainFrom = () => {
       });
       setTimeout(() => {
         navigate("/newuser");
-      }, 1300);
+      }, 1200);
+      // navigate("/");
     } else if (admin.adminStatus) {
       toast({
         title: "Login Successful",
@@ -75,9 +76,10 @@ const LoginMainFrom = () => {
         isClosable: true,
         position: "top",
       });
-      // setTimeout(() => {
-      //   navigate("/admin");
-      // }, 1300);
+      setTimeout(() => {
+        navigate("/admin");
+      }, 1200);
+      // navigate("/admin");
     } else if (user.createAccount) {
       toast({
         title: "Login Failed",
