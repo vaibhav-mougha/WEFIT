@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import {Text, Box, HStack} from "@chakra-ui/react"
+import {Text} from "@chakra-ui/react"
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <img width="50%" src='https://www.svgrepo.com/show/109459/left-arrow.svg' alt="prevArrow" {...props} />
@@ -20,7 +21,7 @@ const Carousel = () => {
     }, []);
 
     const getData = async () => {
-        let data = axios.get("http://localhost:8080/excercises");
+        let data = axios.get("https://we-fit-database-api.vercel.app/excercises");
         let res = await data;
         setData(res.data);
     };
@@ -64,6 +65,7 @@ const Carousel = () => {
       <Slider {...settings} style={{width:"100%", margin: "auto", marginTop: "20px"}}>
         {data && data.map((item) => (
           <div className="card" key={item.id}  >
+          <Link to={`/exercise/filter/excercises-${item.id}`}>
             <div className="card-top" style={{width: "100%", backgroundColor:'white'}} >
               <img
                 style={{width: "100%"}}
@@ -71,6 +73,7 @@ const Carousel = () => {
                 alt={item.name}
               />
             </div>
+            </Link>
             <Text fontSize="13px" color="blue.500" fontWeight="400">{item.name}</Text>
           </div>
         ))}

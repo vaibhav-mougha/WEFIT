@@ -22,7 +22,7 @@ export default function ConnectMembers() {
           pb="5rem"
         >
           <Heading fontSize={{ base: "0.9rem", md: "2rem", lg: "2.8rem" }}>
-            CONNECT WITH OVER 10 MILLION JEFIT MEMBERS
+            CONNECT WITH OVER 10 MILLION WEFIT MEMBERS
           </Heading>
 
           <Text
