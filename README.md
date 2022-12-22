@@ -12,7 +12,7 @@
 
 - Shiv Shankar (My Linkedin profile :- https://www.linkedin.com/in/shivshankar0965/)
 
-- Shivam Gote (My Linkedin profile :- https://www.linkedin.com/in/himankugogoi/)
+- Shivam Gote (My Linkedin profile :- https://www.linkedin.com/in/shivam-gote/)
 <br/>
 
 
