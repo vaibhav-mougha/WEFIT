@@ -1,5 +1,5 @@
 # Welcome to We-Fit
-<h3>We-Fit is a body Exercise Website. Here users can choose from hundreds of professionally built workout plans, and track, and log their workouts from the website. It also provides a free fitness program database to help you stay fit, progress, and get the most out of your gym or home fitness sessions.</h3>
+<h3>WEFIT is a body fitness website where users can choose from hundreds of professionally built workout plans and, track and log their workouts . It also provides a free fitness program database to help users to stay fit.</h3>
 
 ## [Deployed URL]( https://we-fit.netlify.app/)
 
@@ -141,7 +141,7 @@
 ## Admin Page :
 ![Admin Section](https://user-images.githubusercontent.com/107460451/209086941-12b61f3c-92f6-49da-917a-7440fbccc813.jpg)
 <br/>
-<h3>Admin Section is responsible for maintaining and updating the data in the entire data .</h3>
+<h3>Admin Section is responsible for maintaining and updating the data in the database .</h3>
 <br/>
 
 
