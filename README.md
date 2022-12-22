@@ -12,35 +12,35 @@
 ## Signup Page :
 ![SignUp](https://user-images.githubusercontent.com/107460451/209069411-dd623b3b-2cff-491b-b175-3a9e876ba71d.jpg)
 <br/>
-<h3>Users can register with thier registered Email address</h3>
+<h3>Users can register with thier registered Email address .</h3>
 <br/>
 
 
 ## Login Page :
 ![Login](https://user-images.githubusercontent.com/107460451/209070192-95b85dd2-ed8c-4028-b1c4-1f01e021a4f0.jpg)
 <br/>
-<h3>Users can Login using Login Authentication with thier registered Email address</h3>
+<h3>Users can Login using Login Authentication with thier registered Email address .</h3>
 <br/>
 
 
 ## NewUser Page :
 ![NewUser](https://user-images.githubusercontent.com/107460451/209074425-aaddff01-b525-425d-867a-74712251cae7.jpg)
 <br/>
-<h3>Users can enter their basic data after doing first time login</h3>
+<h3>Users can enter their basic data after doing first time login .</h3>
 <br/>
 
 
 ## UserData Page :
 ![UserData](https://user-images.githubusercontent.com/107460451/209074970-5ae16ba9-8892-4578-b89c-9ec9f3994f1e.jpg)
 <br/>
-<h3>Users can track and log their workouts from this section</h3>
+<h3>Users can track and log their workouts from this section .</h3>
 <br/>
 
 
 ## Pro Designed Plans Page :
 ![Pro Designed Plans](https://user-images.githubusercontent.com/107460451/209076140-3d82a354-ae4c-4786-8e34-008e8b969971.jpeg)
 <br/>
-<h3>This page contains wefit workout routine plans where users can access all free and elite workouts and users are also provided with search, filter, categories, and navigate functionality across all pages</h3>
+<h3>This page contains wefit workout routine plans where users can access all free and elite workouts and users are also provided with search, filter, categories, and navigate functionality across all pages .</h3>
 <br/>
 
 
@@ -86,7 +86,7 @@
 ## Coach Page :
 ![Coach Page](https://user-images.githubusercontent.com/107460451/209084751-fa42f594-788c-49ac-8cf8-b67dabb08839.jpg)
 <br/>
-<h3>Users can expand their personal training businesses with personal coach mode.</h3>
+<h3>Users can expand their personal training businesses with personal coach mode .</h3>
 <br/>
 
 
