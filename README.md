@@ -1,18 +1,18 @@
 # Welcome to We-Fit
 <h3>We-Fit is a body Exercise Website. Here users can choose from hundreds of professionally built workout plans, and track, and log their workouts from the website. It also provides a free fitness program database to help you stay fit, progress, and get the most out of your gym or home fitness sessions.</h3>
 
-## [Deployed URL]( https://musical-empanada-c1e457.netlify.app/)
+## [Deployed URL]( https://we-fit.netlify.app/)
 
 ## Our Team Members
 - Vaibhav Mougha (My Linkedin profile :- https://www.linkedin.com/in/vaibhavmougha/)
 
-- Shuba Mukherjee (My Linkedin profile :- https://www.linkedin.com/in/muhammed-fahiz-p-a-62804515b/)
+- Subha Mukherjee (My Linkedin profile :- https://www.linkedin.com/in/subha-mukherjee-652a551ba/)
 
-- Himanku (My Linkedin profile :- https://www.linkedin.com/in/ratna-das-438127206/)
+- Himanku Gogoi (My Linkedin profile :- https://www.linkedin.com/in/himankugogoi/)
 
-- Shiv (My Linkedin profile :- https://www.linkedin.com/in/roushan-gupta)
+- Shiv Shankar (My Linkedin profile :- https://www.linkedin.com/in/shivshankar0965/)
 
-- Shivam (My Linkedin profile :- https://www.linkedin.com/in/shristi-kumari-180329230/)
+- Shivam Gote (My Linkedin profile :- https://www.linkedin.com/in/himankugogoi/)
 <br/>
 
 
