@@ -42,9 +42,11 @@
 <br/>
 <h3>This page contains wefit workout routine plans where users can access all free and elite workouts and users are also provided with search, filter, categories, and navigate functionality across all pages</h3>
 <br/>
-<br/>
+
+
+## Wefit Workout plans :
 ![List Of Workout Plans](https://user-images.githubusercontent.com/107460451/209076894-8f786b60-6cc5-48f8-933a-61698b92a11a.jpeg)
-<h3>Wefit Workout plans</h3>
+<br/>
 <br/>
 
 
@@ -53,13 +55,18 @@
 <br/>
 <h3>Users can explore the exercises available on our database and choose according to their targeted muscle group that they want to work out.</h3>
 <br/>
+<br.>
+
+##
 ![filter exercises](https://user-images.githubusercontent.com/107460451/209078496-753a7157-0cce-40d5-9a1e-d9a5554e1192.jpeg)
 <br/>
 <h3>Users can find and filter the exercises according to the muscle group, equipment used, its type and difficulty level.</h3>
 <br/>
+
+##
 ![details about particular page](https://user-images.githubusercontent.com/107460451/209078735-c6630580-015d-4cf8-a90a-a934cf9179ed.jpeg)
 <br/>
-<h3>Users van find the details about any particular exercise and learn about its benefits and how to perform.</h3>
+<h3>Users can find the details about any particular exercise and learn about its benefits and how to perform.</h3>
 <br/>
 
 
@@ -68,9 +75,11 @@
 <br/>
 <h3>We-Fit Community Page: Users can ask their questions among all We-Fit community members.</h3>
 <br/>
+
+##
 ![Blogs](https://user-images.githubusercontent.com/107460451/209080178-5bdbbb7c-35d3-4eae-8cb8-ea3e13d93cc4.jpg)
 <br/>
-<h3>Blogs : Users post their daily routines here . </h3>
+<h3>Blogs : Users posts their daily routines here . </h3>
 <br/>
 
 
