@@ -80,9 +80,6 @@ const LoginMainFrom = () => {
         navigate("/admin");
       }, 1300);
 
-      // setTimeout(() => {
-      //   navigate("/admin");
-      // }, 1300);
 
     } else if (user.createAccount) {
       toast({

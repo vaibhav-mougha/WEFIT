@@ -342,7 +342,7 @@ const Navbar = () => {
                 <h2>
                   <AccordionButton>
                     <Box as="span" flex="1" textAlign="left">
-                      <Link to="/"> Exercise</Link>
+                      <Link to="/exercise"> Exercise</Link>
                     </Box>
                   </AccordionButton>
                 </h2>

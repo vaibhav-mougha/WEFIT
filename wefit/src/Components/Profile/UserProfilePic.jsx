@@ -23,7 +23,7 @@ function UserProfilePic() {
          h="13rem" borderRadius="7rem" justify="center" align="center">
             
             
-            <Box borderRadius="7rem"> <Image src={file} borderRadius="7rem" /></Box>
+            <Box borderRadius="7rem"> <Image src="/Assets/vaibhav.jpg" borderRadius="7rem" /></Box>
            
             <Text mt="9rem"  >PROFILE PICTURE</Text>
            

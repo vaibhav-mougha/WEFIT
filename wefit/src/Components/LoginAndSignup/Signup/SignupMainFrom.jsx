@@ -130,7 +130,7 @@ const SignupMainFrom = () => {
       setSignupData({ username: "", email: "", password: "", password2: "" });
 
       setTimeout(() => {
-        navigate("/newuser");
+        navigate("/login");
       }, 1200);
     }
   };
