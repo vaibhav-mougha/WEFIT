@@ -83,6 +83,28 @@
 <br/>
 
 
+## Coach Page :
+![Coach Page](https://user-images.githubusercontent.com/107460451/209084751-fa42f594-788c-49ac-8cf8-b67dabb08839.jpg)
+<br/>
+<h3>Users can expand their personal training businesses with personal coach mode.</h3>
+<br/>
+
+
+## Elite Page :
+![Elite](https://user-images.githubusercontent.com/107460451/209085199-72f08bd2-fb93-4a79-b592-5e4539b1c755.jpg)
+<br/>
+<h3>Users can select their subscriptions : Basic ,Elite Monthly ,Elite Yearly .</h3>
+<br/>
+
+
+
+## Admin Page :
+![Admin Section](https://user-images.githubusercontent.com/107460451/209086941-12b61f3c-92f6-49da-917a-7440fbccc813.jpg)
+<br/>
+<h3>Admin Section is responsible for maintaining and updating the data in the entire data .</h3>
+<br/>
+
+
 ## Footer :
 ![Footer](https://user-images.githubusercontent.com/107460451/208415239-dcc045a4-0bf8-4798-bce7-9be37cc3001d.jpg)
 <br/>
