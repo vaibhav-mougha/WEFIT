@@ -162,8 +162,11 @@ On this journey we faced many issues, but we keep motivated each other with pati
 
 - We also got a glimpse of using GitHub for the version control.
 
-Source Code(GitHub link):-https://github.com/vaibhav-mougha/smelly-island-5345
+Source Code(GitHub link):- https://github.com/vaibhav-mougha/WEFIT
 
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 ### Thank you
 
