@@ -1,7 +1,7 @@
 # Welcome to WEFIT
 <h3>WEFIT is a body fitness website where users can choose from hundreds of professionally built workout plans and, track and log their workouts . It also provides a free fitness program database to help users to stay fit.</h3>
 
-## Deployed URL 👉 [Click here](https://we-fit.netlify.app/)
+# Deployed URL 👉 [Click here](https://we-fit.netlify.app/)
 
 ## Our Team Members
 - Vaibhav Mougha (My Linkedin profile :- https://www.linkedin.com/in/vaibhavmougha/)
